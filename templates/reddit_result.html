@@ -1,0 +1,32 @@
+
+<div class="card pin" id="card_div">
+  
+  <div class="card-heading image "> 
+      <div style=" font-weight: bold; ">
+        <a href="{{item['url']}}" target="_blank" style=" color: black; font-size: 16px;">
+          {{item['title']}}
+        </a> 
+      </div> 
+      <span style=" font-weight: lighter; ">
+
+        {{ item['date'] }} 
+        
+      </span>
+ 
+  </div>
+
+  <div class="question-info pull-right" style="margin-right:10px">
+      <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div>
+      <div><i class="fa fa-comments-o fa-lg"></i> {{ item['comments']}} </div> 
+    </div>
+  
+  <div class="card-body">
+    {% if len(item['description']) > 150 %}
+        {{ item['description'][:150] }} ...
+    {% else %}
+        {{ item['description'] }}
+    {% end %}
+  </div>
+ 
+</div>
+

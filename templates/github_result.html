@@ -1,0 +1,49 @@
+
+<div class="card pin" id="card_div" >
+  
+  <div class="card-heading image "> 
+      <div style=" font-weight: bold; ">
+        <a href="https://github.com/{{item['author']}}" target="_blank" style=" color: black; font-size: 16px;">
+          {{item['author']}}
+        </a>
+        /
+        <a href="https://github.com/{{item['author']}}/{{item['name']}}" target="_blank" style=" color: black; font-size: 16px;">
+          {{item['name']}}
+        </a>
+        <span class="span1" style="float: right"><i class="fa fa-star"></i> {{ item['stars']}} </span>
+        <div style="clear:both"></div>
+      </div> 
+      <span style=" font-weight: lighter; ">
+
+        {{ item['date'] }} 
+        
+      </span>
+ 
+
+  </div>
+
+  
+  <div class="card-body">
+    {% if len(item['description']) > 150 %}
+        {{ item['description'][:150] }} ...
+    {% else %}
+        {{ item['description'] }}
+    {% end %}
+  </div> 
+
+  <div class="card-body">
+    {% if len(item['description2']) > 150 %}
+        {{ item['description2'][:150] }} ...
+    {% else %}
+        {{ item['description2'] }}
+    {% end %}
+  </div>
+  
+  <div class="card-body middle">
+    <div>Contributors:</div>
+    {% for img in item['contributors'] %}
+        <a href="https://github.com/{{ img['name'] }}" ><img src="{{ img['src'] }}" height="40px" width="40px" /></a>
+    {% end %}
+  </div>
+
+</div>

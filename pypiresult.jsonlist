@@ -1,0 +1,121 @@
+
+{"name": "ezi", "date": "2015-07-17T08:16:53+00:00", "description": "Python interface to the Ezidebit payment processor.", "url": "http://pypi.python.org/pypi/ezi"}
+{"name": "iribaker", "date": "2015-07-17T08:36:37+00:00", "description": "Safely convert IRI-like string to IRI.", "url": "http://pypi.python.org/pypi/iribaker"}
+{"name": "pyclustering", "date": "2015-07-17T08:42:24+00:00", "description": "pyclustring is a python data mining library", "url": "http://pypi.python.org/pypi/pyclustering"}
+{"name": "x100http", "date": "2015-07-17T09:47:30+00:00", "description": "WebFramework support customing file upload processing", "url": "http://pypi.python.org/pypi/x100http"}
+{"name": "kkjokes", "date": "2015-07-17T10:51:58+00:00", "description": "Tells you a joke on your demand.", "url": "http://pypi.python.org/pypi/kkjokes"}
+{"name": "cdhistory", "date": "2015-07-17T10:52:48+00:00", "description": "Search for frequently visited directories", "url": "http://pypi.python.org/pypi/cdhistory"}
+{"name": "marcobootstrap.slave", "date": "2015-07-17T11:14:25+00:00", "description": "The marcobootstrap slave", "url": "http://pypi.python.org/pypi/marcobootstrap.slave"}
+{"name": "uforge-marketplace_python_sdk", "date": "2015-07-17T12:05:49+00:00", "description": "UForge python SDK", "url": "http://pypi.python.org/pypi/uforge-marketplace_python_sdk"}
+{"name": "marketplacecli", "date": "2015-07-17T12:09:35+00:00", "description": "UNKNOWN", "url": "http://pypi.python.org/pypi/marketplacecli"}
+{"name": "collective.monitor", "date": "2015-07-17T12:18:50+00:00", "description": "Monitoring meta package for Zope/Plone installs", "url": "http://pypi.python.org/pypi/collective.monitor"}
+{"name": "Arc.REST", "date": "2015-07-17T12:30:46+00:00", "description": "ArcREST Summary", "url": "http://pypi.python.org/pypi/Arc.REST"}
+{"name": "ArcREST_Package", "date": "2015-07-17T12:31:53+00:00", "description": "ArcREST Summary", "url": "http://pypi.python.org/pypi/ArcREST_Package"}
+{"name": "Orange-Shadow-TEMP", "date": "2015-07-17T12:38:42+00:00", "description": "Shadow, Ray-tracing simulation software", "url": "http://pypi.python.org/pypi/Orange-Shadow-TEMP"}
+{"name": "trr", "date": "2015-07-17T13:26:00+00:00", "description": "Useful util for push test results to TestRail", "url": "http://pypi.python.org/pypi/trr"}
+{"name": "iresolve", "date": "2015-07-17T13:26:41+00:00", "description": "Python Import Resolver", "url": "http://pypi.python.org/pypi/iresolve"}
+{"name": "django-oidc-client", "date": "2015-07-17T13:48:55+00:00", "description": "OpenID Connect Client implementation for Django.", "url": "http://pypi.python.org/pypi/django-oidc-client"}
+{"name": "MODOI", "date": "2015-07-17T13:49:03+00:00", "description": "MOlecular Dynamics Over Ip - A boundary value problem solver for Newtons second law in the context of molecular systems. Parallelisation is achieved through TCP/IP. This is the sister project of GeometricMD.", "url": "http://pypi.python.org/pypi/MODOI"}
+{"name": "slamon-agent", "date": "2015-07-17T13:56:56+00:00", "description": "Python implementation of a SLAMon Agent", "url": "http://pypi.python.org/pypi/slamon-agent"}
+{"name": "borgweb", "date": "2015-07-17T14:34:25+00:00", "description": "Browser-based user interface for BorgBackup", "url": "http://pypi.python.org/pypi/borgweb"}
+{"name": "pymod2pkg", "date": "2015-07-17T14:38:52+00:00", "description": "python module name to package name map", "url": "http://pypi.python.org/pypi/pymod2pkg"}
+{"name": "edeposit.amqp.marcxml2mods", "date": "2015-07-17T15:14:24+00:00", "description": "Edeposit's AMQP service for converting MARC XML to MODS.", "url": "http://pypi.python.org/pypi/edeposit.amqp.marcxml2mods"}
+{"name": "wagtailtinymce", "date": "2015-07-17T15:23:15+00:00", "description": "A TinyMCE editor integration for Wagtail", "url": "http://pypi.python.org/pypi/wagtailtinymce"}
+{"name": "devpi-cleaner", "date": "2015-07-17T15:30:25+00:00", "description": "Enables batch removal of packages from a devpi server.", "url": "http://pypi.python.org/pypi/devpi-cleaner"}
+{"name": "mrkv", "date": "2015-07-17T15:51:22+00:00", "description": "Tiny Markov chain library", "url": "http://pypi.python.org/pypi/mrkv"}
+{"name": "muffin-metrics", "date": "2015-07-17T15:53:23+00:00", "description": "", "url": "http://pypi.python.org/pypi/muffin-metrics"}
+{"name": "algebraixlib", "date": "2015-07-17T16:32:05+00:00", "description": "A data algebra library", "url": "http://pypi.python.org/pypi/algebraixlib"}
+{"name": "trilegaldiagnostics", "date": "2015-07-17T17:07:52+00:00", "description": "UNKNOWN", "url": "http://pypi.python.org/pypi/trilegaldiagnostics"}
+{"name": "wheeler.motor-control", "date": "2015-07-17T17:28:47+00:00", "description": "Arduino RPC node packaged as Python package.", "url": "http://pypi.python.org/pypi/wheeler.motor-control"}
+{"name": "temp_email_validator", "date": "2015-07-17T17:48:45+00:00", "description": "Temporary / Disposable Email Address Validator for Python", "url": "http://pypi.python.org/pypi/temp_email_validator"}
+{"name": "mewe", "date": "2015-07-17T17:57:07+00:00", "description": "Search word meaning on Merriam-Webster website.", "url": "http://pypi.python.org/pypi/mewe"}
+{"name": "kinetic", "date": "2015-07-17T18:25:49+00:00", "description": "Python client for Kinetic devices", "url": "http://pypi.python.org/pypi/kinetic"}
+{"name": "pelican_vidme", "date": "2015-07-17T18:32:48+00:00", "description": "Easily embed Vidme videos in your posts", "url": "http://pypi.python.org/pypi/pelican_vidme"}
+{"name": "datascience", "date": "2015-07-17T19:09:12+00:00", "description": "A Python library for introductory data science", "url": "http://pypi.python.org/pypi/datascience"}
+{"name": "pdtools", "date": "2015-07-17T19:22:11+00:00", "description": "Paradrop deployment and build tools", "url": "http://pypi.python.org/pypi/pdtools"}
+{"name": "xpidl", "date": "2015-07-17T20:24:56+00:00", "description": "Parser and header generator for xpidl files.", "url": "http://pypi.python.org/pypi/xpidl"}
+{"name": "openweathermapy", "date": "2015-07-17T21:06:14+00:00", "description": "Python package wrapping OpenWeatherMap.org's API 2.5", "url": "http://pypi.python.org/pypi/openweathermapy"}
+{"name": "githubxmllls", "date": "2015-07-17T21:19:48+00:00", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "url": "http://pypi.python.org/pypi/githubxmllls"}
+{"name": "astrotest", "date": "2015-07-17T21:34:44+00:00", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "url": "http://pypi.python.org/pypi/astrotest"}
+{"name": "escapism", "date": "2015-07-17T21:37:08+00:00", "description": "Simple, generic API for escaping strings.", "url": "http://pypi.python.org/pypi/escapism"}
+{"name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00", "description": "Logging package for contextual information of clusters.", "url": "http://pypi.python.org/pypi/clusterlogger"}
+{"name": "ezi", "description": "Python interface to the Ezidebit payment processor.", "url": "http://pypi.python.org/pypi/ezi", "date": "2015-07-17T08:16:53+00:00"}
+{"name": "iribaker", "description": "Safely convert IRI-like string to IRI.", "url": "http://pypi.python.org/pypi/iribaker", "date": "2015-07-17T08:36:37+00:00"}
+{"name": "pyclustering", "description": "pyclustring is a python data mining library", "url": "http://pypi.python.org/pypi/pyclustering", "date": "2015-07-17T08:42:24+00:00"}
+{"name": "x100http", "description": "WebFramework support customing file upload processing", "url": "http://pypi.python.org/pypi/x100http", "date": "2015-07-17T09:47:30+00:00"}
+{"name": "kkjokes", "description": "Tells you a joke on your demand.", "url": "http://pypi.python.org/pypi/kkjokes", "date": "2015-07-17T10:51:58+00:00"}
+{"name": "cdhistory", "description": "Search for frequently visited directories", "url": "http://pypi.python.org/pypi/cdhistory", "date": "2015-07-17T10:52:48+00:00"}
+{"name": "marcobootstrap.slave", "description": "The marcobootstrap slave", "url": "http://pypi.python.org/pypi/marcobootstrap.slave", "date": "2015-07-17T11:14:25+00:00"}
+{"name": "uforge-marketplace_python_sdk", "description": "UForge python SDK", "url": "http://pypi.python.org/pypi/uforge-marketplace_python_sdk", "date": "2015-07-17T12:05:49+00:00"}
+{"name": "marketplacecli", "description": "UNKNOWN", "url": "http://pypi.python.org/pypi/marketplacecli", "date": "2015-07-17T12:09:35+00:00"}
+{"name": "collective.monitor", "description": "Monitoring meta package for Zope/Plone installs", "url": "http://pypi.python.org/pypi/collective.monitor", "date": "2015-07-17T12:18:50+00:00"}
+{"name": "Arc.REST", "description": "ArcREST Summary", "url": "http://pypi.python.org/pypi/Arc.REST", "date": "2015-07-17T12:30:46+00:00"}
+{"name": "ArcREST_Package", "description": "ArcREST Summary", "url": "http://pypi.python.org/pypi/ArcREST_Package", "date": "2015-07-17T12:31:53+00:00"}
+{"name": "Orange-Shadow-TEMP", "description": "Shadow, Ray-tracing simulation software", "url": "http://pypi.python.org/pypi/Orange-Shadow-TEMP", "date": "2015-07-17T12:38:42+00:00"}
+{"name": "trr", "description": "Useful util for push test results to TestRail", "url": "http://pypi.python.org/pypi/trr", "date": "2015-07-17T13:26:00+00:00"}
+{"name": "iresolve", "description": "Python Import Resolver", "url": "http://pypi.python.org/pypi/iresolve", "date": "2015-07-17T13:26:41+00:00"}
+{"name": "django-oidc-client", "description": "OpenID Connect Client implementation for Django.", "url": "http://pypi.python.org/pypi/django-oidc-client", "date": "2015-07-17T13:48:55+00:00"}
+{"name": "MODOI", "description": "MOlecular Dynamics Over Ip - A boundary value problem solver for Newtons second law in the context of molecular systems. Parallelisation is achieved through TCP/IP. This is the sister project of GeometricMD.", "url": "http://pypi.python.org/pypi/MODOI", "date": "2015-07-17T13:49:03+00:00"}
+{"name": "slamon-agent", "description": "Python implementation of a SLAMon Agent", "url": "http://pypi.python.org/pypi/slamon-agent", "date": "2015-07-17T13:56:56+00:00"}
+{"name": "borgweb", "description": "Browser-based user interface for BorgBackup", "url": "http://pypi.python.org/pypi/borgweb", "date": "2015-07-17T14:34:25+00:00"}
+{"name": "pymod2pkg", "description": "python module name to package name map", "url": "http://pypi.python.org/pypi/pymod2pkg", "date": "2015-07-17T14:38:52+00:00"}
+{"name": "edeposit.amqp.marcxml2mods", "description": "Edeposit's AMQP service for converting MARC XML to MODS.", "url": "http://pypi.python.org/pypi/edeposit.amqp.marcxml2mods", "date": "2015-07-17T15:14:24+00:00"}
+{"name": "wagtailtinymce", "description": "A TinyMCE editor integration for Wagtail", "url": "http://pypi.python.org/pypi/wagtailtinymce", "date": "2015-07-17T15:23:15+00:00"}
+{"name": "devpi-cleaner", "description": "Enables batch removal of packages from a devpi server.", "url": "http://pypi.python.org/pypi/devpi-cleaner", "date": "2015-07-17T15:30:25+00:00"}
+{"name": "mrkv", "description": "Tiny Markov chain library", "url": "http://pypi.python.org/pypi/mrkv", "date": "2015-07-17T15:51:22+00:00"}
+{"name": "muffin-metrics", "description": "", "url": "http://pypi.python.org/pypi/muffin-metrics", "date": "2015-07-17T15:53:23+00:00"}
+{"name": "algebraixlib", "description": "A data algebra library", "url": "http://pypi.python.org/pypi/algebraixlib", "date": "2015-07-17T16:32:05+00:00"}
+{"name": "trilegaldiagnostics", "description": "UNKNOWN", "url": "http://pypi.python.org/pypi/trilegaldiagnostics", "date": "2015-07-17T17:07:52+00:00"}
+{"name": "wheeler.motor-control", "description": "Arduino RPC node packaged as Python package.", "url": "http://pypi.python.org/pypi/wheeler.motor-control", "date": "2015-07-17T17:28:47+00:00"}
+{"name": "temp_email_validator", "description": "Temporary / Disposable Email Address Validator for Python", "url": "http://pypi.python.org/pypi/temp_email_validator", "date": "2015-07-17T17:48:45+00:00"}
+{"name": "mewe", "description": "Search word meaning on Merriam-Webster website.", "url": "http://pypi.python.org/pypi/mewe", "date": "2015-07-17T17:57:07+00:00"}
+{"name": "kinetic", "description": "Python client for Kinetic devices", "url": "http://pypi.python.org/pypi/kinetic", "date": "2015-07-17T18:25:49+00:00"}
+{"name": "pelican_vidme", "description": "Easily embed Vidme videos in your posts", "url": "http://pypi.python.org/pypi/pelican_vidme", "date": "2015-07-17T18:32:48+00:00"}
+{"name": "datascience", "description": "A Python library for introductory data science", "url": "http://pypi.python.org/pypi/datascience", "date": "2015-07-17T19:09:12+00:00"}
+{"name": "pdtools", "description": "Paradrop deployment and build tools", "url": "http://pypi.python.org/pypi/pdtools", "date": "2015-07-17T19:22:11+00:00"}
+{"name": "xpidl", "description": "Parser and header generator for xpidl files.", "url": "http://pypi.python.org/pypi/xpidl", "date": "2015-07-17T20:24:56+00:00"}
+{"name": "openweathermapy", "description": "Python package wrapping OpenWeatherMap.org's API 2.5", "url": "http://pypi.python.org/pypi/openweathermapy", "date": "2015-07-17T21:06:14+00:00"}
+{"name": "githubxmllls", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "url": "http://pypi.python.org/pypi/githubxmllls", "date": "2015-07-17T21:19:48+00:00"}
+{"name": "astrotest", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "url": "http://pypi.python.org/pypi/astrotest", "date": "2015-07-17T21:34:44+00:00"}
+{"name": "escapism", "description": "Simple, generic API for escaping strings.", "url": "http://pypi.python.org/pypi/escapism", "date": "2015-07-17T21:37:08+00:00"}
+{"name": "clusterlogger", "description": "Logging package for contextual information of clusters.", "url": "http://pypi.python.org/pypi/clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
+{"url": "http://pypi.python.org/pypi/pyclustering", "description": "pyclustring is a python data mining library", "name": "pyclustering", "date": "2015-07-17T08:42:24+00:00"}
+{"url": "http://pypi.python.org/pypi/x100http", "description": "WebFramework support customing file upload processing", "name": "x100http", "date": "2015-07-17T09:47:30+00:00"}
+{"url": "http://pypi.python.org/pypi/kkjokes", "description": "Tells you a joke on your demand.", "name": "kkjokes", "date": "2015-07-17T10:51:58+00:00"}
+{"url": "http://pypi.python.org/pypi/cdhistory", "description": "Search for frequently visited directories", "name": "cdhistory", "date": "2015-07-17T10:52:48+00:00"}
+{"url": "http://pypi.python.org/pypi/marcobootstrap.slave", "description": "The marcobootstrap slave", "name": "marcobootstrap.slave", "date": "2015-07-17T11:14:25+00:00"}
+{"url": "http://pypi.python.org/pypi/uforge-marketplace_python_sdk", "description": "UForge python SDK", "name": "uforge-marketplace_python_sdk", "date": "2015-07-17T12:05:49+00:00"}
+{"url": "http://pypi.python.org/pypi/marketplacecli", "description": "UNKNOWN", "name": "marketplacecli", "date": "2015-07-17T12:09:35+00:00"}
+{"url": "http://pypi.python.org/pypi/collective.monitor", "description": "Monitoring meta package for Zope/Plone installs", "name": "collective.monitor", "date": "2015-07-17T12:18:50+00:00"}
+{"url": "http://pypi.python.org/pypi/Arc.REST", "description": "ArcREST Summary", "name": "Arc.REST", "date": "2015-07-17T12:30:46+00:00"}
+{"url": "http://pypi.python.org/pypi/ArcREST_Package", "description": "ArcREST Summary", "name": "ArcREST_Package", "date": "2015-07-17T12:31:53+00:00"}
+{"url": "http://pypi.python.org/pypi/Orange-Shadow-TEMP", "description": "Shadow, Ray-tracing simulation software", "name": "Orange-Shadow-TEMP", "date": "2015-07-17T12:38:42+00:00"}
+{"url": "http://pypi.python.org/pypi/trr", "description": "Useful util for push test results to TestRail", "name": "trr", "date": "2015-07-17T13:26:00+00:00"}
+{"url": "http://pypi.python.org/pypi/iresolve", "description": "Python Import Resolver", "name": "iresolve", "date": "2015-07-17T13:26:41+00:00"}
+{"url": "http://pypi.python.org/pypi/django-oidc-client", "description": "OpenID Connect Client implementation for Django.", "name": "django-oidc-client", "date": "2015-07-17T13:48:55+00:00"}
+{"url": "http://pypi.python.org/pypi/MODOI", "description": "MOlecular Dynamics Over Ip - A boundary value problem solver for Newtons second law in the context of molecular systems. Parallelisation is achieved through TCP/IP. This is the sister project of GeometricMD.", "name": "MODOI", "date": "2015-07-17T13:49:03+00:00"}
+{"url": "http://pypi.python.org/pypi/slamon-agent", "description": "Python implementation of a SLAMon Agent", "name": "slamon-agent", "date": "2015-07-17T13:56:56+00:00"}
+{"url": "http://pypi.python.org/pypi/borgweb", "description": "Browser-based user interface for BorgBackup", "name": "borgweb", "date": "2015-07-17T14:34:25+00:00"}
+{"url": "http://pypi.python.org/pypi/pymod2pkg", "description": "python module name to package name map", "name": "pymod2pkg", "date": "2015-07-17T14:38:52+00:00"}
+{"url": "http://pypi.python.org/pypi/edeposit.amqp.marcxml2mods", "description": "Edeposit's AMQP service for converting MARC XML to MODS.", "name": "edeposit.amqp.marcxml2mods", "date": "2015-07-17T15:14:24+00:00"}
+{"url": "http://pypi.python.org/pypi/wagtailtinymce", "description": "A TinyMCE editor integration for Wagtail", "name": "wagtailtinymce", "date": "2015-07-17T15:23:15+00:00"}
+{"url": "http://pypi.python.org/pypi/devpi-cleaner", "description": "Enables batch removal of packages from a devpi server.", "name": "devpi-cleaner", "date": "2015-07-17T15:30:25+00:00"}
+{"url": "http://pypi.python.org/pypi/mrkv", "description": "Tiny Markov chain library", "name": "mrkv", "date": "2015-07-17T15:51:22+00:00"}
+{"url": "http://pypi.python.org/pypi/muffin-metrics", "description": "", "name": "muffin-metrics", "date": "2015-07-17T15:53:23+00:00"}
+{"url": "http://pypi.python.org/pypi/algebraixlib", "description": "A data algebra library", "name": "algebraixlib", "date": "2015-07-17T16:32:05+00:00"}
+{"url": "http://pypi.python.org/pypi/trilegaldiagnostics", "description": "UNKNOWN", "name": "trilegaldiagnostics", "date": "2015-07-17T17:07:52+00:00"}
+{"url": "http://pypi.python.org/pypi/wheeler.motor-control", "description": "Arduino RPC node packaged as Python package.", "name": "wheeler.motor-control", "date": "2015-07-17T17:28:47+00:00"}
+{"url": "http://pypi.python.org/pypi/temp_email_validator", "description": "Temporary / Disposable Email Address Validator for Python", "name": "temp_email_validator", "date": "2015-07-17T17:48:45+00:00"}
+{"url": "http://pypi.python.org/pypi/mewe", "description": "Search word meaning on Merriam-Webster website.", "name": "mewe", "date": "2015-07-17T17:57:07+00:00"}
+{"url": "http://pypi.python.org/pypi/kinetic", "description": "Python client for Kinetic devices", "name": "kinetic", "date": "2015-07-17T18:25:49+00:00"}
+{"url": "http://pypi.python.org/pypi/pelican_vidme", "description": "Easily embed Vidme videos in your posts", "name": "pelican_vidme", "date": "2015-07-17T18:32:48+00:00"}
+{"url": "http://pypi.python.org/pypi/datascience", "description": "A Python library for introductory data science", "name": "datascience", "date": "2015-07-17T19:09:12+00:00"}
+{"url": "http://pypi.python.org/pypi/pdtools", "description": "Paradrop deployment and build tools", "name": "pdtools", "date": "2015-07-17T19:22:11+00:00"}
+{"url": "http://pypi.python.org/pypi/xpidl", "description": "Parser and header generator for xpidl files.", "name": "xpidl", "date": "2015-07-17T20:24:56+00:00"}
+{"url": "http://pypi.python.org/pypi/openweathermapy", "description": "Python package wrapping OpenWeatherMap.org's API 2.5", "name": "openweathermapy", "date": "2015-07-17T21:06:14+00:00"}
+{"url": "http://pypi.python.org/pypi/githubxmllls", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "name": "githubxmllls", "date": "2015-07-17T21:19:48+00:00"}
+{"url": "http://pypi.python.org/pypi/astrotest", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "name": "astrotest", "date": "2015-07-17T21:34:44+00:00"}
+{"url": "http://pypi.python.org/pypi/escapism", "description": "Simple, generic API for escaping strings.", "name": "escapism", "date": "2015-07-17T21:37:08+00:00"}
+{"url": "http://pypi.python.org/pypi/clusterlogger", "description": "Logging package for contextual information of clusters.", "name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
+{"url": "http://pypi.python.org/pypi/be-core", "description": "", "name": "be-core", "date": "2015-07-17T22:36:15+00:00"}
+{"url": "http://pypi.python.org/pypi/natcap.rios", "description": "Resource Investment Optimization System", "name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00"}
