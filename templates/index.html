@@ -1,0 +1,60 @@
+<html>
+
+   {% include "head.html" %}
+
+   <body>
+
+     {% include "menu.html" %}
+
+     <div class="container" style="margin-top:70px">
+
+       <div class="row">
+
+         <div class="span12">
+
+           <ul class="nav nav-list">
+             {% for item in pypi_items[:5] %}
+                {% include "pypi_result.html" %}
+             {% end %}
+           </ul> 
+ 
+           <ul class="nav nav-list">
+             {% for item in twitter_items[:5] %}
+                {% include "twitter_result.html" %}
+             {% end %}
+           </ul> 
+         </div>
+       
+         <div class="span4"> 
+           
+             <center style="margin: 20px"> <i class="fa fa-github fa-inverse" style="font-size:8em"></i> </center>
+             
+           {% for item in github_items %}
+           {% include "github_result.html" %}
+           {% end %}
+         </div>
+
+         <div class="span4">
+           
+             <center style="margin: 20px"> <i class="fa fa-stack-overflow fa-inverse" style="font-size:8em"></i> </center>
+           
+           {% for item in so_items %}
+           {% include "so_result.html" %}
+           {% end %}
+         </div>
+
+         <div class="span4">
+           
+           <center style="margin: 20px"> <i class="fa fa-reddit fa-inverse" style="font-size: 8em"></i> </center>
+           
+           {% for item in reddit_items %}
+           {% include "reddit_result.html" %}
+           {% end %}
+         </div>  
+
+       </div>
+
+       </div>
+   </body>
+   
+ </html>

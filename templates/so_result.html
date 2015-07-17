@@ -1,0 +1,50 @@
+
+{% if not 'week' in item['date'] and not 'month' in item['date'] and not 'year' in item['date'] %}
+
+    <div class="card pin" id="card_div">
+        
+        <div class="card-heading image "> 
+            <div style=" font-weight: bold; ">
+                <a href="{{ item['url'] }}" target="_blank" style=" color: black; font-size: 16px;">
+                    {{ item['title'] }}
+                </a>
+                <span style=" font-weight: lighter; ">
+
+                    {{ item['date'] }} 
+                    
+                </span>
+            </div> 
+            
+        </div>
+
+        
+        <div class="card-body">
+            {% if len(item['description']) > 150 %}
+                {{ item['description'][:150] }} ...
+            {% else %}
+                {{ item['description'] }}
+                {% end %}
+        </div> 
+
+        <div class="card-body middle"> 
+            <!-- so_flair expects an item to have 'author_href' and 'author' -->
+            <div class="span3" style="margin-left:0px">
+                {% include "so_flair.html" %}
+                
+            </div>
+            <div class="question-info pull-right">
+                <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div> 
+                <div><i class="fa fa-eye fa-lg"></i> {{ item['views'].split()[0] }} </div>
+                <div><i class="fa fa-reply fa-lg"></i> {{ item['answers']}} </div>
+                <button class="btn btn-primary pull-right" style="cursor:text">+{{item['bounty']}}</button>
+            </div>
+        </div>
+
+        <div class="card-body tags">
+            {% for tag in item['tags'] %}
+                <span class="label label-info">{{tag}}</span>
+            {% end %}
+        </div>
+    </div>
+
+{% end %}
