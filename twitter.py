@@ -3,8 +3,11 @@ import requests
 import lxml.html
 import time
 import arrow
+import os
 
-with open('/Users/pascal/GDrive/pytrending/twitterlog.txt', encoding = 'utf8') as fin:
+file_dir = os.path.dirname(os.path.realpath(__file__))
+
+with open(file_dir + '/twitterlog.txt', encoding = 'utf8') as fin:
     dones = set(fin.read().split('\n'))
 
 def get_data():
@@ -19,9 +22,9 @@ def get_data():
     if not rows:
         return
     processed = [process_item(row) for row in rows]
-    with open('/Users/pascal/GDrive/pytrending/twitterresult.jsonlist', 'a') as f: 
+    with open(file_dir + '/twitterresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([str(json.dumps(x)) for x in processed if x][::-1]))
-    with open('/Users/pascal/GDrive/pytrending/twitterlog.txt', 'w') as f: 
+    with open(file_dir + '/twitterlog.txt', 'w') as f: 
         f.write('\n'.join(dones)) 
     
 def process_item(row):
