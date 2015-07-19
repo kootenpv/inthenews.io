@@ -49,6 +49,10 @@ class MainHandler(tornado.web.RequestHandler):
         self.render('index.html', github_items = data['github'], reddit_items = data['reddit'], 
                     so_items = data['so'], pypi_items = data['pypi'], twitter_items = data['twitter'])
 
+class AboutHandler(tornado.web.RequestHandler): 
+    def get(self): 
+        self.render('about.html')
+        
 settings = {'template_path' : os.path.join(os.path.dirname(__file__), 'templates'),
             'static_path' : os.path.join(os.path.dirname(__file__), 'static')}
 
@@ -60,6 +64,7 @@ if __name__ == '__main__':
         
     application = tornado.web.Application([
         (r"/", MainHandler),
+        (r"/about", AboutHandler),
     ], **settings)
 
     HOST = os.getenv('VCAP_APP_HOST', 'localhost')
