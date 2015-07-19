@@ -4,7 +4,7 @@ The goal is to have one spot to get all the information we need to stay up to da
 
 #### Work in Progress
 
-Feel free to raise issues, make pull requests(!) or leave feedback.
+Feel free to raise issues, make pull requests(!) or leave feedback. My apologies for the lack of documentation, it will come; eventually.
 
 #### Do It Yourself
 

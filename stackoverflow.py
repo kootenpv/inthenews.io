@@ -38,9 +38,10 @@ def process_item(row):
         return
     lnk = str(lnk[0]) 
     row_link = lnk if lnk.startswith('http') else 'https://stackoverflow.com' + lnk
-    if row_link in done_links:
+    link_id = re.findall('/([0-9]+)/', row_link)[0]
+    if link_id in done_links:
         return False 
-    done_links.add(row_link) 
+    done_links.add(link_id) 
     title = row.xpath('.//div[@class="summary"]/h3/a')[0].text
     user_details = row.xpath('.//div[@class="user-details"]/a/@href')[0].split('/')
     author, author_profile = user_details[1], user_details[2]

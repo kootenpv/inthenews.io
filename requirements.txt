@@ -1,4 +1,4 @@
 tornado
 requests
-arrow
 lxml
+arrow

@@ -999,3 +999,43 @@
 {"date": "2015-07-19T10:48:04+00:00", "description": "Change Directory Plus", "url": "http://pypi.python.org/pypi/cdp", "name": "cdp"}
 {"date": "2015-07-19T10:56:52+00:00", "description": "Command line based personal assistant for linux based systems.", "url": "http://pypi.python.org/pypi/jango", "name": "jango"}
 {"date": "2015-07-19T11:50:31+00:00", "description": "ONIX validation library and commandline tool", "url": "http://pypi.python.org/pypi/onixcheck", "name": "onixcheck"}
+{"url": "http://pypi.python.org/pypi/Mopidy-Material-Webclient", "date": "2015-07-19T00:12:58+00:00", "name": "Mopidy-Material-Webclient", "description": "A Mopidy web client with an Android Material feel"}
+{"url": "http://pypi.python.org/pypi/fabric-package-management", "date": "2015-07-19T00:18:55+00:00", "name": "fabric-package-management", "description": "A collection of fabric tasks for package management"}
+{"url": "http://pypi.python.org/pypi/attrz", "date": "2015-07-19T00:24:16+00:00", "name": "attrz", "description": "attrz in Python, getfattr/setfattr cross platform implementations"}
+{"url": "http://pypi.python.org/pypi/pyalphaclock", "date": "2015-07-19T01:15:59+00:00", "name": "pyalphaclock", "description": "Python library for interacting with the Alpha Clock Five"}
+{"url": "http://pypi.python.org/pypi/kfreader-cffi", "date": "2015-07-19T01:21:03+00:00", "name": "kfreader-cffi", "description": "Python bindings for KFReader, a library from the ADF computational chemistry package"}
+{"url": "http://pypi.python.org/pypi/piera", "date": "2015-07-19T03:40:03+00:00", "name": "piera", "description": "a python hiera parser"}
+{"url": "http://pypi.python.org/pypi/pike", "date": "2015-07-19T04:51:37+00:00", "name": "pike", "description": "Lightweight plugin management system for Python"}
+{"url": "http://pypi.python.org/pypi/qeventlog", "date": "2015-07-19T06:30:39+00:00", "name": "qeventlog", "description": "Celery job event logger"}
+{"url": "http://pypi.python.org/pypi/docker-py-sunadm", "date": "2015-07-19T07:33:04+00:00", "name": "docker-py-sunadm", "description": ""}
+{"url": "http://pypi.python.org/pypi/storlets", "date": "2015-07-19T08:27:05+00:00", "name": "storlets", "description": ""}
+{"url": "http://pypi.python.org/pypi/sloth-ci.ext.robots_txt", "date": "2015-07-19T08:57:56+00:00", "name": "sloth-ci.ext.robots_txt", "description": "robots.txt for Sloth CI"}
+{"url": "http://pypi.python.org/pypi/django.genesis", "date": "2015-07-19T10:29:52+00:00", "name": "django.genesis", "description": "Django Genesis: provide a set of django application"}
+{"url": "http://pypi.python.org/pypi/smartsoftware.genesis", "date": "2015-07-19T10:43:27+00:00", "name": "smartsoftware.genesis", "description": "Django Genesis: provide a set of re application"}
+{"url": "http://pypi.python.org/pypi/smartsoftware", "date": "2015-07-19T10:46:38+00:00", "name": "smartsoftware", "description": "Django Genesis: provide a set of re application"}
+{"url": "http://pypi.python.org/pypi/cdp", "date": "2015-07-19T10:48:04+00:00", "name": "cdp", "description": "Change Directory Plus"}
+{"url": "http://pypi.python.org/pypi/jango", "date": "2015-07-19T10:56:52+00:00", "name": "jango", "description": "Command line based personal assistant for linux based systems."}
+{"url": "http://pypi.python.org/pypi/onixcheck", "date": "2015-07-19T11:50:31+00:00", "name": "onixcheck", "description": "ONIX validation library and commandline tool"}
+{"url": "http://pypi.python.org/pypi/xym", "date": "2015-07-19T12:22:18+00:00", "name": "xym", "description": "A tool to extract YANG modules from IETF RFCs and Drafts"}
+{"url": "http://pypi.python.org/pypi/tacqy2", "date": "2015-07-19T12:47:27+00:00", "name": "tacqy2", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/changed", "date": "2015-07-19T13:35:24+00:00", "name": "changed", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/bottle-yang-extractor-validator", "date": "2015-07-19T13:41:18+00:00", "name": "bottle-yang-extractor-validator", "description": "A web application that allows you to fetch, extract and validate YANG modules by RFC number, by IETF draft name, or by uploading YANG files."}
+{"url": "http://pypi.python.org/pypi/supervisor-plus-cron", "date": "2015-07-19T14:04:54+00:00", "name": "supervisor-plus-cron", "description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!"}
+{"url": "http://pypi.python.org/pypi/sumatravim", "date": "2015-07-19T14:07:46+00:00", "name": "sumatravim", "description": "SumatraPDF wrapper for Vim and LaTeX."}
+{"url": "http://pypi.python.org/pypi/schema-messages", "date": "2015-07-19T14:26:33+00:00", "name": "schema-messages", "description": "Library to create network-efficient binary representations of structured data."}
+{"url": "http://pypi.python.org/pypi/TwistChat", "date": "2015-07-19T14:29:14+00:00", "name": "TwistChat", "description": "Chatroom server written using Twisted"}
+{"url": "http://pypi.python.org/pypi/webcrawl", "date": "2015-07-19T15:42:53+00:00", "name": "webcrawl", "description": "wecatch webcrawl"}
+{"url": "http://pypi.python.org/pypi/datakit", "date": "2015-07-19T15:43:12+00:00", "name": "datakit", "description": "wecatch datakit"}
+{"url": "http://pypi.python.org/pypi/krill", "date": "2015-07-19T15:50:15+00:00", "name": "krill", "description": "Read and filter web feeds"}
+{"url": "http://pypi.python.org/pypi/sandorm", "date": "2015-07-19T16:42:15+00:00", "name": "sandorm", "description": "print sandorm information"}
+{"url": "http://pypi.python.org/pypi/jf15_athletes", "date": "2015-07-19T16:43:55+00:00", "name": "jf15_athletes", "description": "A class of athlete"}
+{"url": "http://pypi.python.org/pypi/PyAlgDat", "date": "2015-07-19T16:57:08+00:00", "name": "PyAlgDat", "description": "Various data structures and algorithms."}
+{"url": "http://pypi.python.org/pypi/cryptocoin.models", "date": "2015-07-19T17:05:19+00:00", "name": "cryptocoin.models", "description": "A collection of ORM models for storing cryptocurrency exchange data"}
+{"url": "http://pypi.python.org/pypi/aio2py", "date": "2015-07-19T17:06:19+00:00", "name": "aio2py", "description": "Simple web Frame"}
+{"url": "http://pypi.python.org/pypi/spnester", "date": "2015-07-19T19:11:22+00:00", "name": "spnester", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/django-abraxo-cleaner", "date": "2015-07-19T19:41:31+00:00", "name": "django-abraxo-cleaner", "description": ""}
+{"url": "http://pypi.python.org/pypi/sloth-ci.ext.dummy_app", "date": "2015-07-19T19:50:31+00:00", "name": "sloth-ci.ext.dummy_app", "description": "Dummy app extension for Sloth CI"}
+{"url": "http://pypi.python.org/pypi/agarclient", "date": "2015-07-19T20:22:33+00:00", "name": "agarclient", "description": "agar.io client and connection toolkit"}
+{"url": "http://pypi.python.org/pypi/agargui", "date": "2015-07-19T20:24:39+00:00", "name": "agargui", "description": "GTK GUI for playing agar.io"}
+{"url": "http://pypi.python.org/pypi/agargtk", "date": "2015-07-19T20:25:02+00:00", "name": "agargtk", "description": "GTK GUI for playing agar.io"}
+{"url": "http://pypi.python.org/pypi/ohmu", "date": "2015-07-19T20:28:26+00:00", "name": "ohmu", "description": "View space usage in your terminal."}
