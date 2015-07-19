@@ -1,5 +1,5 @@
 applications:
-- disk_quota: 128M
+- disk_quota: 256M
   host: pytrending
   name: pytrending
   path: .

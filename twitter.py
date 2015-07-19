@@ -28,7 +28,7 @@ def update_data():
         f.write('\n'.join(dones)) 
     
 def process_item(row):
-    desc = str(row.xpath('.//p[contains(@class, "tweet-text")]')[0].text_content()).strip()
+    desc = row.xpath('.//p[contains(@class, "tweet-text")]')[0].text_content().encode('utf8').strip()
     if desc in dones:
         return False
     dones.add(desc)
@@ -38,7 +38,7 @@ def process_item(row):
     twitter_item = {'name' : 'PlanetPython', 
                      'date' : str(arrow.get(date)), 
                      'description' : desc,
-                     'url' : str(url)}
+                     'url' : url.encode('utf8')}
     return twitter_item
     
     

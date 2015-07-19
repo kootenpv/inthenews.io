@@ -8,7 +8,7 @@ from tornado.ioloop import IOLoop
 
 import os
 import json
-import arrow
+import sys
 
 from helper import get_pypi_names
 
@@ -26,23 +26,23 @@ data = {}
 
 def update_local_file_database(): 
     with open(file_dir + '/data/gitresult.jsonlist') as f:
-        github_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))
+        github_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
         for item in github_items: 
             if item['name'].lower() in pypi:
                 item['pypi'] = 'True'
     with open(file_dir + '/data/redditresult.jsonlist') as f:
-        reddit_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x])) 
+        reddit_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1] 
     with open(file_dir + '/data/pypiresult.jsonlist') as f:
-        pypi_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))        
+        pypi_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
     with open(file_dir + '/data/twitterresult.jsonlist') as f:
-        twitter_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))
+        twitter_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
     with open(file_dir + '/data/soresult.jsonlist') as f:
-        so_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x])) 
+        so_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
     data['github'] = github_items
     data['so'] = so_items
     data['reddit'] = reddit_items
     data['pypi'] = pypi_items
-    data['twitter'] = twitter_items                 
+    data['twitter'] = twitter_items      
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self): 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
     for schedule in schedules:
         schedule.start() 
     
-    if HOST == 'localhost': 
+    if 'production' not in sys.argv:
         for root, dirs, files in os.walk('.', topdown=False):
             for name in files:
                 if '#' not in name and 'DS_S' not in name and 'flymake' not in name and 'pyc' not in name:
