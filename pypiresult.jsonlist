@@ -119,3 +119,803 @@
 {"url": "http://pypi.python.org/pypi/clusterlogger", "description": "Logging package for contextual information of clusters.", "name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
 {"url": "http://pypi.python.org/pypi/be-core", "description": "", "name": "be-core", "date": "2015-07-17T22:36:15+00:00"}
 {"url": "http://pypi.python.org/pypi/natcap.rios", "description": "Resource Investment Optimization System", "name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00"}
+{"url": "http://pypi.python.org/pypi/mrkv", "description": "Tiny Markov chain library", "name": "mrkv", "date": "2015-07-17T15:51:22+00:00"}
+{"url": "http://pypi.python.org/pypi/muffin-metrics", "description": "", "name": "muffin-metrics", "date": "2015-07-17T15:53:23+00:00"}
+{"url": "http://pypi.python.org/pypi/algebraixlib", "description": "A data algebra library", "name": "algebraixlib", "date": "2015-07-17T16:32:05+00:00"}
+{"url": "http://pypi.python.org/pypi/trilegaldiagnostics", "description": "UNKNOWN", "name": "trilegaldiagnostics", "date": "2015-07-17T17:07:52+00:00"}
+{"url": "http://pypi.python.org/pypi/wheeler.motor-control", "description": "Arduino RPC node packaged as Python package.", "name": "wheeler.motor-control", "date": "2015-07-17T17:28:47+00:00"}
+{"url": "http://pypi.python.org/pypi/temp_email_validator", "description": "Temporary / Disposable Email Address Validator for Python", "name": "temp_email_validator", "date": "2015-07-17T17:48:45+00:00"}
+{"url": "http://pypi.python.org/pypi/mewe", "description": "Search word meaning on Merriam-Webster website.", "name": "mewe", "date": "2015-07-17T17:57:07+00:00"}
+{"url": "http://pypi.python.org/pypi/kinetic", "description": "Python client for Kinetic devices", "name": "kinetic", "date": "2015-07-17T18:25:49+00:00"}
+{"url": "http://pypi.python.org/pypi/pelican_vidme", "description": "Easily embed Vidme videos in your posts", "name": "pelican_vidme", "date": "2015-07-17T18:32:48+00:00"}
+{"url": "http://pypi.python.org/pypi/datascience", "description": "A Python library for introductory data science", "name": "datascience", "date": "2015-07-17T19:09:12+00:00"}
+{"url": "http://pypi.python.org/pypi/pdtools", "description": "Paradrop deployment and build tools", "name": "pdtools", "date": "2015-07-17T19:22:11+00:00"}
+{"url": "http://pypi.python.org/pypi/xpidl", "description": "Parser and header generator for xpidl files.", "name": "xpidl", "date": "2015-07-17T20:24:56+00:00"}
+{"url": "http://pypi.python.org/pypi/openweathermapy", "description": "Python package wrapping OpenWeatherMap.org's API 2.5", "name": "openweathermapy", "date": "2015-07-17T21:06:14+00:00"}
+{"url": "http://pypi.python.org/pypi/githubxmllls", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "name": "githubxmllls", "date": "2015-07-17T21:19:48+00:00"}
+{"url": "http://pypi.python.org/pypi/astrotest", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "name": "astrotest", "date": "2015-07-17T21:34:44+00:00"}
+{"url": "http://pypi.python.org/pypi/escapism", "description": "Simple, generic API for escaping strings.", "name": "escapism", "date": "2015-07-17T21:37:08+00:00"}
+{"url": "http://pypi.python.org/pypi/clusterlogger", "description": "Logging package for contextual information of clusters.", "name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
+{"url": "http://pypi.python.org/pypi/natcap.rios", "description": "Resource Investment Optimization System", "name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00"}
+{"url": "http://pypi.python.org/pypi/pytoxns", "description": "tox-dns for python", "name": "pytoxns", "date": "2015-07-17T23:13:23+00:00"}
+{"url": "http://pypi.python.org/pypi/beDict", "description": "Black Earth Dict class", "name": "beDict", "date": "2015-07-17T23:47:38+00:00"}
+{"url": "http://pypi.python.org/pypi/torment", "description": "A Study in Fixture Based Testing Frameworking", "name": "torment", "date": "2015-07-17T23:48:04+00:00"}
+{"url": "http://pypi.python.org/pypi/falconer", "description": "fill this in", "name": "falconer", "date": "2015-07-18T00:26:24+00:00"}
+{"url": "http://pypi.python.org/pypi/peppa", "description": "A CLI front-end to a running salt-api system", "name": "peppa", "date": "2015-07-18T00:43:57+00:00"}
+{"url": "http://pypi.python.org/pypi/blemapper", "description": "UNKNOWN", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00"}
+{"url": "http://pypi.python.org/pypi/beString", "description": "Black Earth String class", "name": "beString", "date": "2015-07-18T03:26:05+00:00"}
+{"url": "http://pypi.python.org/pypi/beConfig", "description": "Black Earth\u2019s Config object.", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00"}
+{"url": "http://pypi.python.org/pypi/beDB", "description": "Black Earth\u2019s Database interface.", "name": "beDB", "date": "2015-07-18T03:55:40+00:00"}
+{"url": "http://pypi.python.org/pypi/beLog", "description": "Black Earth\u2019s Logging Interface", "name": "beLog", "date": "2015-07-18T04:09:53+00:00"}
+{"url": "http://pypi.python.org/pypi/djsourceview", "description": "Module for Django to view the javascript source code and html", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00"}
+{"url": "http://pypi.python.org/pypi/beQueue", "description": "Black Earth\u2019s task queue.", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00"}
+{"url": "http://pypi.python.org/pypi/baratine", "description": "Python client for Baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00"}
+{"url": "http://pypi.python.org/pypi/django-project-portfolio", "description": "A Django application for listing your software projects.", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00"}
+{"url": "http://pypi.python.org/pypi/beSVN", "description": "Black Earth\u2019s Subversion Repository interface.", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00"}
+{"url": "http://pypi.python.org/pypi/beURL", "description": "Black Earth\u2019s URL object", "name": "beURL", "date": "2015-07-18T04:33:48+00:00"}
+{"url": "http://pypi.python.org/pypi/beInteger", "description": "Black Earth\u2019s Integer class.", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00"}
+{"url": "http://pypi.python.org/pypi/beFiles", "description": "Black Earth file system functions", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00"}
+{"url": "http://pypi.python.org/pypi/stringcase", "description": "String case converter.", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00"}
+{"url": "http://pypi.python.org/pypi/lagou.mining.util", "description": "a simple egg for test", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00"}
+{"url": "http://pypi.python.org/pypi/Findig", "description": "", "name": "Findig", "date": "2015-07-18T06:33:52+00:00"}
+{"url": "http://pypi.python.org/pypi/python-flipkart", "description": "Python Flipkart Marketplace API Client", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"description": "A data algebra library", "date": "2015-07-17T16:32:05+00:00", "name": "algebraixlib", "url": "http://pypi.python.org/pypi/algebraixlib"}
+{"description": "UNKNOWN", "date": "2015-07-17T17:07:52+00:00", "name": "trilegaldiagnostics", "url": "http://pypi.python.org/pypi/trilegaldiagnostics"}
+{"description": "Arduino RPC node packaged as Python package.", "date": "2015-07-17T17:28:47+00:00", "name": "wheeler.motor-control", "url": "http://pypi.python.org/pypi/wheeler.motor-control"}
+{"description": "Temporary / Disposable Email Address Validator for Python", "date": "2015-07-17T17:48:45+00:00", "name": "temp_email_validator", "url": "http://pypi.python.org/pypi/temp_email_validator"}
+{"description": "Search word meaning on Merriam-Webster website.", "date": "2015-07-17T17:57:07+00:00", "name": "mewe", "url": "http://pypi.python.org/pypi/mewe"}
+{"description": "Python client for Kinetic devices", "date": "2015-07-17T18:25:49+00:00", "name": "kinetic", "url": "http://pypi.python.org/pypi/kinetic"}
+{"description": "Easily embed Vidme videos in your posts", "date": "2015-07-17T18:32:48+00:00", "name": "pelican_vidme", "url": "http://pypi.python.org/pypi/pelican_vidme"}
+{"description": "A Python library for introductory data science", "date": "2015-07-17T19:09:12+00:00", "name": "datascience", "url": "http://pypi.python.org/pypi/datascience"}
+{"description": "Paradrop deployment and build tools", "date": "2015-07-17T19:22:11+00:00", "name": "pdtools", "url": "http://pypi.python.org/pypi/pdtools"}
+{"description": "Parser and header generator for xpidl files.", "date": "2015-07-17T20:24:56+00:00", "name": "xpidl", "url": "http://pypi.python.org/pypi/xpidl"}
+{"description": "Python package wrapping OpenWeatherMap.org's API 2.5", "date": "2015-07-17T21:06:14+00:00", "name": "openweathermapy", "url": "http://pypi.python.org/pypi/openweathermapy"}
+{"description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "date": "2015-07-17T21:19:48+00:00", "name": "githubxmllls", "url": "http://pypi.python.org/pypi/githubxmllls"}
+{"description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "date": "2015-07-17T21:34:44+00:00", "name": "astrotest", "url": "http://pypi.python.org/pypi/astrotest"}
+{"description": "Simple, generic API for escaping strings.", "date": "2015-07-17T21:37:08+00:00", "name": "escapism", "url": "http://pypi.python.org/pypi/escapism"}
+{"description": "Logging package for contextual information of clusters.", "date": "2015-07-17T21:41:23+00:00", "name": "clusterlogger", "url": "http://pypi.python.org/pypi/clusterlogger"}
+{"description": "Resource Investment Optimization System", "date": "2015-07-17T22:54:33+00:00", "name": "natcap.rios", "url": "http://pypi.python.org/pypi/natcap.rios"}
+{"description": "tox-dns for python", "date": "2015-07-17T23:13:23+00:00", "name": "pytoxns", "url": "http://pypi.python.org/pypi/pytoxns"}
+{"description": "Black Earth Dict class", "date": "2015-07-17T23:47:38+00:00", "name": "beDict", "url": "http://pypi.python.org/pypi/beDict"}
+{"description": "A Study in Fixture Based Testing Frameworking", "date": "2015-07-17T23:48:04+00:00", "name": "torment", "url": "http://pypi.python.org/pypi/torment"}
+{"description": "fill this in", "date": "2015-07-18T00:26:24+00:00", "name": "falconer", "url": "http://pypi.python.org/pypi/falconer"}
+{"description": "A CLI front-end to a running salt-api system", "date": "2015-07-18T00:43:57+00:00", "name": "peppa", "url": "http://pypi.python.org/pypi/peppa"}
+{"description": "UNKNOWN", "date": "2015-07-18T00:54:33+00:00", "name": "blemapper", "url": "http://pypi.python.org/pypi/blemapper"}
+{"description": "Black Earth String class", "date": "2015-07-18T03:26:05+00:00", "name": "beString", "url": "http://pypi.python.org/pypi/beString"}
+{"description": "Black Earth\u2019s Config object.", "date": "2015-07-18T03:46:45+00:00", "name": "beConfig", "url": "http://pypi.python.org/pypi/beConfig"}
+{"description": "Black Earth\u2019s Database interface.", "date": "2015-07-18T03:55:40+00:00", "name": "beDB", "url": "http://pypi.python.org/pypi/beDB"}
+{"description": "Black Earth\u2019s Logging Interface", "date": "2015-07-18T04:09:53+00:00", "name": "beLog", "url": "http://pypi.python.org/pypi/beLog"}
+{"description": "Module for Django to view the javascript source code and html", "date": "2015-07-18T04:17:30+00:00", "name": "djsourceview", "url": "http://pypi.python.org/pypi/djsourceview"}
+{"description": "Black Earth\u2019s task queue.", "date": "2015-07-18T04:19:27+00:00", "name": "beQueue", "url": "http://pypi.python.org/pypi/beQueue"}
+{"description": "Python client for Baratine", "date": "2015-07-18T04:19:40+00:00", "name": "baratine", "url": "http://pypi.python.org/pypi/baratine"}
+{"description": "A Django application for listing your software projects.", "date": "2015-07-18T04:26:59+00:00", "name": "django-project-portfolio", "url": "http://pypi.python.org/pypi/django-project-portfolio"}
+{"description": "Black Earth\u2019s Subversion Repository interface.", "date": "2015-07-18T04:28:45+00:00", "name": "beSVN", "url": "http://pypi.python.org/pypi/beSVN"}
+{"description": "Black Earth\u2019s URL object", "date": "2015-07-18T04:33:48+00:00", "name": "beURL", "url": "http://pypi.python.org/pypi/beURL"}
+{"description": "Black Earth\u2019s Integer class.", "date": "2015-07-18T04:45:03+00:00", "name": "beInteger", "url": "http://pypi.python.org/pypi/beInteger"}
+{"description": "Black Earth file system functions", "date": "2015-07-18T04:47:58+00:00", "name": "beFiles", "url": "http://pypi.python.org/pypi/beFiles"}
+{"description": "String case converter.", "date": "2015-07-18T04:51:06+00:00", "name": "stringcase", "url": "http://pypi.python.org/pypi/stringcase"}
+{"description": "a simple egg for test", "date": "2015-07-18T06:06:01+00:00", "name": "lagou.mining.util", "url": "http://pypi.python.org/pypi/lagou.mining.util"}
+{"description": "", "date": "2015-07-18T06:33:52+00:00", "name": "Findig", "url": "http://pypi.python.org/pypi/Findig"}
+{"description": "Python Flipkart Marketplace API Client", "date": "2015-07-18T06:46:57+00:00", "name": "python-flipkart", "url": "http://pypi.python.org/pypi/python-flipkart"}
+{"description": "Simple using vk.com API.", "date": "2015-07-18T07:21:12+00:00", "name": "vklancer", "url": "http://pypi.python.org/pypi/vklancer"}
+{"description": "Pandas trading technical analysis", "date": "2015-07-18T07:36:10+00:00", "name": "pandas_talib", "url": "http://pypi.python.org/pypi/pandas_talib"}
+{"url": "http://pypi.python.org/pypi/algebraixlib", "name": "algebraixlib", "date": "2015-07-17T16:32:05+00:00", "description": "A data algebra library"}
+{"url": "http://pypi.python.org/pypi/trilegaldiagnostics", "name": "trilegaldiagnostics", "date": "2015-07-17T17:07:52+00:00", "description": "UNKNOWN"}
+{"url": "http://pypi.python.org/pypi/wheeler.motor-control", "name": "wheeler.motor-control", "date": "2015-07-17T17:28:47+00:00", "description": "Arduino RPC node packaged as Python package."}
+{"url": "http://pypi.python.org/pypi/temp_email_validator", "name": "temp_email_validator", "date": "2015-07-17T17:48:45+00:00", "description": "Temporary / Disposable Email Address Validator for Python"}
+{"url": "http://pypi.python.org/pypi/mewe", "name": "mewe", "date": "2015-07-17T17:57:07+00:00", "description": "Search word meaning on Merriam-Webster website."}
+{"url": "http://pypi.python.org/pypi/kinetic", "name": "kinetic", "date": "2015-07-17T18:25:49+00:00", "description": "Python client for Kinetic devices"}
+{"url": "http://pypi.python.org/pypi/pelican_vidme", "name": "pelican_vidme", "date": "2015-07-17T18:32:48+00:00", "description": "Easily embed Vidme videos in your posts"}
+{"url": "http://pypi.python.org/pypi/datascience", "name": "datascience", "date": "2015-07-17T19:09:12+00:00", "description": "A Python library for introductory data science"}
+{"url": "http://pypi.python.org/pypi/pdtools", "name": "pdtools", "date": "2015-07-17T19:22:11+00:00", "description": "Paradrop deployment and build tools"}
+{"url": "http://pypi.python.org/pypi/xpidl", "name": "xpidl", "date": "2015-07-17T20:24:56+00:00", "description": "Parser and header generator for xpidl files."}
+{"url": "http://pypi.python.org/pypi/openweathermapy", "name": "openweathermapy", "date": "2015-07-17T21:06:14+00:00", "description": "Python package wrapping OpenWeatherMap.org's API 2.5"}
+{"url": "http://pypi.python.org/pypi/githubxmllls", "name": "githubxmllls", "date": "2015-07-17T21:19:48+00:00", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml."}
+{"url": "http://pypi.python.org/pypi/astrotest", "name": "astrotest", "date": "2015-07-17T21:34:44+00:00", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring."}
+{"url": "http://pypi.python.org/pypi/escapism", "name": "escapism", "date": "2015-07-17T21:37:08+00:00", "description": "Simple, generic API for escaping strings."}
+{"url": "http://pypi.python.org/pypi/clusterlogger", "name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00", "description": "Logging package for contextual information of clusters."}
+{"url": "http://pypi.python.org/pypi/natcap.rios", "name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00", "description": "Resource Investment Optimization System"}
+{"url": "http://pypi.python.org/pypi/pytoxns", "name": "pytoxns", "date": "2015-07-17T23:13:23+00:00", "description": "tox-dns for python"}
+{"url": "http://pypi.python.org/pypi/beDict", "name": "beDict", "date": "2015-07-17T23:47:38+00:00", "description": "Black Earth Dict class"}
+{"url": "http://pypi.python.org/pypi/torment", "name": "torment", "date": "2015-07-17T23:48:04+00:00", "description": "A Study in Fixture Based Testing Frameworking"}
+{"url": "http://pypi.python.org/pypi/falconer", "name": "falconer", "date": "2015-07-18T00:26:24+00:00", "description": "fill this in"}
+{"url": "http://pypi.python.org/pypi/peppa", "name": "peppa", "date": "2015-07-18T00:43:57+00:00", "description": "A CLI front-end to a running salt-api system"}
+{"url": "http://pypi.python.org/pypi/blemapper", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00", "description": "UNKNOWN"}
+{"url": "http://pypi.python.org/pypi/beString", "name": "beString", "date": "2015-07-18T03:26:05+00:00", "description": "Black Earth String class"}
+{"url": "http://pypi.python.org/pypi/beConfig", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00", "description": "Black Earth\u2019s Config object."}
+{"url": "http://pypi.python.org/pypi/beDB", "name": "beDB", "date": "2015-07-18T03:55:40+00:00", "description": "Black Earth\u2019s Database interface."}
+{"url": "http://pypi.python.org/pypi/beLog", "name": "beLog", "date": "2015-07-18T04:09:53+00:00", "description": "Black Earth\u2019s Logging Interface"}
+{"url": "http://pypi.python.org/pypi/djsourceview", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00", "description": "Module for Django to view the javascript source code and html"}
+{"url": "http://pypi.python.org/pypi/beQueue", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00", "description": "Black Earth\u2019s task queue."}
+{"url": "http://pypi.python.org/pypi/baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00", "description": "Python client for Baratine"}
+{"url": "http://pypi.python.org/pypi/django-project-portfolio", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "description": "A Django application for listing your software projects."}
+{"url": "http://pypi.python.org/pypi/beSVN", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"url": "http://pypi.python.org/pypi/beURL", "name": "beURL", "date": "2015-07-18T04:33:48+00:00", "description": "Black Earth\u2019s URL object"}
+{"url": "http://pypi.python.org/pypi/beInteger", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00", "description": "Black Earth\u2019s Integer class."}
+{"url": "http://pypi.python.org/pypi/beFiles", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00", "description": "Black Earth file system functions"}
+{"url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00", "description": "String case converter."}
+{"url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "description": "a simple egg for test"}
+{"url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "date": "2015-07-18T06:33:52+00:00", "description": ""}
+{"url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00", "description": "Python Flipkart Marketplace API Client"}
+{"url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00", "description": "Simple using vk.com API."}
+{"url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00", "description": "Pandas trading technical analysis"}
+{"date": "2015-07-17T17:07:52+00:00", "url": "http://pypi.python.org/pypi/trilegaldiagnostics", "name": "trilegaldiagnostics", "description": "UNKNOWN"}
+{"date": "2015-07-17T17:28:47+00:00", "url": "http://pypi.python.org/pypi/wheeler.motor-control", "name": "wheeler.motor-control", "description": "Arduino RPC node packaged as Python package."}
+{"date": "2015-07-17T17:48:45+00:00", "url": "http://pypi.python.org/pypi/temp_email_validator", "name": "temp_email_validator", "description": "Temporary / Disposable Email Address Validator for Python"}
+{"date": "2015-07-17T17:57:07+00:00", "url": "http://pypi.python.org/pypi/mewe", "name": "mewe", "description": "Search word meaning on Merriam-Webster website."}
+{"date": "2015-07-17T18:25:49+00:00", "url": "http://pypi.python.org/pypi/kinetic", "name": "kinetic", "description": "Python client for Kinetic devices"}
+{"date": "2015-07-17T18:32:48+00:00", "url": "http://pypi.python.org/pypi/pelican_vidme", "name": "pelican_vidme", "description": "Easily embed Vidme videos in your posts"}
+{"date": "2015-07-17T19:09:12+00:00", "url": "http://pypi.python.org/pypi/datascience", "name": "datascience", "description": "A Python library for introductory data science"}
+{"date": "2015-07-17T19:22:11+00:00", "url": "http://pypi.python.org/pypi/pdtools", "name": "pdtools", "description": "Paradrop deployment and build tools"}
+{"date": "2015-07-17T20:24:56+00:00", "url": "http://pypi.python.org/pypi/xpidl", "name": "xpidl", "description": "Parser and header generator for xpidl files."}
+{"date": "2015-07-17T21:06:14+00:00", "url": "http://pypi.python.org/pypi/openweathermapy", "name": "openweathermapy", "description": "Python package wrapping OpenWeatherMap.org's API 2.5"}
+{"date": "2015-07-17T21:19:48+00:00", "url": "http://pypi.python.org/pypi/githubxmllls", "name": "githubxmllls", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml."}
+{"date": "2015-07-17T21:34:44+00:00", "url": "http://pypi.python.org/pypi/astrotest", "name": "astrotest", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring."}
+{"date": "2015-07-17T21:37:08+00:00", "url": "http://pypi.python.org/pypi/escapism", "name": "escapism", "description": "Simple, generic API for escaping strings."}
+{"date": "2015-07-17T21:41:23+00:00", "url": "http://pypi.python.org/pypi/clusterlogger", "name": "clusterlogger", "description": "Logging package for contextual information of clusters."}
+{"date": "2015-07-17T22:54:33+00:00", "url": "http://pypi.python.org/pypi/natcap.rios", "name": "natcap.rios", "description": "Resource Investment Optimization System"}
+{"date": "2015-07-17T23:13:23+00:00", "url": "http://pypi.python.org/pypi/pytoxns", "name": "pytoxns", "description": "tox-dns for python"}
+{"date": "2015-07-17T23:47:38+00:00", "url": "http://pypi.python.org/pypi/beDict", "name": "beDict", "description": "Black Earth Dict class"}
+{"date": "2015-07-17T23:48:04+00:00", "url": "http://pypi.python.org/pypi/torment", "name": "torment", "description": "A Study in Fixture Based Testing Frameworking"}
+{"date": "2015-07-18T00:26:24+00:00", "url": "http://pypi.python.org/pypi/falconer", "name": "falconer", "description": "fill this in"}
+{"date": "2015-07-18T00:43:57+00:00", "url": "http://pypi.python.org/pypi/peppa", "name": "peppa", "description": "A CLI front-end to a running salt-api system"}
+{"date": "2015-07-18T00:54:33+00:00", "url": "http://pypi.python.org/pypi/blemapper", "name": "blemapper", "description": "UNKNOWN"}
+{"date": "2015-07-18T03:26:05+00:00", "url": "http://pypi.python.org/pypi/beString", "name": "beString", "description": "Black Earth String class"}
+{"date": "2015-07-18T03:46:45+00:00", "url": "http://pypi.python.org/pypi/beConfig", "name": "beConfig", "description": "Black Earth\u2019s Config object."}
+{"date": "2015-07-18T03:55:40+00:00", "url": "http://pypi.python.org/pypi/beDB", "name": "beDB", "description": "Black Earth\u2019s Database interface."}
+{"date": "2015-07-18T04:09:53+00:00", "url": "http://pypi.python.org/pypi/beLog", "name": "beLog", "description": "Black Earth\u2019s Logging Interface"}
+{"date": "2015-07-18T04:17:30+00:00", "url": "http://pypi.python.org/pypi/djsourceview", "name": "djsourceview", "description": "Module for Django to view the javascript source code and html"}
+{"date": "2015-07-18T04:19:27+00:00", "url": "http://pypi.python.org/pypi/beQueue", "name": "beQueue", "description": "Black Earth\u2019s task queue."}
+{"date": "2015-07-18T04:19:40+00:00", "url": "http://pypi.python.org/pypi/baratine", "name": "baratine", "description": "Python client for Baratine"}
+{"date": "2015-07-18T04:26:59+00:00", "url": "http://pypi.python.org/pypi/django-project-portfolio", "name": "django-project-portfolio", "description": "A Django application for listing your software projects."}
+{"date": "2015-07-18T04:28:45+00:00", "url": "http://pypi.python.org/pypi/beSVN", "name": "beSVN", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"date": "2015-07-18T04:33:48+00:00", "url": "http://pypi.python.org/pypi/beURL", "name": "beURL", "description": "Black Earth\u2019s URL object"}
+{"date": "2015-07-18T04:45:03+00:00", "url": "http://pypi.python.org/pypi/beInteger", "name": "beInteger", "description": "Black Earth\u2019s Integer class."}
+{"date": "2015-07-18T04:47:58+00:00", "url": "http://pypi.python.org/pypi/beFiles", "name": "beFiles", "description": "Black Earth file system functions"}
+{"date": "2015-07-18T04:51:06+00:00", "url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "description": "String case converter."}
+{"date": "2015-07-18T06:06:01+00:00", "url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "description": "a simple egg for test"}
+{"date": "2015-07-18T06:33:52+00:00", "url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "description": ""}
+{"date": "2015-07-18T06:46:57+00:00", "url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "description": "Python Flipkart Marketplace API Client"}
+{"date": "2015-07-18T07:21:12+00:00", "url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "description": "Simple using vk.com API."}
+{"date": "2015-07-18T07:36:10+00:00", "url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "description": "Pandas trading technical analysis"}
+{"date": "2015-07-18T09:12:55+00:00", "url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "description": "A module to simplify checking arguments in Flask apps"}
+{"description": "Arduino RPC node packaged as Python package.", "url": "http://pypi.python.org/pypi/wheeler.motor-control", "date": "2015-07-17T17:28:47+00:00", "name": "wheeler.motor-control"}
+{"description": "Temporary / Disposable Email Address Validator for Python", "url": "http://pypi.python.org/pypi/temp_email_validator", "date": "2015-07-17T17:48:45+00:00", "name": "temp_email_validator"}
+{"description": "Search word meaning on Merriam-Webster website.", "url": "http://pypi.python.org/pypi/mewe", "date": "2015-07-17T17:57:07+00:00", "name": "mewe"}
+{"description": "Python client for Kinetic devices", "url": "http://pypi.python.org/pypi/kinetic", "date": "2015-07-17T18:25:49+00:00", "name": "kinetic"}
+{"description": "Easily embed Vidme videos in your posts", "url": "http://pypi.python.org/pypi/pelican_vidme", "date": "2015-07-17T18:32:48+00:00", "name": "pelican_vidme"}
+{"description": "A Python library for introductory data science", "url": "http://pypi.python.org/pypi/datascience", "date": "2015-07-17T19:09:12+00:00", "name": "datascience"}
+{"description": "Paradrop deployment and build tools", "url": "http://pypi.python.org/pypi/pdtools", "date": "2015-07-17T19:22:11+00:00", "name": "pdtools"}
+{"description": "Parser and header generator for xpidl files.", "url": "http://pypi.python.org/pypi/xpidl", "date": "2015-07-17T20:24:56+00:00", "name": "xpidl"}
+{"description": "Python package wrapping OpenWeatherMap.org's API 2.5", "url": "http://pypi.python.org/pypi/openweathermapy", "date": "2015-07-17T21:06:14+00:00", "name": "openweathermapy"}
+{"description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "url": "http://pypi.python.org/pypi/githubxmllls", "date": "2015-07-17T21:19:48+00:00", "name": "githubxmllls"}
+{"description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "url": "http://pypi.python.org/pypi/astrotest", "date": "2015-07-17T21:34:44+00:00", "name": "astrotest"}
+{"description": "Simple, generic API for escaping strings.", "url": "http://pypi.python.org/pypi/escapism", "date": "2015-07-17T21:37:08+00:00", "name": "escapism"}
+{"description": "Logging package for contextual information of clusters.", "url": "http://pypi.python.org/pypi/clusterlogger", "date": "2015-07-17T21:41:23+00:00", "name": "clusterlogger"}
+{"description": "Resource Investment Optimization System", "url": "http://pypi.python.org/pypi/natcap.rios", "date": "2015-07-17T22:54:33+00:00", "name": "natcap.rios"}
+{"description": "tox-dns for python", "url": "http://pypi.python.org/pypi/pytoxns", "date": "2015-07-17T23:13:23+00:00", "name": "pytoxns"}
+{"description": "Black Earth Dict class", "url": "http://pypi.python.org/pypi/beDict", "date": "2015-07-17T23:47:38+00:00", "name": "beDict"}
+{"description": "A Study in Fixture Based Testing Frameworking", "url": "http://pypi.python.org/pypi/torment", "date": "2015-07-17T23:48:04+00:00", "name": "torment"}
+{"description": "fill this in", "url": "http://pypi.python.org/pypi/falconer", "date": "2015-07-18T00:26:24+00:00", "name": "falconer"}
+{"description": "A CLI front-end to a running salt-api system", "url": "http://pypi.python.org/pypi/peppa", "date": "2015-07-18T00:43:57+00:00", "name": "peppa"}
+{"description": "UNKNOWN", "url": "http://pypi.python.org/pypi/blemapper", "date": "2015-07-18T00:54:33+00:00", "name": "blemapper"}
+{"description": "Black Earth String class", "url": "http://pypi.python.org/pypi/beString", "date": "2015-07-18T03:26:05+00:00", "name": "beString"}
+{"description": "Black Earth\u2019s Config object.", "url": "http://pypi.python.org/pypi/beConfig", "date": "2015-07-18T03:46:45+00:00", "name": "beConfig"}
+{"description": "Black Earth\u2019s Database interface.", "url": "http://pypi.python.org/pypi/beDB", "date": "2015-07-18T03:55:40+00:00", "name": "beDB"}
+{"description": "Black Earth\u2019s Logging Interface", "url": "http://pypi.python.org/pypi/beLog", "date": "2015-07-18T04:09:53+00:00", "name": "beLog"}
+{"description": "Module for Django to view the javascript source code and html", "url": "http://pypi.python.org/pypi/djsourceview", "date": "2015-07-18T04:17:30+00:00", "name": "djsourceview"}
+{"description": "Black Earth\u2019s task queue.", "url": "http://pypi.python.org/pypi/beQueue", "date": "2015-07-18T04:19:27+00:00", "name": "beQueue"}
+{"description": "Python client for Baratine", "url": "http://pypi.python.org/pypi/baratine", "date": "2015-07-18T04:19:40+00:00", "name": "baratine"}
+{"description": "A Django application for listing your software projects.", "url": "http://pypi.python.org/pypi/django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "name": "django-project-portfolio"}
+{"description": "Black Earth\u2019s Subversion Repository interface.", "url": "http://pypi.python.org/pypi/beSVN", "date": "2015-07-18T04:28:45+00:00", "name": "beSVN"}
+{"description": "Black Earth\u2019s URL object", "url": "http://pypi.python.org/pypi/beURL", "date": "2015-07-18T04:33:48+00:00", "name": "beURL"}
+{"description": "Black Earth\u2019s Integer class.", "url": "http://pypi.python.org/pypi/beInteger", "date": "2015-07-18T04:45:03+00:00", "name": "beInteger"}
+{"description": "Black Earth file system functions", "url": "http://pypi.python.org/pypi/beFiles", "date": "2015-07-18T04:47:58+00:00", "name": "beFiles"}
+{"description": "String case converter.", "url": "http://pypi.python.org/pypi/stringcase", "date": "2015-07-18T04:51:06+00:00", "name": "stringcase"}
+{"description": "a simple egg for test", "url": "http://pypi.python.org/pypi/lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "name": "lagou.mining.util"}
+{"description": "", "url": "http://pypi.python.org/pypi/Findig", "date": "2015-07-18T06:33:52+00:00", "name": "Findig"}
+{"description": "Python Flipkart Marketplace API Client", "url": "http://pypi.python.org/pypi/python-flipkart", "date": "2015-07-18T06:46:57+00:00", "name": "python-flipkart"}
+{"description": "Simple using vk.com API.", "url": "http://pypi.python.org/pypi/vklancer", "date": "2015-07-18T07:21:12+00:00", "name": "vklancer"}
+{"description": "Pandas trading technical analysis", "url": "http://pypi.python.org/pypi/pandas_talib", "date": "2015-07-18T07:36:10+00:00", "name": "pandas_talib"}
+{"description": "A module to simplify checking arguments in Flask apps", "url": "http://pypi.python.org/pypi/flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "name": "flask_checkargs"}
+{"description": "Genesis module core package: include nativedroid2 and base template", "url": "http://pypi.python.org/pypi/django.gns.core", "date": "2015-07-18T10:32:08+00:00", "name": "django.gns.core"}
+{"name": "temp_email_validator", "date": "2015-07-17T17:48:45+00:00", "url": "http://pypi.python.org/pypi/temp_email_validator", "description": "Temporary / Disposable Email Address Validator for Python"}
+{"name": "mewe", "date": "2015-07-17T17:57:07+00:00", "url": "http://pypi.python.org/pypi/mewe", "description": "Search word meaning on Merriam-Webster website."}
+{"name": "kinetic", "date": "2015-07-17T18:25:49+00:00", "url": "http://pypi.python.org/pypi/kinetic", "description": "Python client for Kinetic devices"}
+{"name": "pelican_vidme", "date": "2015-07-17T18:32:48+00:00", "url": "http://pypi.python.org/pypi/pelican_vidme", "description": "Easily embed Vidme videos in your posts"}
+{"name": "datascience", "date": "2015-07-17T19:09:12+00:00", "url": "http://pypi.python.org/pypi/datascience", "description": "A Python library for introductory data science"}
+{"name": "pdtools", "date": "2015-07-17T19:22:11+00:00", "url": "http://pypi.python.org/pypi/pdtools", "description": "Paradrop deployment and build tools"}
+{"name": "xpidl", "date": "2015-07-17T20:24:56+00:00", "url": "http://pypi.python.org/pypi/xpidl", "description": "Parser and header generator for xpidl files."}
+{"name": "openweathermapy", "date": "2015-07-17T21:06:14+00:00", "url": "http://pypi.python.org/pypi/openweathermapy", "description": "Python package wrapping OpenWeatherMap.org's API 2.5"}
+{"name": "githubxmllls", "date": "2015-07-17T21:19:48+00:00", "url": "http://pypi.python.org/pypi/githubxmllls", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml."}
+{"name": "astrotest", "date": "2015-07-17T21:34:44+00:00", "url": "http://pypi.python.org/pypi/astrotest", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring."}
+{"name": "escapism", "date": "2015-07-17T21:37:08+00:00", "url": "http://pypi.python.org/pypi/escapism", "description": "Simple, generic API for escaping strings."}
+{"name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00", "url": "http://pypi.python.org/pypi/clusterlogger", "description": "Logging package for contextual information of clusters."}
+{"name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00", "url": "http://pypi.python.org/pypi/natcap.rios", "description": "Resource Investment Optimization System"}
+{"name": "pytoxns", "date": "2015-07-17T23:13:23+00:00", "url": "http://pypi.python.org/pypi/pytoxns", "description": "tox-dns for python"}
+{"name": "beDict", "date": "2015-07-17T23:47:38+00:00", "url": "http://pypi.python.org/pypi/beDict", "description": "Black Earth Dict class"}
+{"name": "torment", "date": "2015-07-17T23:48:04+00:00", "url": "http://pypi.python.org/pypi/torment", "description": "A Study in Fixture Based Testing Frameworking"}
+{"name": "falconer", "date": "2015-07-18T00:26:24+00:00", "url": "http://pypi.python.org/pypi/falconer", "description": "fill this in"}
+{"name": "peppa", "date": "2015-07-18T00:43:57+00:00", "url": "http://pypi.python.org/pypi/peppa", "description": "A CLI front-end to a running salt-api system"}
+{"name": "blemapper", "date": "2015-07-18T00:54:33+00:00", "url": "http://pypi.python.org/pypi/blemapper", "description": "UNKNOWN"}
+{"name": "beString", "date": "2015-07-18T03:26:05+00:00", "url": "http://pypi.python.org/pypi/beString", "description": "Black Earth String class"}
+{"name": "beConfig", "date": "2015-07-18T03:46:45+00:00", "url": "http://pypi.python.org/pypi/beConfig", "description": "Black Earth\u2019s Config object."}
+{"name": "beDB", "date": "2015-07-18T03:55:40+00:00", "url": "http://pypi.python.org/pypi/beDB", "description": "Black Earth\u2019s Database interface."}
+{"name": "beLog", "date": "2015-07-18T04:09:53+00:00", "url": "http://pypi.python.org/pypi/beLog", "description": "Black Earth\u2019s Logging Interface"}
+{"name": "djsourceview", "date": "2015-07-18T04:17:30+00:00", "url": "http://pypi.python.org/pypi/djsourceview", "description": "Module for Django to view the javascript source code and html"}
+{"name": "beQueue", "date": "2015-07-18T04:19:27+00:00", "url": "http://pypi.python.org/pypi/beQueue", "description": "Black Earth\u2019s task queue."}
+{"name": "baratine", "date": "2015-07-18T04:19:40+00:00", "url": "http://pypi.python.org/pypi/baratine", "description": "Python client for Baratine"}
+{"name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "url": "http://pypi.python.org/pypi/django-project-portfolio", "description": "A Django application for listing your software projects."}
+{"name": "beSVN", "date": "2015-07-18T04:28:45+00:00", "url": "http://pypi.python.org/pypi/beSVN", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"name": "beURL", "date": "2015-07-18T04:33:48+00:00", "url": "http://pypi.python.org/pypi/beURL", "description": "Black Earth\u2019s URL object"}
+{"name": "beInteger", "date": "2015-07-18T04:45:03+00:00", "url": "http://pypi.python.org/pypi/beInteger", "description": "Black Earth\u2019s Integer class."}
+{"name": "beFiles", "date": "2015-07-18T04:47:58+00:00", "url": "http://pypi.python.org/pypi/beFiles", "description": "Black Earth file system functions"}
+{"name": "stringcase", "date": "2015-07-18T04:51:06+00:00", "url": "http://pypi.python.org/pypi/stringcase", "description": "String case converter."}
+{"name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "url": "http://pypi.python.org/pypi/lagou.mining.util", "description": "a simple egg for test"}
+{"name": "Findig", "date": "2015-07-18T06:33:52+00:00", "url": "http://pypi.python.org/pypi/Findig", "description": ""}
+{"name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00", "url": "http://pypi.python.org/pypi/python-flipkart", "description": "Python Flipkart Marketplace API Client"}
+{"name": "vklancer", "date": "2015-07-18T07:21:12+00:00", "url": "http://pypi.python.org/pypi/vklancer", "description": "Simple using vk.com API."}
+{"name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00", "url": "http://pypi.python.org/pypi/pandas_talib", "description": "Pandas trading technical analysis"}
+{"name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "url": "http://pypi.python.org/pypi/flask_checkargs", "description": "A module to simplify checking arguments in Flask apps"}
+{"name": "django.gns.core", "date": "2015-07-18T10:32:08+00:00", "url": "http://pypi.python.org/pypi/django.gns.core", "description": "Genesis module core package: include nativedroid2 and base template"}
+{"name": "themis.checker", "date": "2015-07-18T11:23:39+00:00", "url": "http://pypi.python.org/pypi/themis.checker", "description": "Service checker base class for Themis contest checking system"}
+{"description": "Temporary / Disposable Email Address Validator for Python", "date": "2015-07-17T17:48:45+00:00", "name": "temp_email_validator", "url": "http://pypi.python.org/pypi/temp_email_validator"}
+{"description": "Search word meaning on Merriam-Webster website.", "date": "2015-07-17T17:57:07+00:00", "name": "mewe", "url": "http://pypi.python.org/pypi/mewe"}
+{"description": "Python client for Kinetic devices", "date": "2015-07-17T18:25:49+00:00", "name": "kinetic", "url": "http://pypi.python.org/pypi/kinetic"}
+{"description": "Easily embed Vidme videos in your posts", "date": "2015-07-17T18:32:48+00:00", "name": "pelican_vidme", "url": "http://pypi.python.org/pypi/pelican_vidme"}
+{"description": "A Python library for introductory data science", "date": "2015-07-17T19:09:12+00:00", "name": "datascience", "url": "http://pypi.python.org/pypi/datascience"}
+{"description": "Paradrop deployment and build tools", "date": "2015-07-17T19:22:11+00:00", "name": "pdtools", "url": "http://pypi.python.org/pypi/pdtools"}
+{"description": "Parser and header generator for xpidl files.", "date": "2015-07-17T20:24:56+00:00", "name": "xpidl", "url": "http://pypi.python.org/pypi/xpidl"}
+{"description": "Python package wrapping OpenWeatherMap.org's API 2.5", "date": "2015-07-17T21:06:14+00:00", "name": "openweathermapy", "url": "http://pypi.python.org/pypi/openweathermapy"}
+{"description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "date": "2015-07-17T21:19:48+00:00", "name": "githubxmllls", "url": "http://pypi.python.org/pypi/githubxmllls"}
+{"description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "date": "2015-07-17T21:34:44+00:00", "name": "astrotest", "url": "http://pypi.python.org/pypi/astrotest"}
+{"description": "Simple, generic API for escaping strings.", "date": "2015-07-17T21:37:08+00:00", "name": "escapism", "url": "http://pypi.python.org/pypi/escapism"}
+{"description": "Logging package for contextual information of clusters.", "date": "2015-07-17T21:41:23+00:00", "name": "clusterlogger", "url": "http://pypi.python.org/pypi/clusterlogger"}
+{"description": "Resource Investment Optimization System", "date": "2015-07-17T22:54:33+00:00", "name": "natcap.rios", "url": "http://pypi.python.org/pypi/natcap.rios"}
+{"description": "tox-dns for python", "date": "2015-07-17T23:13:23+00:00", "name": "pytoxns", "url": "http://pypi.python.org/pypi/pytoxns"}
+{"description": "Black Earth Dict class", "date": "2015-07-17T23:47:38+00:00", "name": "beDict", "url": "http://pypi.python.org/pypi/beDict"}
+{"description": "A Study in Fixture Based Testing Frameworking", "date": "2015-07-17T23:48:04+00:00", "name": "torment", "url": "http://pypi.python.org/pypi/torment"}
+{"description": "fill this in", "date": "2015-07-18T00:26:24+00:00", "name": "falconer", "url": "http://pypi.python.org/pypi/falconer"}
+{"description": "A CLI front-end to a running salt-api system", "date": "2015-07-18T00:43:57+00:00", "name": "peppa", "url": "http://pypi.python.org/pypi/peppa"}
+{"description": "UNKNOWN", "date": "2015-07-18T00:54:33+00:00", "name": "blemapper", "url": "http://pypi.python.org/pypi/blemapper"}
+{"description": "Black Earth String class", "date": "2015-07-18T03:26:05+00:00", "name": "beString", "url": "http://pypi.python.org/pypi/beString"}
+{"description": "Black Earth\u2019s Config object.", "date": "2015-07-18T03:46:45+00:00", "name": "beConfig", "url": "http://pypi.python.org/pypi/beConfig"}
+{"description": "Black Earth\u2019s Database interface.", "date": "2015-07-18T03:55:40+00:00", "name": "beDB", "url": "http://pypi.python.org/pypi/beDB"}
+{"description": "Black Earth\u2019s Logging Interface", "date": "2015-07-18T04:09:53+00:00", "name": "beLog", "url": "http://pypi.python.org/pypi/beLog"}
+{"description": "Module for Django to view the javascript source code and html", "date": "2015-07-18T04:17:30+00:00", "name": "djsourceview", "url": "http://pypi.python.org/pypi/djsourceview"}
+{"description": "Black Earth\u2019s task queue.", "date": "2015-07-18T04:19:27+00:00", "name": "beQueue", "url": "http://pypi.python.org/pypi/beQueue"}
+{"description": "Python client for Baratine", "date": "2015-07-18T04:19:40+00:00", "name": "baratine", "url": "http://pypi.python.org/pypi/baratine"}
+{"description": "A Django application for listing your software projects.", "date": "2015-07-18T04:26:59+00:00", "name": "django-project-portfolio", "url": "http://pypi.python.org/pypi/django-project-portfolio"}
+{"description": "Black Earth\u2019s Subversion Repository interface.", "date": "2015-07-18T04:28:45+00:00", "name": "beSVN", "url": "http://pypi.python.org/pypi/beSVN"}
+{"description": "Black Earth\u2019s URL object", "date": "2015-07-18T04:33:48+00:00", "name": "beURL", "url": "http://pypi.python.org/pypi/beURL"}
+{"description": "Black Earth\u2019s Integer class.", "date": "2015-07-18T04:45:03+00:00", "name": "beInteger", "url": "http://pypi.python.org/pypi/beInteger"}
+{"description": "Black Earth file system functions", "date": "2015-07-18T04:47:58+00:00", "name": "beFiles", "url": "http://pypi.python.org/pypi/beFiles"}
+{"description": "String case converter.", "date": "2015-07-18T04:51:06+00:00", "name": "stringcase", "url": "http://pypi.python.org/pypi/stringcase"}
+{"description": "a simple egg for test", "date": "2015-07-18T06:06:01+00:00", "name": "lagou.mining.util", "url": "http://pypi.python.org/pypi/lagou.mining.util"}
+{"description": "", "date": "2015-07-18T06:33:52+00:00", "name": "Findig", "url": "http://pypi.python.org/pypi/Findig"}
+{"description": "Python Flipkart Marketplace API Client", "date": "2015-07-18T06:46:57+00:00", "name": "python-flipkart", "url": "http://pypi.python.org/pypi/python-flipkart"}
+{"description": "Simple using vk.com API.", "date": "2015-07-18T07:21:12+00:00", "name": "vklancer", "url": "http://pypi.python.org/pypi/vklancer"}
+{"description": "Pandas trading technical analysis", "date": "2015-07-18T07:36:10+00:00", "name": "pandas_talib", "url": "http://pypi.python.org/pypi/pandas_talib"}
+{"description": "A module to simplify checking arguments in Flask apps", "date": "2015-07-18T09:12:55+00:00", "name": "flask_checkargs", "url": "http://pypi.python.org/pypi/flask_checkargs"}
+{"description": "Service checker base class for Themis contest checking system", "date": "2015-07-18T11:23:39+00:00", "name": "themis.checker", "url": "http://pypi.python.org/pypi/themis.checker"}
+{"description": "Django Genesis: provide a set of django application", "date": "2015-07-18T12:29:51+00:00", "name": "django.gns", "url": "http://pypi.python.org/pypi/django.gns"}
+{"description": "Easily embed Vidme videos in your posts", "name": "pelican_vidme", "url": "http://pypi.python.org/pypi/pelican_vidme", "date": "2015-07-17T18:32:48+00:00"}
+{"description": "A Python library for introductory data science", "name": "datascience", "url": "http://pypi.python.org/pypi/datascience", "date": "2015-07-17T19:09:12+00:00"}
+{"description": "Paradrop deployment and build tools", "name": "pdtools", "url": "http://pypi.python.org/pypi/pdtools", "date": "2015-07-17T19:22:11+00:00"}
+{"description": "Parser and header generator for xpidl files.", "name": "xpidl", "url": "http://pypi.python.org/pypi/xpidl", "date": "2015-07-17T20:24:56+00:00"}
+{"description": "Python package wrapping OpenWeatherMap.org's API 2.5", "name": "openweathermapy", "url": "http://pypi.python.org/pypi/openweathermapy", "date": "2015-07-17T21:06:14+00:00"}
+{"description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml.", "name": "githubxmllls", "url": "http://pypi.python.org/pypi/githubxmllls", "date": "2015-07-17T21:19:48+00:00"}
+{"description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "name": "astrotest", "url": "http://pypi.python.org/pypi/astrotest", "date": "2015-07-17T21:34:44+00:00"}
+{"description": "Simple, generic API for escaping strings.", "name": "escapism", "url": "http://pypi.python.org/pypi/escapism", "date": "2015-07-17T21:37:08+00:00"}
+{"description": "Logging package for contextual information of clusters.", "name": "clusterlogger", "url": "http://pypi.python.org/pypi/clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
+{"description": "Resource Investment Optimization System", "name": "natcap.rios", "url": "http://pypi.python.org/pypi/natcap.rios", "date": "2015-07-17T22:54:33+00:00"}
+{"description": "tox-dns for python", "name": "pytoxns", "url": "http://pypi.python.org/pypi/pytoxns", "date": "2015-07-17T23:13:23+00:00"}
+{"description": "Black Earth Dict class", "name": "beDict", "url": "http://pypi.python.org/pypi/beDict", "date": "2015-07-17T23:47:38+00:00"}
+{"description": "A Study in Fixture Based Testing Frameworking", "name": "torment", "url": "http://pypi.python.org/pypi/torment", "date": "2015-07-17T23:48:04+00:00"}
+{"description": "fill this in", "name": "falconer", "url": "http://pypi.python.org/pypi/falconer", "date": "2015-07-18T00:26:24+00:00"}
+{"description": "A CLI front-end to a running salt-api system", "name": "peppa", "url": "http://pypi.python.org/pypi/peppa", "date": "2015-07-18T00:43:57+00:00"}
+{"description": "UNKNOWN", "name": "blemapper", "url": "http://pypi.python.org/pypi/blemapper", "date": "2015-07-18T00:54:33+00:00"}
+{"description": "Black Earth String class", "name": "beString", "url": "http://pypi.python.org/pypi/beString", "date": "2015-07-18T03:26:05+00:00"}
+{"description": "Black Earth\u2019s Config object.", "name": "beConfig", "url": "http://pypi.python.org/pypi/beConfig", "date": "2015-07-18T03:46:45+00:00"}
+{"description": "Black Earth\u2019s Database interface.", "name": "beDB", "url": "http://pypi.python.org/pypi/beDB", "date": "2015-07-18T03:55:40+00:00"}
+{"description": "Black Earth\u2019s Logging Interface", "name": "beLog", "url": "http://pypi.python.org/pypi/beLog", "date": "2015-07-18T04:09:53+00:00"}
+{"description": "Module for Django to view the javascript source code and html", "name": "djsourceview", "url": "http://pypi.python.org/pypi/djsourceview", "date": "2015-07-18T04:17:30+00:00"}
+{"description": "Black Earth\u2019s task queue.", "name": "beQueue", "url": "http://pypi.python.org/pypi/beQueue", "date": "2015-07-18T04:19:27+00:00"}
+{"description": "Python client for Baratine", "name": "baratine", "url": "http://pypi.python.org/pypi/baratine", "date": "2015-07-18T04:19:40+00:00"}
+{"description": "A Django application for listing your software projects.", "name": "django-project-portfolio", "url": "http://pypi.python.org/pypi/django-project-portfolio", "date": "2015-07-18T04:26:59+00:00"}
+{"description": "Black Earth\u2019s Subversion Repository interface.", "name": "beSVN", "url": "http://pypi.python.org/pypi/beSVN", "date": "2015-07-18T04:28:45+00:00"}
+{"description": "Black Earth\u2019s URL object", "name": "beURL", "url": "http://pypi.python.org/pypi/beURL", "date": "2015-07-18T04:33:48+00:00"}
+{"description": "Black Earth\u2019s Integer class.", "name": "beInteger", "url": "http://pypi.python.org/pypi/beInteger", "date": "2015-07-18T04:45:03+00:00"}
+{"description": "Black Earth file system functions", "name": "beFiles", "url": "http://pypi.python.org/pypi/beFiles", "date": "2015-07-18T04:47:58+00:00"}
+{"description": "String case converter.", "name": "stringcase", "url": "http://pypi.python.org/pypi/stringcase", "date": "2015-07-18T04:51:06+00:00"}
+{"description": "a simple egg for test", "name": "lagou.mining.util", "url": "http://pypi.python.org/pypi/lagou.mining.util", "date": "2015-07-18T06:06:01+00:00"}
+{"description": "", "name": "Findig", "url": "http://pypi.python.org/pypi/Findig", "date": "2015-07-18T06:33:52+00:00"}
+{"description": "Python Flipkart Marketplace API Client", "name": "python-flipkart", "url": "http://pypi.python.org/pypi/python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"description": "Simple using vk.com API.", "name": "vklancer", "url": "http://pypi.python.org/pypi/vklancer", "date": "2015-07-18T07:21:12+00:00"}
+{"description": "Pandas trading technical analysis", "name": "pandas_talib", "url": "http://pypi.python.org/pypi/pandas_talib", "date": "2015-07-18T07:36:10+00:00"}
+{"description": "A module to simplify checking arguments in Flask apps", "name": "flask_checkargs", "url": "http://pypi.python.org/pypi/flask_checkargs", "date": "2015-07-18T09:12:55+00:00"}
+{"description": "Service checker base class for Themis contest checking system", "name": "themis.checker", "url": "http://pypi.python.org/pypi/themis.checker", "date": "2015-07-18T11:23:39+00:00"}
+{"description": "Django Genesis: provide a set of django application", "name": "django.gns", "url": "http://pypi.python.org/pypi/django.gns", "date": "2015-07-18T12:29:51+00:00"}
+{"description": "Client for compute nodes to communicate via REST API with master server.", "name": "clusterclienttest", "url": "http://pypi.python.org/pypi/clusterclienttest", "date": "2015-07-18T13:03:57+00:00"}
+{"description": "Extract user's data from Skoob.com.br", "name": "skoober", "url": "http://pypi.python.org/pypi/skoober", "date": "2015-07-18T13:18:24+00:00"}
+{"description": "Django Genesis: provide a set of django application", "name": "gns.test", "url": "http://pypi.python.org/pypi/gns.test", "date": "2015-07-18T13:26:56+00:00"}
+{"name": "openweathermapy", "url": "http://pypi.python.org/pypi/openweathermapy", "date": "2015-07-17T21:06:14+00:00", "description": "Python package wrapping OpenWeatherMap.org's API 2.5"}
+{"name": "githubxmllls", "url": "http://pypi.python.org/pypi/githubxmllls", "date": "2015-07-17T21:19:48+00:00", "description": "Projeto para fazer vers\u00e3o xml da API do Github. Permite obter os dados de um usu\u00e1rio do Github no formato xml."}
+{"name": "astrotest", "url": "http://pypi.python.org/pypi/astrotest", "date": "2015-07-17T21:34:44+00:00", "description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring."}
+{"name": "escapism", "url": "http://pypi.python.org/pypi/escapism", "date": "2015-07-17T21:37:08+00:00", "description": "Simple, generic API for escaping strings."}
+{"name": "clusterlogger", "url": "http://pypi.python.org/pypi/clusterlogger", "date": "2015-07-17T21:41:23+00:00", "description": "Logging package for contextual information of clusters."}
+{"name": "natcap.rios", "url": "http://pypi.python.org/pypi/natcap.rios", "date": "2015-07-17T22:54:33+00:00", "description": "Resource Investment Optimization System"}
+{"name": "pytoxns", "url": "http://pypi.python.org/pypi/pytoxns", "date": "2015-07-17T23:13:23+00:00", "description": "tox-dns for python"}
+{"name": "beDict", "url": "http://pypi.python.org/pypi/beDict", "date": "2015-07-17T23:47:38+00:00", "description": "Black Earth Dict class"}
+{"name": "torment", "url": "http://pypi.python.org/pypi/torment", "date": "2015-07-17T23:48:04+00:00", "description": "A Study in Fixture Based Testing Frameworking"}
+{"name": "falconer", "url": "http://pypi.python.org/pypi/falconer", "date": "2015-07-18T00:26:24+00:00", "description": "fill this in"}
+{"name": "peppa", "url": "http://pypi.python.org/pypi/peppa", "date": "2015-07-18T00:43:57+00:00", "description": "A CLI front-end to a running salt-api system"}
+{"name": "blemapper", "url": "http://pypi.python.org/pypi/blemapper", "date": "2015-07-18T00:54:33+00:00", "description": "UNKNOWN"}
+{"name": "beString", "url": "http://pypi.python.org/pypi/beString", "date": "2015-07-18T03:26:05+00:00", "description": "Black Earth String class"}
+{"name": "beConfig", "url": "http://pypi.python.org/pypi/beConfig", "date": "2015-07-18T03:46:45+00:00", "description": "Black Earth\u2019s Config object."}
+{"name": "beDB", "url": "http://pypi.python.org/pypi/beDB", "date": "2015-07-18T03:55:40+00:00", "description": "Black Earth\u2019s Database interface."}
+{"name": "beLog", "url": "http://pypi.python.org/pypi/beLog", "date": "2015-07-18T04:09:53+00:00", "description": "Black Earth\u2019s Logging Interface"}
+{"name": "djsourceview", "url": "http://pypi.python.org/pypi/djsourceview", "date": "2015-07-18T04:17:30+00:00", "description": "Module for Django to view the javascript source code and html"}
+{"name": "beQueue", "url": "http://pypi.python.org/pypi/beQueue", "date": "2015-07-18T04:19:27+00:00", "description": "Black Earth\u2019s task queue."}
+{"name": "baratine", "url": "http://pypi.python.org/pypi/baratine", "date": "2015-07-18T04:19:40+00:00", "description": "Python client for Baratine"}
+{"name": "django-project-portfolio", "url": "http://pypi.python.org/pypi/django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "description": "A Django application for listing your software projects."}
+{"name": "beSVN", "url": "http://pypi.python.org/pypi/beSVN", "date": "2015-07-18T04:28:45+00:00", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"name": "beURL", "url": "http://pypi.python.org/pypi/beURL", "date": "2015-07-18T04:33:48+00:00", "description": "Black Earth\u2019s URL object"}
+{"name": "beInteger", "url": "http://pypi.python.org/pypi/beInteger", "date": "2015-07-18T04:45:03+00:00", "description": "Black Earth\u2019s Integer class."}
+{"name": "beFiles", "url": "http://pypi.python.org/pypi/beFiles", "date": "2015-07-18T04:47:58+00:00", "description": "Black Earth file system functions"}
+{"name": "stringcase", "url": "http://pypi.python.org/pypi/stringcase", "date": "2015-07-18T04:51:06+00:00", "description": "String case converter."}
+{"name": "lagou.mining.util", "url": "http://pypi.python.org/pypi/lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "description": "a simple egg for test"}
+{"name": "Findig", "url": "http://pypi.python.org/pypi/Findig", "date": "2015-07-18T06:33:52+00:00", "description": ""}
+{"name": "python-flipkart", "url": "http://pypi.python.org/pypi/python-flipkart", "date": "2015-07-18T06:46:57+00:00", "description": "Python Flipkart Marketplace API Client"}
+{"name": "vklancer", "url": "http://pypi.python.org/pypi/vklancer", "date": "2015-07-18T07:21:12+00:00", "description": "Simple using vk.com API."}
+{"name": "pandas_talib", "url": "http://pypi.python.org/pypi/pandas_talib", "date": "2015-07-18T07:36:10+00:00", "description": "Pandas trading technical analysis"}
+{"name": "flask_checkargs", "url": "http://pypi.python.org/pypi/flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "description": "A module to simplify checking arguments in Flask apps"}
+{"name": "themis.checker", "url": "http://pypi.python.org/pypi/themis.checker", "date": "2015-07-18T11:23:39+00:00", "description": "Service checker base class for Themis contest checking system"}
+{"name": "django.gns", "url": "http://pypi.python.org/pypi/django.gns", "date": "2015-07-18T12:29:51+00:00", "description": "Django Genesis: provide a set of django application"}
+{"name": "clusterclienttest", "url": "http://pypi.python.org/pypi/clusterclienttest", "date": "2015-07-18T13:03:57+00:00", "description": "Client for compute nodes to communicate via REST API with master server."}
+{"name": "skoober", "url": "http://pypi.python.org/pypi/skoober", "date": "2015-07-18T13:18:24+00:00", "description": "Extract user's data from Skoob.com.br"}
+{"name": "gns.test", "url": "http://pypi.python.org/pypi/gns.test", "date": "2015-07-18T13:26:56+00:00", "description": "Django Genesis: provide a set of django application"}
+{"name": "django-pypiwik", "url": "http://pypi.python.org/pypi/django-pypiwik", "date": "2015-07-18T14:08:55+00:00", "description": "Django helper application around pypiwik"}
+{"name": "python-piwik", "url": "http://pypi.python.org/pypi/python-piwik", "date": "2015-07-18T14:15:11+00:00", "description": "Python implementation of the Piwik HTTP API"}
+{"name": "torbs", "url": "http://pypi.python.org/pypi/torbs", "date": "2015-07-18T14:19:57+00:00", "description": "A simple printer of nested lists"}
+{"name": "Dragon_Module", "url": "http://pypi.python.org/pypi/Dragon_Module", "date": "2015-07-18T14:22:06+00:00", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved."}
+{"description": "Capture functions arguments and results to create a unit test file for that combination, to assist refactoring.", "url": "http://pypi.python.org/pypi/astrotest", "name": "astrotest", "date": "2015-07-17T21:34:44+00:00"}
+{"description": "Simple, generic API for escaping strings.", "url": "http://pypi.python.org/pypi/escapism", "name": "escapism", "date": "2015-07-17T21:37:08+00:00"}
+{"description": "Logging package for contextual information of clusters.", "url": "http://pypi.python.org/pypi/clusterlogger", "name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
+{"description": "Resource Investment Optimization System", "url": "http://pypi.python.org/pypi/natcap.rios", "name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00"}
+{"description": "tox-dns for python", "url": "http://pypi.python.org/pypi/pytoxns", "name": "pytoxns", "date": "2015-07-17T23:13:23+00:00"}
+{"description": "Black Earth Dict class", "url": "http://pypi.python.org/pypi/beDict", "name": "beDict", "date": "2015-07-17T23:47:38+00:00"}
+{"description": "A Study in Fixture Based Testing Frameworking", "url": "http://pypi.python.org/pypi/torment", "name": "torment", "date": "2015-07-17T23:48:04+00:00"}
+{"description": "fill this in", "url": "http://pypi.python.org/pypi/falconer", "name": "falconer", "date": "2015-07-18T00:26:24+00:00"}
+{"description": "A CLI front-end to a running salt-api system", "url": "http://pypi.python.org/pypi/peppa", "name": "peppa", "date": "2015-07-18T00:43:57+00:00"}
+{"description": "UNKNOWN", "url": "http://pypi.python.org/pypi/blemapper", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00"}
+{"description": "Black Earth String class", "url": "http://pypi.python.org/pypi/beString", "name": "beString", "date": "2015-07-18T03:26:05+00:00"}
+{"description": "Black Earth\u2019s Config object.", "url": "http://pypi.python.org/pypi/beConfig", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00"}
+{"description": "Black Earth\u2019s Database interface.", "url": "http://pypi.python.org/pypi/beDB", "name": "beDB", "date": "2015-07-18T03:55:40+00:00"}
+{"description": "Black Earth\u2019s Logging Interface", "url": "http://pypi.python.org/pypi/beLog", "name": "beLog", "date": "2015-07-18T04:09:53+00:00"}
+{"description": "Module for Django to view the javascript source code and html", "url": "http://pypi.python.org/pypi/djsourceview", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00"}
+{"description": "Black Earth\u2019s task queue.", "url": "http://pypi.python.org/pypi/beQueue", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00"}
+{"description": "Python client for Baratine", "url": "http://pypi.python.org/pypi/baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00"}
+{"description": "A Django application for listing your software projects.", "url": "http://pypi.python.org/pypi/django-project-portfolio", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00"}
+{"description": "Black Earth\u2019s Subversion Repository interface.", "url": "http://pypi.python.org/pypi/beSVN", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00"}
+{"description": "Black Earth\u2019s URL object", "url": "http://pypi.python.org/pypi/beURL", "name": "beURL", "date": "2015-07-18T04:33:48+00:00"}
+{"description": "Black Earth\u2019s Integer class.", "url": "http://pypi.python.org/pypi/beInteger", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00"}
+{"description": "Black Earth file system functions", "url": "http://pypi.python.org/pypi/beFiles", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00"}
+{"description": "String case converter.", "url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00"}
+{"description": "a simple egg for test", "url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00"}
+{"description": "", "url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "date": "2015-07-18T06:33:52+00:00"}
+{"description": "Python Flipkart Marketplace API Client", "url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"description": "Simple using vk.com API.", "url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00"}
+{"description": "Pandas trading technical analysis", "url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00"}
+{"description": "A module to simplify checking arguments in Flask apps", "url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00"}
+{"description": "Service checker base class for Themis contest checking system", "url": "http://pypi.python.org/pypi/themis.checker", "name": "themis.checker", "date": "2015-07-18T11:23:39+00:00"}
+{"description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/django.gns", "name": "django.gns", "date": "2015-07-18T12:29:51+00:00"}
+{"description": "Client for compute nodes to communicate via REST API with master server.", "url": "http://pypi.python.org/pypi/clusterclienttest", "name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00"}
+{"description": "Extract user's data from Skoob.com.br", "url": "http://pypi.python.org/pypi/skoober", "name": "skoober", "date": "2015-07-18T13:18:24+00:00"}
+{"description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/gns.test", "name": "gns.test", "date": "2015-07-18T13:26:56+00:00"}
+{"description": "Django helper application around pypiwik", "url": "http://pypi.python.org/pypi/django-pypiwik", "name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00"}
+{"description": "Python implementation of the Piwik HTTP API", "url": "http://pypi.python.org/pypi/python-piwik", "name": "python-piwik", "date": "2015-07-18T14:15:11+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/torbs", "name": "torbs", "date": "2015-07-18T14:19:57+00:00"}
+{"description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "url": "http://pypi.python.org/pypi/Dragon_Module", "name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00"}
+{"description": "Manipulate Google Sheets Using Pandas DataFrames", "url": "http://pypi.python.org/pypi/pgsheets", "name": "pgsheets", "date": "2015-07-18T15:43:49+00:00"}
+{"description": "manage a r10k-style control repository", "url": "http://pypi.python.org/pypi/crmngr", "name": "crmngr", "date": "2015-07-18T15:51:23+00:00"}
+{"url": "http://pypi.python.org/pypi/escapism", "description": "Simple, generic API for escaping strings.", "name": "escapism", "date": "2015-07-17T21:37:08+00:00"}
+{"url": "http://pypi.python.org/pypi/clusterlogger", "description": "Logging package for contextual information of clusters.", "name": "clusterlogger", "date": "2015-07-17T21:41:23+00:00"}
+{"url": "http://pypi.python.org/pypi/natcap.rios", "description": "Resource Investment Optimization System", "name": "natcap.rios", "date": "2015-07-17T22:54:33+00:00"}
+{"url": "http://pypi.python.org/pypi/pytoxns", "description": "tox-dns for python", "name": "pytoxns", "date": "2015-07-17T23:13:23+00:00"}
+{"url": "http://pypi.python.org/pypi/beDict", "description": "Black Earth Dict class", "name": "beDict", "date": "2015-07-17T23:47:38+00:00"}
+{"url": "http://pypi.python.org/pypi/torment", "description": "A Study in Fixture Based Testing Frameworking", "name": "torment", "date": "2015-07-17T23:48:04+00:00"}
+{"url": "http://pypi.python.org/pypi/falconer", "description": "fill this in", "name": "falconer", "date": "2015-07-18T00:26:24+00:00"}
+{"url": "http://pypi.python.org/pypi/peppa", "description": "A CLI front-end to a running salt-api system", "name": "peppa", "date": "2015-07-18T00:43:57+00:00"}
+{"url": "http://pypi.python.org/pypi/blemapper", "description": "UNKNOWN", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00"}
+{"url": "http://pypi.python.org/pypi/beString", "description": "Black Earth String class", "name": "beString", "date": "2015-07-18T03:26:05+00:00"}
+{"url": "http://pypi.python.org/pypi/beConfig", "description": "Black Earth\u2019s Config object.", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00"}
+{"url": "http://pypi.python.org/pypi/beDB", "description": "Black Earth\u2019s Database interface.", "name": "beDB", "date": "2015-07-18T03:55:40+00:00"}
+{"url": "http://pypi.python.org/pypi/beLog", "description": "Black Earth\u2019s Logging Interface", "name": "beLog", "date": "2015-07-18T04:09:53+00:00"}
+{"url": "http://pypi.python.org/pypi/djsourceview", "description": "Module for Django to view the javascript source code and html", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00"}
+{"url": "http://pypi.python.org/pypi/beQueue", "description": "Black Earth\u2019s task queue.", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00"}
+{"url": "http://pypi.python.org/pypi/baratine", "description": "Python client for Baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00"}
+{"url": "http://pypi.python.org/pypi/django-project-portfolio", "description": "A Django application for listing your software projects.", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00"}
+{"url": "http://pypi.python.org/pypi/beSVN", "description": "Black Earth\u2019s Subversion Repository interface.", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00"}
+{"url": "http://pypi.python.org/pypi/beURL", "description": "Black Earth\u2019s URL object", "name": "beURL", "date": "2015-07-18T04:33:48+00:00"}
+{"url": "http://pypi.python.org/pypi/beInteger", "description": "Black Earth\u2019s Integer class.", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00"}
+{"url": "http://pypi.python.org/pypi/beFiles", "description": "Black Earth file system functions", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00"}
+{"url": "http://pypi.python.org/pypi/stringcase", "description": "String case converter.", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00"}
+{"url": "http://pypi.python.org/pypi/lagou.mining.util", "description": "a simple egg for test", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00"}
+{"url": "http://pypi.python.org/pypi/Findig", "description": "", "name": "Findig", "date": "2015-07-18T06:33:52+00:00"}
+{"url": "http://pypi.python.org/pypi/python-flipkart", "description": "Python Flipkart Marketplace API Client", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"url": "http://pypi.python.org/pypi/vklancer", "description": "Simple using vk.com API.", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00"}
+{"url": "http://pypi.python.org/pypi/pandas_talib", "description": "Pandas trading technical analysis", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00"}
+{"url": "http://pypi.python.org/pypi/flask_checkargs", "description": "A module to simplify checking arguments in Flask apps", "name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00"}
+{"url": "http://pypi.python.org/pypi/themis.checker", "description": "Service checker base class for Themis contest checking system", "name": "themis.checker", "date": "2015-07-18T11:23:39+00:00"}
+{"url": "http://pypi.python.org/pypi/django.gns", "description": "Django Genesis: provide a set of django application", "name": "django.gns", "date": "2015-07-18T12:29:51+00:00"}
+{"url": "http://pypi.python.org/pypi/clusterclienttest", "description": "Client for compute nodes to communicate via REST API with master server.", "name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00"}
+{"url": "http://pypi.python.org/pypi/skoober", "description": "Extract user's data from Skoob.com.br", "name": "skoober", "date": "2015-07-18T13:18:24+00:00"}
+{"url": "http://pypi.python.org/pypi/gns.test", "description": "Django Genesis: provide a set of django application", "name": "gns.test", "date": "2015-07-18T13:26:56+00:00"}
+{"url": "http://pypi.python.org/pypi/django-pypiwik", "description": "Django helper application around pypiwik", "name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00"}
+{"url": "http://pypi.python.org/pypi/python-piwik", "description": "Python implementation of the Piwik HTTP API", "name": "python-piwik", "date": "2015-07-18T14:15:11+00:00"}
+{"url": "http://pypi.python.org/pypi/Dragon_Module", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00"}
+{"url": "http://pypi.python.org/pypi/pgsheets", "description": "Manipulate Google Sheets Using Pandas DataFrames", "name": "pgsheets", "date": "2015-07-18T15:43:49+00:00"}
+{"url": "http://pypi.python.org/pypi/crmngr", "description": "manage a r10k-style control repository", "name": "crmngr", "date": "2015-07-18T15:51:23+00:00"}
+{"url": "http://pypi.python.org/pypi/nester_mrt", "description": "A simple printer of nested lists", "name": "nester_mrt", "date": "2015-07-18T16:38:59+00:00"}
+{"url": "http://pypi.python.org/pypi/pymarkdownlint", "description": "Markdown linter written in python. Inspired by mivok/markdownlint.", "name": "pymarkdownlint", "date": "2015-07-18T16:43:33+00:00"}
+{"name": "clusterlogger", "description": "Logging package for contextual information of clusters.", "date": "2015-07-17T21:41:23+00:00", "url": "http://pypi.python.org/pypi/clusterlogger"}
+{"name": "natcap.rios", "description": "Resource Investment Optimization System", "date": "2015-07-17T22:54:33+00:00", "url": "http://pypi.python.org/pypi/natcap.rios"}
+{"name": "pytoxns", "description": "tox-dns for python", "date": "2015-07-17T23:13:23+00:00", "url": "http://pypi.python.org/pypi/pytoxns"}
+{"name": "beDict", "description": "Black Earth Dict class", "date": "2015-07-17T23:47:38+00:00", "url": "http://pypi.python.org/pypi/beDict"}
+{"name": "torment", "description": "A Study in Fixture Based Testing Frameworking", "date": "2015-07-17T23:48:04+00:00", "url": "http://pypi.python.org/pypi/torment"}
+{"name": "falconer", "description": "fill this in", "date": "2015-07-18T00:26:24+00:00", "url": "http://pypi.python.org/pypi/falconer"}
+{"name": "peppa", "description": "A CLI front-end to a running salt-api system", "date": "2015-07-18T00:43:57+00:00", "url": "http://pypi.python.org/pypi/peppa"}
+{"name": "blemapper", "description": "UNKNOWN", "date": "2015-07-18T00:54:33+00:00", "url": "http://pypi.python.org/pypi/blemapper"}
+{"name": "beString", "description": "Black Earth String class", "date": "2015-07-18T03:26:05+00:00", "url": "http://pypi.python.org/pypi/beString"}
+{"name": "beConfig", "description": "Black Earth\u2019s Config object.", "date": "2015-07-18T03:46:45+00:00", "url": "http://pypi.python.org/pypi/beConfig"}
+{"name": "beDB", "description": "Black Earth\u2019s Database interface.", "date": "2015-07-18T03:55:40+00:00", "url": "http://pypi.python.org/pypi/beDB"}
+{"name": "beLog", "description": "Black Earth\u2019s Logging Interface", "date": "2015-07-18T04:09:53+00:00", "url": "http://pypi.python.org/pypi/beLog"}
+{"name": "djsourceview", "description": "Module for Django to view the javascript source code and html", "date": "2015-07-18T04:17:30+00:00", "url": "http://pypi.python.org/pypi/djsourceview"}
+{"name": "beQueue", "description": "Black Earth\u2019s task queue.", "date": "2015-07-18T04:19:27+00:00", "url": "http://pypi.python.org/pypi/beQueue"}
+{"name": "baratine", "description": "Python client for Baratine", "date": "2015-07-18T04:19:40+00:00", "url": "http://pypi.python.org/pypi/baratine"}
+{"name": "django-project-portfolio", "description": "A Django application for listing your software projects.", "date": "2015-07-18T04:26:59+00:00", "url": "http://pypi.python.org/pypi/django-project-portfolio"}
+{"name": "beSVN", "description": "Black Earth\u2019s Subversion Repository interface.", "date": "2015-07-18T04:28:45+00:00", "url": "http://pypi.python.org/pypi/beSVN"}
+{"name": "beURL", "description": "Black Earth\u2019s URL object", "date": "2015-07-18T04:33:48+00:00", "url": "http://pypi.python.org/pypi/beURL"}
+{"name": "beInteger", "description": "Black Earth\u2019s Integer class.", "date": "2015-07-18T04:45:03+00:00", "url": "http://pypi.python.org/pypi/beInteger"}
+{"name": "beFiles", "description": "Black Earth file system functions", "date": "2015-07-18T04:47:58+00:00", "url": "http://pypi.python.org/pypi/beFiles"}
+{"name": "stringcase", "description": "String case converter.", "date": "2015-07-18T04:51:06+00:00", "url": "http://pypi.python.org/pypi/stringcase"}
+{"name": "lagou.mining.util", "description": "a simple egg for test", "date": "2015-07-18T06:06:01+00:00", "url": "http://pypi.python.org/pypi/lagou.mining.util"}
+{"name": "Findig", "description": "", "date": "2015-07-18T06:33:52+00:00", "url": "http://pypi.python.org/pypi/Findig"}
+{"name": "python-flipkart", "description": "Python Flipkart Marketplace API Client", "date": "2015-07-18T06:46:57+00:00", "url": "http://pypi.python.org/pypi/python-flipkart"}
+{"name": "vklancer", "description": "Simple using vk.com API.", "date": "2015-07-18T07:21:12+00:00", "url": "http://pypi.python.org/pypi/vklancer"}
+{"name": "pandas_talib", "description": "Pandas trading technical analysis", "date": "2015-07-18T07:36:10+00:00", "url": "http://pypi.python.org/pypi/pandas_talib"}
+{"name": "flask_checkargs", "description": "A module to simplify checking arguments in Flask apps", "date": "2015-07-18T09:12:55+00:00", "url": "http://pypi.python.org/pypi/flask_checkargs"}
+{"name": "themis.checker", "description": "Service checker base class for Themis contest checking system", "date": "2015-07-18T11:23:39+00:00", "url": "http://pypi.python.org/pypi/themis.checker"}
+{"name": "django.gns", "description": "Django Genesis: provide a set of django application", "date": "2015-07-18T12:29:51+00:00", "url": "http://pypi.python.org/pypi/django.gns"}
+{"name": "clusterclienttest", "description": "Client for compute nodes to communicate via REST API with master server.", "date": "2015-07-18T13:03:57+00:00", "url": "http://pypi.python.org/pypi/clusterclienttest"}
+{"name": "skoober", "description": "Extract user's data from Skoob.com.br", "date": "2015-07-18T13:18:24+00:00", "url": "http://pypi.python.org/pypi/skoober"}
+{"name": "gns.test", "description": "Django Genesis: provide a set of django application", "date": "2015-07-18T13:26:56+00:00", "url": "http://pypi.python.org/pypi/gns.test"}
+{"name": "django-pypiwik", "description": "Django helper application around pypiwik", "date": "2015-07-18T14:08:55+00:00", "url": "http://pypi.python.org/pypi/django-pypiwik"}
+{"name": "python-piwik", "description": "Python implementation of the Piwik HTTP API", "date": "2015-07-18T14:15:11+00:00", "url": "http://pypi.python.org/pypi/python-piwik"}
+{"name": "torbs", "description": "A simple printer of nested lists", "date": "2015-07-18T14:19:57+00:00", "url": "http://pypi.python.org/pypi/torbs"}
+{"name": "Dragon_Module", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "date": "2015-07-18T14:22:06+00:00", "url": "http://pypi.python.org/pypi/Dragon_Module"}
+{"name": "pgsheets", "description": "Manipulate Google Sheets Using Pandas DataFrames", "date": "2015-07-18T15:43:49+00:00", "url": "http://pypi.python.org/pypi/pgsheets"}
+{"name": "crmngr", "description": "manage a r10k-style control repository", "date": "2015-07-18T15:51:23+00:00", "url": "http://pypi.python.org/pypi/crmngr"}
+{"name": "nester_mrt", "description": "A simple printer of nested lists", "date": "2015-07-18T16:38:59+00:00", "url": "http://pypi.python.org/pypi/nester_mrt"}
+{"name": "pymarkdownlint", "description": "Markdown linter written in python. Under active development.", "date": "2015-07-18T16:43:33+00:00", "url": "http://pypi.python.org/pypi/pymarkdownlint"}
+{"name": "pytoxns", "url": "http://pypi.python.org/pypi/pytoxns", "date": "2015-07-17T23:13:23+00:00", "description": "tox-dns for python"}
+{"name": "beDict", "url": "http://pypi.python.org/pypi/beDict", "date": "2015-07-17T23:47:38+00:00", "description": "Black Earth Dict class"}
+{"name": "torment", "url": "http://pypi.python.org/pypi/torment", "date": "2015-07-17T23:48:04+00:00", "description": "A Study in Fixture Based Testing Frameworking"}
+{"name": "falconer", "url": "http://pypi.python.org/pypi/falconer", "date": "2015-07-18T00:26:24+00:00", "description": "fill this in"}
+{"name": "peppa", "url": "http://pypi.python.org/pypi/peppa", "date": "2015-07-18T00:43:57+00:00", "description": "A CLI front-end to a running salt-api system"}
+{"name": "blemapper", "url": "http://pypi.python.org/pypi/blemapper", "date": "2015-07-18T00:54:33+00:00", "description": "UNKNOWN"}
+{"name": "beString", "url": "http://pypi.python.org/pypi/beString", "date": "2015-07-18T03:26:05+00:00", "description": "Black Earth String class"}
+{"name": "beConfig", "url": "http://pypi.python.org/pypi/beConfig", "date": "2015-07-18T03:46:45+00:00", "description": "Black Earth\u2019s Config object."}
+{"name": "beDB", "url": "http://pypi.python.org/pypi/beDB", "date": "2015-07-18T03:55:40+00:00", "description": "Black Earth\u2019s Database interface."}
+{"name": "beLog", "url": "http://pypi.python.org/pypi/beLog", "date": "2015-07-18T04:09:53+00:00", "description": "Black Earth\u2019s Logging Interface"}
+{"name": "djsourceview", "url": "http://pypi.python.org/pypi/djsourceview", "date": "2015-07-18T04:17:30+00:00", "description": "Module for Django to view the javascript source code and html"}
+{"name": "beQueue", "url": "http://pypi.python.org/pypi/beQueue", "date": "2015-07-18T04:19:27+00:00", "description": "Black Earth\u2019s task queue."}
+{"name": "baratine", "url": "http://pypi.python.org/pypi/baratine", "date": "2015-07-18T04:19:40+00:00", "description": "Python client for Baratine"}
+{"name": "django-project-portfolio", "url": "http://pypi.python.org/pypi/django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "description": "A Django application for listing your software projects."}
+{"name": "beSVN", "url": "http://pypi.python.org/pypi/beSVN", "date": "2015-07-18T04:28:45+00:00", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"name": "beURL", "url": "http://pypi.python.org/pypi/beURL", "date": "2015-07-18T04:33:48+00:00", "description": "Black Earth\u2019s URL object"}
+{"name": "beInteger", "url": "http://pypi.python.org/pypi/beInteger", "date": "2015-07-18T04:45:03+00:00", "description": "Black Earth\u2019s Integer class."}
+{"name": "beFiles", "url": "http://pypi.python.org/pypi/beFiles", "date": "2015-07-18T04:47:58+00:00", "description": "Black Earth file system functions"}
+{"name": "stringcase", "url": "http://pypi.python.org/pypi/stringcase", "date": "2015-07-18T04:51:06+00:00", "description": "String case converter."}
+{"name": "lagou.mining.util", "url": "http://pypi.python.org/pypi/lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "description": "a simple egg for test"}
+{"name": "Findig", "url": "http://pypi.python.org/pypi/Findig", "date": "2015-07-18T06:33:52+00:00", "description": ""}
+{"name": "python-flipkart", "url": "http://pypi.python.org/pypi/python-flipkart", "date": "2015-07-18T06:46:57+00:00", "description": "Python Flipkart Marketplace API Client"}
+{"name": "vklancer", "url": "http://pypi.python.org/pypi/vklancer", "date": "2015-07-18T07:21:12+00:00", "description": "Simple using vk.com API."}
+{"name": "pandas_talib", "url": "http://pypi.python.org/pypi/pandas_talib", "date": "2015-07-18T07:36:10+00:00", "description": "Pandas trading technical analysis"}
+{"name": "flask_checkargs", "url": "http://pypi.python.org/pypi/flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "description": "A module to simplify checking arguments in Flask apps"}
+{"name": "themis.checker", "url": "http://pypi.python.org/pypi/themis.checker", "date": "2015-07-18T11:23:39+00:00", "description": "Service checker base class for Themis contest checking system"}
+{"name": "django.gns", "url": "http://pypi.python.org/pypi/django.gns", "date": "2015-07-18T12:29:51+00:00", "description": "Django Genesis: provide a set of django application"}
+{"name": "clusterclienttest", "url": "http://pypi.python.org/pypi/clusterclienttest", "date": "2015-07-18T13:03:57+00:00", "description": "Client for compute nodes to communicate via REST API with master server."}
+{"name": "skoober", "url": "http://pypi.python.org/pypi/skoober", "date": "2015-07-18T13:18:24+00:00", "description": "Extract user's data from Skoob.com.br"}
+{"name": "gns.test", "url": "http://pypi.python.org/pypi/gns.test", "date": "2015-07-18T13:26:56+00:00", "description": "Django Genesis: provide a set of django application"}
+{"name": "django-pypiwik", "url": "http://pypi.python.org/pypi/django-pypiwik", "date": "2015-07-18T14:08:55+00:00", "description": "Django helper application around pypiwik"}
+{"name": "python-piwik", "url": "http://pypi.python.org/pypi/python-piwik", "date": "2015-07-18T14:15:11+00:00", "description": "Python implementation of the Piwik HTTP API"}
+{"name": "torbs", "url": "http://pypi.python.org/pypi/torbs", "date": "2015-07-18T14:19:57+00:00", "description": "A simple printer of nested lists"}
+{"name": "Dragon_Module", "url": "http://pypi.python.org/pypi/Dragon_Module", "date": "2015-07-18T14:22:06+00:00", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved."}
+{"name": "pgsheets", "url": "http://pypi.python.org/pypi/pgsheets", "date": "2015-07-18T15:43:49+00:00", "description": "Manipulate Google Sheets Using Pandas DataFrames"}
+{"name": "crmngr", "url": "http://pypi.python.org/pypi/crmngr", "date": "2015-07-18T15:51:23+00:00", "description": "manage a r10k-style control repository"}
+{"name": "nester_mrt", "url": "http://pypi.python.org/pypi/nester_mrt", "date": "2015-07-18T16:38:59+00:00", "description": "A simple printer of nested lists"}
+{"name": "pymarkdownlint", "url": "http://pypi.python.org/pypi/pymarkdownlint", "date": "2015-07-18T16:43:33+00:00", "description": "Markdown linter written in python. Under active development."}
+{"name": "supervisor_plus_cron", "url": "http://pypi.python.org/pypi/supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00", "description": "A system for controlling process state under UNIX, plus CRON!"}
+{"name": "dataserv", "url": "http://pypi.python.org/pypi/dataserv", "date": "2015-07-18T18:55:11+00:00", "description": "Federated server for getting, pushing, and auditing data on untrusted nodes."}
+{"url": "http://pypi.python.org/pypi/beDict", "name": "beDict", "date": "2015-07-17T23:47:38+00:00", "description": "Black Earth Dict class"}
+{"url": "http://pypi.python.org/pypi/torment", "name": "torment", "date": "2015-07-17T23:48:04+00:00", "description": "A Study in Fixture Based Testing Frameworking"}
+{"url": "http://pypi.python.org/pypi/falconer", "name": "falconer", "date": "2015-07-18T00:26:24+00:00", "description": "fill this in"}
+{"url": "http://pypi.python.org/pypi/peppa", "name": "peppa", "date": "2015-07-18T00:43:57+00:00", "description": "A CLI front-end to a running salt-api system"}
+{"url": "http://pypi.python.org/pypi/blemapper", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00", "description": "UNKNOWN"}
+{"url": "http://pypi.python.org/pypi/beString", "name": "beString", "date": "2015-07-18T03:26:05+00:00", "description": "Black Earth String class"}
+{"url": "http://pypi.python.org/pypi/beConfig", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00", "description": "Black Earth\u2019s Config object."}
+{"url": "http://pypi.python.org/pypi/beDB", "name": "beDB", "date": "2015-07-18T03:55:40+00:00", "description": "Black Earth\u2019s Database interface."}
+{"url": "http://pypi.python.org/pypi/beLog", "name": "beLog", "date": "2015-07-18T04:09:53+00:00", "description": "Black Earth\u2019s Logging Interface"}
+{"url": "http://pypi.python.org/pypi/djsourceview", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00", "description": "Module for Django to view the javascript source code and html"}
+{"url": "http://pypi.python.org/pypi/beQueue", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00", "description": "Black Earth\u2019s task queue."}
+{"url": "http://pypi.python.org/pypi/baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00", "description": "Python client for Baratine"}
+{"url": "http://pypi.python.org/pypi/django-project-portfolio", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "description": "A Django application for listing your software projects."}
+{"url": "http://pypi.python.org/pypi/beSVN", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"url": "http://pypi.python.org/pypi/beURL", "name": "beURL", "date": "2015-07-18T04:33:48+00:00", "description": "Black Earth\u2019s URL object"}
+{"url": "http://pypi.python.org/pypi/beInteger", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00", "description": "Black Earth\u2019s Integer class."}
+{"url": "http://pypi.python.org/pypi/beFiles", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00", "description": "Black Earth file system functions"}
+{"url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00", "description": "String case converter."}
+{"url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "description": "a simple egg for test"}
+{"url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "date": "2015-07-18T06:33:52+00:00", "description": ""}
+{"url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00", "description": "Python Flipkart Marketplace API Client"}
+{"url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00", "description": "Simple using vk.com API."}
+{"url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00", "description": "Pandas trading technical analysis"}
+{"url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "description": "A module to simplify checking arguments in Flask apps"}
+{"url": "http://pypi.python.org/pypi/themis.checker", "name": "themis.checker", "date": "2015-07-18T11:23:39+00:00", "description": "Service checker base class for Themis contest checking system"}
+{"url": "http://pypi.python.org/pypi/django.gns", "name": "django.gns", "date": "2015-07-18T12:29:51+00:00", "description": "Django Genesis: provide a set of django application"}
+{"url": "http://pypi.python.org/pypi/clusterclienttest", "name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00", "description": "Client for compute nodes to communicate via REST API with master server."}
+{"url": "http://pypi.python.org/pypi/skoober", "name": "skoober", "date": "2015-07-18T13:18:24+00:00", "description": "Extract user's data from Skoob.com.br"}
+{"url": "http://pypi.python.org/pypi/gns.test", "name": "gns.test", "date": "2015-07-18T13:26:56+00:00", "description": "Django Genesis: provide a set of django application"}
+{"url": "http://pypi.python.org/pypi/django-pypiwik", "name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00", "description": "Django helper application around pypiwik"}
+{"url": "http://pypi.python.org/pypi/python-piwik", "name": "python-piwik", "date": "2015-07-18T14:15:11+00:00", "description": "Python implementation of the Piwik HTTP API"}
+{"url": "http://pypi.python.org/pypi/torbs", "name": "torbs", "date": "2015-07-18T14:19:57+00:00", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/Dragon_Module", "name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved."}
+{"url": "http://pypi.python.org/pypi/pgsheets", "name": "pgsheets", "date": "2015-07-18T15:43:49+00:00", "description": "Manipulate Google Sheets Using Pandas DataFrames"}
+{"url": "http://pypi.python.org/pypi/crmngr", "name": "crmngr", "date": "2015-07-18T15:51:23+00:00", "description": "manage a r10k-style control repository"}
+{"url": "http://pypi.python.org/pypi/nester_mrt", "name": "nester_mrt", "date": "2015-07-18T16:38:59+00:00", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/pymarkdownlint", "name": "pymarkdownlint", "date": "2015-07-18T16:43:33+00:00", "description": "Markdown linter written in python. Under active development."}
+{"url": "http://pypi.python.org/pypi/supervisor_plus_cron", "name": "supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00", "description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!"}
+{"url": "http://pypi.python.org/pypi/dataserv", "name": "dataserv", "date": "2015-07-18T18:55:11+00:00", "description": "Federated server for getting, pushing, and auditing data on untrusted nodes."}
+{"url": "http://pypi.python.org/pypi/KSLearnPython", "name": "KSLearnPython", "date": "2015-07-18T19:56:47+00:00", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/beDict", "name": "beDict", "date": "2015-07-17T23:47:38+00:00", "description": "Black Earth Dict class"}
+{"url": "http://pypi.python.org/pypi/torment", "name": "torment", "date": "2015-07-17T23:48:04+00:00", "description": "A Study in Fixture Based Testing Frameworking"}
+{"url": "http://pypi.python.org/pypi/falconer", "name": "falconer", "date": "2015-07-18T00:26:24+00:00", "description": "fill this in"}
+{"url": "http://pypi.python.org/pypi/peppa", "name": "peppa", "date": "2015-07-18T00:43:57+00:00", "description": "A CLI front-end to a running salt-api system"}
+{"url": "http://pypi.python.org/pypi/blemapper", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00", "description": "UNKNOWN"}
+{"url": "http://pypi.python.org/pypi/beString", "name": "beString", "date": "2015-07-18T03:26:05+00:00", "description": "Black Earth String class"}
+{"url": "http://pypi.python.org/pypi/beConfig", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00", "description": "Black Earth\u2019s Config object."}
+{"url": "http://pypi.python.org/pypi/beDB", "name": "beDB", "date": "2015-07-18T03:55:40+00:00", "description": "Black Earth\u2019s Database interface."}
+{"url": "http://pypi.python.org/pypi/beLog", "name": "beLog", "date": "2015-07-18T04:09:53+00:00", "description": "Black Earth\u2019s Logging Interface"}
+{"url": "http://pypi.python.org/pypi/djsourceview", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00", "description": "Module for Django to view the javascript source code and html"}
+{"url": "http://pypi.python.org/pypi/beQueue", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00", "description": "Black Earth\u2019s task queue."}
+{"url": "http://pypi.python.org/pypi/baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00", "description": "Python client for Baratine"}
+{"url": "http://pypi.python.org/pypi/django-project-portfolio", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "description": "A Django application for listing your software projects."}
+{"url": "http://pypi.python.org/pypi/beSVN", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"url": "http://pypi.python.org/pypi/beURL", "name": "beURL", "date": "2015-07-18T04:33:48+00:00", "description": "Black Earth\u2019s URL object"}
+{"url": "http://pypi.python.org/pypi/beInteger", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00", "description": "Black Earth\u2019s Integer class."}
+{"url": "http://pypi.python.org/pypi/beFiles", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00", "description": "Black Earth file system functions"}
+{"url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00", "description": "String case converter."}
+{"url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "description": "a simple egg for test"}
+{"url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "date": "2015-07-18T06:33:52+00:00", "description": ""}
+{"url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00", "description": "Python Flipkart Marketplace API Client"}
+{"url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00", "description": "Simple using vk.com API."}
+{"url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00", "description": "Pandas trading technical analysis"}
+{"url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "description": "A module to simplify checking arguments in Flask apps"}
+{"url": "http://pypi.python.org/pypi/themis.checker", "name": "themis.checker", "date": "2015-07-18T11:23:39+00:00", "description": "Service checker base class for Themis contest checking system"}
+{"url": "http://pypi.python.org/pypi/django.gns", "name": "django.gns", "date": "2015-07-18T12:29:51+00:00", "description": "Django Genesis: provide a set of django application"}
+{"url": "http://pypi.python.org/pypi/clusterclienttest", "name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00", "description": "Client for compute nodes to communicate via REST API with master server."}
+{"url": "http://pypi.python.org/pypi/skoober", "name": "skoober", "date": "2015-07-18T13:18:24+00:00", "description": "Extract user's data from Skoob.com.br"}
+{"url": "http://pypi.python.org/pypi/gns.test", "name": "gns.test", "date": "2015-07-18T13:26:56+00:00", "description": "Django Genesis: provide a set of django application"}
+{"url": "http://pypi.python.org/pypi/django-pypiwik", "name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00", "description": "Django helper application around pypiwik"}
+{"url": "http://pypi.python.org/pypi/python-piwik", "name": "python-piwik", "date": "2015-07-18T14:15:11+00:00", "description": "Python implementation of the Piwik HTTP API"}
+{"url": "http://pypi.python.org/pypi/torbs", "name": "torbs", "date": "2015-07-18T14:19:57+00:00", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/Dragon_Module", "name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved."}
+{"url": "http://pypi.python.org/pypi/pgsheets", "name": "pgsheets", "date": "2015-07-18T15:43:49+00:00", "description": "Manipulate Google Sheets Using Pandas DataFrames"}
+{"url": "http://pypi.python.org/pypi/crmngr", "name": "crmngr", "date": "2015-07-18T15:51:23+00:00", "description": "manage a r10k-style control repository"}
+{"url": "http://pypi.python.org/pypi/nester_mrt", "name": "nester_mrt", "date": "2015-07-18T16:38:59+00:00", "description": "A simple printer of nested lists"}
+{"url": "http://pypi.python.org/pypi/pymarkdownlint", "name": "pymarkdownlint", "date": "2015-07-18T16:43:33+00:00", "description": "Markdown linter written in python. Under active development."}
+{"url": "http://pypi.python.org/pypi/supervisor_plus_cron", "name": "supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00", "description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!"}
+{"url": "http://pypi.python.org/pypi/dataserv", "name": "dataserv", "date": "2015-07-18T18:55:11+00:00", "description": "Federated server for getting, pushing, and auditing data on untrusted nodes."}
+{"url": "http://pypi.python.org/pypi/KSLearnPython", "name": "KSLearnPython", "date": "2015-07-18T19:56:47+00:00", "description": "A simple printer of nested lists"}
+{"name": "peppa", "date": "2015-07-18T00:43:57+00:00", "url": "http://pypi.python.org/pypi/peppa", "description": "A CLI front-end to a running salt-api system"}
+{"name": "blemapper", "date": "2015-07-18T00:54:33+00:00", "url": "http://pypi.python.org/pypi/blemapper", "description": "UNKNOWN"}
+{"name": "beString", "date": "2015-07-18T03:26:05+00:00", "url": "http://pypi.python.org/pypi/beString", "description": "Black Earth String class"}
+{"name": "beConfig", "date": "2015-07-18T03:46:45+00:00", "url": "http://pypi.python.org/pypi/beConfig", "description": "Black Earth\u2019s Config object."}
+{"name": "beDB", "date": "2015-07-18T03:55:40+00:00", "url": "http://pypi.python.org/pypi/beDB", "description": "Black Earth\u2019s Database interface."}
+{"name": "beLog", "date": "2015-07-18T04:09:53+00:00", "url": "http://pypi.python.org/pypi/beLog", "description": "Black Earth\u2019s Logging Interface"}
+{"name": "djsourceview", "date": "2015-07-18T04:17:30+00:00", "url": "http://pypi.python.org/pypi/djsourceview", "description": "Module for Django to view the javascript source code and html"}
+{"name": "beQueue", "date": "2015-07-18T04:19:27+00:00", "url": "http://pypi.python.org/pypi/beQueue", "description": "Black Earth\u2019s task queue."}
+{"name": "baratine", "date": "2015-07-18T04:19:40+00:00", "url": "http://pypi.python.org/pypi/baratine", "description": "Python client for Baratine"}
+{"name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00", "url": "http://pypi.python.org/pypi/django-project-portfolio", "description": "A Django application for listing your software projects."}
+{"name": "beSVN", "date": "2015-07-18T04:28:45+00:00", "url": "http://pypi.python.org/pypi/beSVN", "description": "Black Earth\u2019s Subversion Repository interface."}
+{"name": "beURL", "date": "2015-07-18T04:33:48+00:00", "url": "http://pypi.python.org/pypi/beURL", "description": "Black Earth\u2019s URL object"}
+{"name": "beInteger", "date": "2015-07-18T04:45:03+00:00", "url": "http://pypi.python.org/pypi/beInteger", "description": "Black Earth\u2019s Integer class."}
+{"name": "beFiles", "date": "2015-07-18T04:47:58+00:00", "url": "http://pypi.python.org/pypi/beFiles", "description": "Black Earth file system functions"}
+{"name": "stringcase", "date": "2015-07-18T04:51:06+00:00", "url": "http://pypi.python.org/pypi/stringcase", "description": "String case converter."}
+{"name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00", "url": "http://pypi.python.org/pypi/lagou.mining.util", "description": "a simple egg for test"}
+{"name": "Findig", "date": "2015-07-18T06:33:52+00:00", "url": "http://pypi.python.org/pypi/Findig", "description": ""}
+{"name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00", "url": "http://pypi.python.org/pypi/python-flipkart", "description": "Python Flipkart Marketplace API Client"}
+{"name": "vklancer", "date": "2015-07-18T07:21:12+00:00", "url": "http://pypi.python.org/pypi/vklancer", "description": "Simple using vk.com API."}
+{"name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00", "url": "http://pypi.python.org/pypi/pandas_talib", "description": "Pandas trading technical analysis"}
+{"name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00", "url": "http://pypi.python.org/pypi/flask_checkargs", "description": "A module to simplify checking arguments in Flask apps"}
+{"name": "themis.checker", "date": "2015-07-18T11:23:39+00:00", "url": "http://pypi.python.org/pypi/themis.checker", "description": "Service checker base class for Themis contest checking system"}
+{"name": "django.gns", "date": "2015-07-18T12:29:51+00:00", "url": "http://pypi.python.org/pypi/django.gns", "description": "Django Genesis: provide a set of django application"}
+{"name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00", "url": "http://pypi.python.org/pypi/clusterclienttest", "description": "Client for compute nodes to communicate via REST API with master server."}
+{"name": "skoober", "date": "2015-07-18T13:18:24+00:00", "url": "http://pypi.python.org/pypi/skoober", "description": "Extract user's data from Skoob.com.br"}
+{"name": "gns.test", "date": "2015-07-18T13:26:56+00:00", "url": "http://pypi.python.org/pypi/gns.test", "description": "Django Genesis: provide a set of django application"}
+{"name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00", "url": "http://pypi.python.org/pypi/django-pypiwik", "description": "Django helper application around pypiwik"}
+{"name": "python-piwik", "date": "2015-07-18T14:15:11+00:00", "url": "http://pypi.python.org/pypi/python-piwik", "description": "Python implementation of the Piwik HTTP API"}
+{"name": "torbs", "date": "2015-07-18T14:19:57+00:00", "url": "http://pypi.python.org/pypi/torbs", "description": "A simple printer of nested lists"}
+{"name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00", "url": "http://pypi.python.org/pypi/Dragon_Module", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved."}
+{"name": "pgsheets", "date": "2015-07-18T15:43:49+00:00", "url": "http://pypi.python.org/pypi/pgsheets", "description": "Manipulate Google Sheets Using Pandas DataFrames"}
+{"name": "crmngr", "date": "2015-07-18T15:51:23+00:00", "url": "http://pypi.python.org/pypi/crmngr", "description": "manage a r10k-style control repository"}
+{"name": "nester_mrt", "date": "2015-07-18T16:38:59+00:00", "url": "http://pypi.python.org/pypi/nester_mrt", "description": "A simple printer of nested lists"}
+{"name": "pymarkdownlint", "date": "2015-07-18T16:43:33+00:00", "url": "http://pypi.python.org/pypi/pymarkdownlint", "description": "Markdown linter written in python. Under active development."}
+{"name": "supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00", "url": "http://pypi.python.org/pypi/supervisor_plus_cron", "description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!"}
+{"name": "dataserv", "date": "2015-07-18T18:55:11+00:00", "url": "http://pypi.python.org/pypi/dataserv", "description": "Federated server for getting, pushing, and auditing data on untrusted nodes."}
+{"name": "KSLearnPython", "date": "2015-07-18T19:56:47+00:00", "url": "http://pypi.python.org/pypi/KSLearnPython", "description": "A simple printer of nested lists"}
+{"name": "pmatrix", "date": "2015-07-18T21:29:44+00:00", "url": "http://pypi.python.org/pypi/pmatrix", "description": "A Python implementation of the matrix falling text"}
+{"name": "iomidi", "date": "2015-07-18T21:31:50+00:00", "url": "http://pypi.python.org/pypi/iomidi", "description": "Library for MIDI input and output"}
+{"name": "beFolder", "date": "2015-07-18T21:38:21+00:00", "url": "http://pypi.python.org/pypi/beFolder", "description": "Black Earth\u2019s filesystem folder object and interface"}
+{"description": "A CLI front-end to a running salt-api system", "url": "http://pypi.python.org/pypi/peppa", "name": "peppa", "date": "2015-07-18T00:43:57+00:00"}
+{"description": "UNKNOWN", "url": "http://pypi.python.org/pypi/blemapper", "name": "blemapper", "date": "2015-07-18T00:54:33+00:00"}
+{"description": "Black Earth String class", "url": "http://pypi.python.org/pypi/beString", "name": "beString", "date": "2015-07-18T03:26:05+00:00"}
+{"description": "Black Earth\u2019s Config object.", "url": "http://pypi.python.org/pypi/beConfig", "name": "beConfig", "date": "2015-07-18T03:46:45+00:00"}
+{"description": "Black Earth\u2019s Database interface.", "url": "http://pypi.python.org/pypi/beDB", "name": "beDB", "date": "2015-07-18T03:55:40+00:00"}
+{"description": "Black Earth\u2019s Logging Interface", "url": "http://pypi.python.org/pypi/beLog", "name": "beLog", "date": "2015-07-18T04:09:53+00:00"}
+{"description": "Module for Django to view the javascript source code and html", "url": "http://pypi.python.org/pypi/djsourceview", "name": "djsourceview", "date": "2015-07-18T04:17:30+00:00"}
+{"description": "Black Earth\u2019s task queue.", "url": "http://pypi.python.org/pypi/beQueue", "name": "beQueue", "date": "2015-07-18T04:19:27+00:00"}
+{"description": "Python client for Baratine", "url": "http://pypi.python.org/pypi/baratine", "name": "baratine", "date": "2015-07-18T04:19:40+00:00"}
+{"description": "A Django application for listing your software projects.", "url": "http://pypi.python.org/pypi/django-project-portfolio", "name": "django-project-portfolio", "date": "2015-07-18T04:26:59+00:00"}
+{"description": "Black Earth\u2019s Subversion Repository interface.", "url": "http://pypi.python.org/pypi/beSVN", "name": "beSVN", "date": "2015-07-18T04:28:45+00:00"}
+{"description": "Black Earth\u2019s URL object", "url": "http://pypi.python.org/pypi/beURL", "name": "beURL", "date": "2015-07-18T04:33:48+00:00"}
+{"description": "Black Earth\u2019s Integer class.", "url": "http://pypi.python.org/pypi/beInteger", "name": "beInteger", "date": "2015-07-18T04:45:03+00:00"}
+{"description": "Black Earth file system functions", "url": "http://pypi.python.org/pypi/beFiles", "name": "beFiles", "date": "2015-07-18T04:47:58+00:00"}
+{"description": "String case converter.", "url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00"}
+{"description": "a simple egg for test", "url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00"}
+{"description": "", "url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "date": "2015-07-18T06:33:52+00:00"}
+{"description": "Python Flipkart Marketplace API Client", "url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"description": "Simple using vk.com API.", "url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00"}
+{"description": "Pandas trading technical analysis", "url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00"}
+{"description": "A module to simplify checking arguments in Flask apps", "url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00"}
+{"description": "Service checker base class for Themis contest checking system", "url": "http://pypi.python.org/pypi/themis.checker", "name": "themis.checker", "date": "2015-07-18T11:23:39+00:00"}
+{"description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/django.gns", "name": "django.gns", "date": "2015-07-18T12:29:51+00:00"}
+{"description": "Client for compute nodes to communicate via REST API with master server.", "url": "http://pypi.python.org/pypi/clusterclienttest", "name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00"}
+{"description": "Extract user's data from Skoob.com.br", "url": "http://pypi.python.org/pypi/skoober", "name": "skoober", "date": "2015-07-18T13:18:24+00:00"}
+{"description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/gns.test", "name": "gns.test", "date": "2015-07-18T13:26:56+00:00"}
+{"description": "Django helper application around pypiwik", "url": "http://pypi.python.org/pypi/django-pypiwik", "name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00"}
+{"description": "Python implementation of the Piwik HTTP API", "url": "http://pypi.python.org/pypi/python-piwik", "name": "python-piwik", "date": "2015-07-18T14:15:11+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/torbs", "name": "torbs", "date": "2015-07-18T14:19:57+00:00"}
+{"description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "url": "http://pypi.python.org/pypi/Dragon_Module", "name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00"}
+{"description": "Manipulate Google Sheets Using Pandas DataFrames", "url": "http://pypi.python.org/pypi/pgsheets", "name": "pgsheets", "date": "2015-07-18T15:43:49+00:00"}
+{"description": "manage a r10k-style control repository", "url": "http://pypi.python.org/pypi/crmngr", "name": "crmngr", "date": "2015-07-18T15:51:23+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/nester_mrt", "name": "nester_mrt", "date": "2015-07-18T16:38:59+00:00"}
+{"description": "Markdown linter written in python. Under active development.", "url": "http://pypi.python.org/pypi/pymarkdownlint", "name": "pymarkdownlint", "date": "2015-07-18T16:43:33+00:00"}
+{"description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!", "url": "http://pypi.python.org/pypi/supervisor_plus_cron", "name": "supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00"}
+{"description": "Federated server for getting, pushing, and auditing data on untrusted nodes.", "url": "http://pypi.python.org/pypi/dataserv", "name": "dataserv", "date": "2015-07-18T18:55:11+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/KSLearnPython", "name": "KSLearnPython", "date": "2015-07-18T19:56:47+00:00"}
+{"description": "A Python implementation of the matrix falling text", "url": "http://pypi.python.org/pypi/pmatrix", "name": "pmatrix", "date": "2015-07-18T21:29:44+00:00"}
+{"description": "Library for MIDI input and output", "url": "http://pypi.python.org/pypi/iomidi", "name": "iomidi", "date": "2015-07-18T21:31:50+00:00"}
+{"description": "Black Earth\u2019s filesystem folder object and interface", "url": "http://pypi.python.org/pypi/beFolder", "name": "beFolder", "date": "2015-07-18T21:38:21+00:00"}
+{"description": "String case converter.", "url": "http://pypi.python.org/pypi/stringcase", "name": "stringcase", "date": "2015-07-18T04:51:06+00:00"}
+{"description": "a simple egg for test", "url": "http://pypi.python.org/pypi/lagou.mining.util", "name": "lagou.mining.util", "date": "2015-07-18T06:06:01+00:00"}
+{"description": "", "url": "http://pypi.python.org/pypi/Findig", "name": "Findig", "date": "2015-07-18T06:33:52+00:00"}
+{"description": "Python Flipkart Marketplace API Client", "url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"description": "Simple using vk.com API.", "url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "date": "2015-07-18T07:21:12+00:00"}
+{"description": "Pandas trading technical analysis", "url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "date": "2015-07-18T07:36:10+00:00"}
+{"description": "A module to simplify checking arguments in Flask apps", "url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "date": "2015-07-18T09:12:55+00:00"}
+{"description": "Service checker base class for Themis contest checking system", "url": "http://pypi.python.org/pypi/themis.checker", "name": "themis.checker", "date": "2015-07-18T11:23:39+00:00"}
+{"description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/django.gns", "name": "django.gns", "date": "2015-07-18T12:29:51+00:00"}
+{"description": "Client for compute nodes to communicate via REST API with master server.", "url": "http://pypi.python.org/pypi/clusterclienttest", "name": "clusterclienttest", "date": "2015-07-18T13:03:57+00:00"}
+{"description": "Extract user's data from Skoob.com.br", "url": "http://pypi.python.org/pypi/skoober", "name": "skoober", "date": "2015-07-18T13:18:24+00:00"}
+{"description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/gns.test", "name": "gns.test", "date": "2015-07-18T13:26:56+00:00"}
+{"description": "Django helper application around pypiwik", "url": "http://pypi.python.org/pypi/django-pypiwik", "name": "django-pypiwik", "date": "2015-07-18T14:08:55+00:00"}
+{"description": "Python implementation of the Piwik HTTP API", "url": "http://pypi.python.org/pypi/python-piwik", "name": "python-piwik", "date": "2015-07-18T14:15:11+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/torbs", "name": "torbs", "date": "2015-07-18T14:19:57+00:00"}
+{"description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "url": "http://pypi.python.org/pypi/Dragon_Module", "name": "Dragon_Module", "date": "2015-07-18T14:22:06+00:00"}
+{"description": "Manipulate Google Sheets Using Pandas DataFrames", "url": "http://pypi.python.org/pypi/pgsheets", "name": "pgsheets", "date": "2015-07-18T15:43:49+00:00"}
+{"description": "manage a r10k-style control repository", "url": "http://pypi.python.org/pypi/crmngr", "name": "crmngr", "date": "2015-07-18T15:51:23+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/nester_mrt", "name": "nester_mrt", "date": "2015-07-18T16:38:59+00:00"}
+{"description": "Markdown linter written in python. Under active development.", "url": "http://pypi.python.org/pypi/pymarkdownlint", "name": "pymarkdownlint", "date": "2015-07-18T16:43:33+00:00"}
+{"description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!", "url": "http://pypi.python.org/pypi/supervisor_plus_cron", "name": "supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00"}
+{"description": "Federated server for getting, pushing, and auditing data on untrusted nodes.", "url": "http://pypi.python.org/pypi/dataserv", "name": "dataserv", "date": "2015-07-18T18:55:11+00:00"}
+{"description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/KSLearnPython", "name": "KSLearnPython", "date": "2015-07-18T19:56:47+00:00"}
+{"description": "A Python implementation of the matrix falling text", "url": "http://pypi.python.org/pypi/pmatrix", "name": "pmatrix", "date": "2015-07-18T21:29:44+00:00"}
+{"description": "Library for MIDI input and output", "url": "http://pypi.python.org/pypi/iomidi", "name": "iomidi", "date": "2015-07-18T21:31:50+00:00"}
+{"description": "Black Earth\u2019s filesystem folder object and interface", "url": "http://pypi.python.org/pypi/beFolder", "name": "beFolder", "date": "2015-07-18T21:38:21+00:00"}
+{"description": "A simple list output to file", "url": "http://pypi.python.org/pypi/sketch_mrt", "name": "sketch_mrt", "date": "2015-07-18T23:00:59+00:00"}
+{"description": "Utilities for mongoDB mainly based on pymongo python mongoDB driver, see:http://github.com/mongodb/mongo-python-driver", "url": "http://pypi.python.org/pypi/mongoUtils", "name": "mongoUtils", "date": "2015-07-18T23:05:08+00:00"}
+{"description": "Black Earth\u2019s file object and interface", "url": "http://pypi.python.org/pypi/beFile", "name": "beFile", "date": "2015-07-18T23:26:53+00:00"}
+{"description": "Black Earth\u2019s filesystem folder object and interface", "url": "http://pypi.python.org/pypi/beGit", "name": "beGit", "date": "2015-07-18T23:51:14+00:00"}
+{"description": "Tools to manipulate Receita's company data.", "url": "http://pypi.python.org/pypi/receita-tools", "name": "receita-tools", "date": "2015-07-18T23:55:57+00:00"}
+{"description": "Black Earth\u2019s XML interface.", "url": "http://pypi.python.org/pypi/beX", "name": "beX", "date": "2015-07-19T00:11:02+00:00"}
+{"description": "A Mopidy web client with an Android Material feel", "url": "http://pypi.python.org/pypi/Mopidy-Material-Webclient", "name": "Mopidy-Material-Webclient", "date": "2015-07-19T00:12:58+00:00"}
+{"description": "A collection of fabric tasks for package management", "url": "http://pypi.python.org/pypi/fabric-package-management", "name": "fabric-package-management", "date": "2015-07-19T00:18:55+00:00"}
+{"description": "attrz in Python, getfattr/setfattr cross platform implementations", "url": "http://pypi.python.org/pypi/attrz", "name": "attrz", "date": "2015-07-19T00:24:16+00:00"}
+{"description": "Python library for interacting with the Alpha Clock Five", "url": "http://pypi.python.org/pypi/pyalphaclock", "name": "pyalphaclock", "date": "2015-07-19T01:15:59+00:00"}
+{"description": "Python bindings for KFReader, a library from the ADF computational chemistry package", "url": "http://pypi.python.org/pypi/kfreader-cffi", "name": "kfreader-cffi", "date": "2015-07-19T01:21:03+00:00"}
+{"description": "a python hiera parser", "url": "http://pypi.python.org/pypi/piera", "name": "piera", "date": "2015-07-19T03:40:03+00:00"}
+{"description": "Lightweight plugin management system for Python", "url": "http://pypi.python.org/pypi/pike", "name": "pike", "date": "2015-07-19T04:51:37+00:00"}
+{"description": "", "url": "http://pypi.python.org/pypi/docker-py-sunadm", "name": "docker-py-sunadm", "date": "2015-07-19T07:33:04+00:00"}
+{"url": "http://pypi.python.org/pypi/python-flipkart", "name": "python-flipkart", "description": "Python Flipkart Marketplace API Client", "date": "2015-07-18T06:46:57+00:00"}
+{"url": "http://pypi.python.org/pypi/vklancer", "name": "vklancer", "description": "Simple using vk.com API.", "date": "2015-07-18T07:21:12+00:00"}
+{"url": "http://pypi.python.org/pypi/pandas_talib", "name": "pandas_talib", "description": "Pandas trading technical analysis", "date": "2015-07-18T07:36:10+00:00"}
+{"url": "http://pypi.python.org/pypi/flask_checkargs", "name": "flask_checkargs", "description": "A module to simplify checking arguments in Flask apps", "date": "2015-07-18T09:12:55+00:00"}
+{"url": "http://pypi.python.org/pypi/themis.checker", "name": "themis.checker", "description": "Service checker base class for Themis contest checking system", "date": "2015-07-18T11:23:39+00:00"}
+{"url": "http://pypi.python.org/pypi/django.gns", "name": "django.gns", "description": "Django Genesis: provide a set of django application", "date": "2015-07-18T12:29:51+00:00"}
+{"url": "http://pypi.python.org/pypi/clusterclienttest", "name": "clusterclienttest", "description": "Client for compute nodes to communicate via REST API with master server.", "date": "2015-07-18T13:03:57+00:00"}
+{"url": "http://pypi.python.org/pypi/skoober", "name": "skoober", "description": "Extract user's data from Skoob.com.br", "date": "2015-07-18T13:18:24+00:00"}
+{"url": "http://pypi.python.org/pypi/gns.test", "name": "gns.test", "description": "Django Genesis: provide a set of django application", "date": "2015-07-18T13:26:56+00:00"}
+{"url": "http://pypi.python.org/pypi/django-pypiwik", "name": "django-pypiwik", "description": "Django helper application around pypiwik", "date": "2015-07-18T14:08:55+00:00"}
+{"url": "http://pypi.python.org/pypi/python-piwik", "name": "python-piwik", "description": "Python implementation of the Piwik HTTP API", "date": "2015-07-18T14:15:11+00:00"}
+{"url": "http://pypi.python.org/pypi/torbs", "name": "torbs", "description": "A simple printer of nested lists", "date": "2015-07-18T14:19:57+00:00"}
+{"url": "http://pypi.python.org/pypi/Dragon_Module", "name": "Dragon_Module", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "date": "2015-07-18T14:22:06+00:00"}
+{"url": "http://pypi.python.org/pypi/pgsheets", "name": "pgsheets", "description": "Manipulate Google Sheets Using Pandas DataFrames", "date": "2015-07-18T15:43:49+00:00"}
+{"url": "http://pypi.python.org/pypi/crmngr", "name": "crmngr", "description": "manage a r10k-style control repository", "date": "2015-07-18T15:51:23+00:00"}
+{"url": "http://pypi.python.org/pypi/nester_mrt", "name": "nester_mrt", "description": "A simple printer of nested lists", "date": "2015-07-18T16:38:59+00:00"}
+{"url": "http://pypi.python.org/pypi/pymarkdownlint", "name": "pymarkdownlint", "description": "Markdown linter written in python. Under active development.", "date": "2015-07-18T16:43:33+00:00"}
+{"url": "http://pypi.python.org/pypi/supervisor_plus_cron", "name": "supervisor_plus_cron", "description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!", "date": "2015-07-18T18:44:11+00:00"}
+{"url": "http://pypi.python.org/pypi/dataserv", "name": "dataserv", "description": "Federated server for getting, pushing, and auditing data on untrusted nodes.", "date": "2015-07-18T18:55:11+00:00"}
+{"url": "http://pypi.python.org/pypi/KSLearnPython", "name": "KSLearnPython", "description": "A simple printer of nested lists", "date": "2015-07-18T19:56:47+00:00"}
+{"url": "http://pypi.python.org/pypi/pmatrix", "name": "pmatrix", "description": "A Python implementation of the matrix falling text", "date": "2015-07-18T21:29:44+00:00"}
+{"url": "http://pypi.python.org/pypi/iomidi", "name": "iomidi", "description": "Library for MIDI input and output", "date": "2015-07-18T21:31:50+00:00"}
+{"url": "http://pypi.python.org/pypi/beFolder", "name": "beFolder", "description": "Black Earth\u2019s filesystem folder object and interface", "date": "2015-07-18T21:38:21+00:00"}
+{"url": "http://pypi.python.org/pypi/sketch_mrt", "name": "sketch_mrt", "description": "A simple list output to file", "date": "2015-07-18T23:00:59+00:00"}
+{"url": "http://pypi.python.org/pypi/mongoUtils", "name": "mongoUtils", "description": "Utilities for mongoDB mainly based on pymongo python mongoDB driver, see:http://github.com/mongodb/mongo-python-driver", "date": "2015-07-18T23:05:08+00:00"}
+{"url": "http://pypi.python.org/pypi/beFile", "name": "beFile", "description": "Black Earth\u2019s file object and interface", "date": "2015-07-18T23:26:53+00:00"}
+{"url": "http://pypi.python.org/pypi/beGit", "name": "beGit", "description": "Black Earth\u2019s filesystem folder object and interface", "date": "2015-07-18T23:51:14+00:00"}
+{"url": "http://pypi.python.org/pypi/receita-tools", "name": "receita-tools", "description": "Tools to manipulate Receita's company data.", "date": "2015-07-18T23:55:57+00:00"}
+{"url": "http://pypi.python.org/pypi/beX", "name": "beX", "description": "Black Earth\u2019s XML interface.", "date": "2015-07-19T00:11:02+00:00"}
+{"url": "http://pypi.python.org/pypi/Mopidy-Material-Webclient", "name": "Mopidy-Material-Webclient", "description": "A Mopidy web client with an Android Material feel", "date": "2015-07-19T00:12:58+00:00"}
+{"url": "http://pypi.python.org/pypi/fabric-package-management", "name": "fabric-package-management", "description": "A collection of fabric tasks for package management", "date": "2015-07-19T00:18:55+00:00"}
+{"url": "http://pypi.python.org/pypi/attrz", "name": "attrz", "description": "attrz in Python, getfattr/setfattr cross platform implementations", "date": "2015-07-19T00:24:16+00:00"}
+{"url": "http://pypi.python.org/pypi/pyalphaclock", "name": "pyalphaclock", "description": "Python library for interacting with the Alpha Clock Five", "date": "2015-07-19T01:15:59+00:00"}
+{"url": "http://pypi.python.org/pypi/kfreader-cffi", "name": "kfreader-cffi", "description": "Python bindings for KFReader, a library from the ADF computational chemistry package", "date": "2015-07-19T01:21:03+00:00"}
+{"url": "http://pypi.python.org/pypi/piera", "name": "piera", "description": "a python hiera parser", "date": "2015-07-19T03:40:03+00:00"}
+{"url": "http://pypi.python.org/pypi/pike", "name": "pike", "description": "Lightweight plugin management system for Python", "date": "2015-07-19T04:51:37+00:00"}
+{"url": "http://pypi.python.org/pypi/qeventlog", "name": "qeventlog", "description": "Celery job event logger", "date": "2015-07-19T06:30:39+00:00"}
+{"url": "http://pypi.python.org/pypi/docker-py-sunadm", "name": "docker-py-sunadm", "description": "", "date": "2015-07-19T07:33:04+00:00"}
+{"url": "http://pypi.python.org/pypi/storlets", "name": "storlets", "description": "", "date": "2015-07-19T08:27:05+00:00"}
+{"url": "http://pypi.python.org/pypi/sloth-ci.ext.robots_txt", "name": "sloth-ci.ext.robots_txt", "description": "robots.txt for Sloth CI", "date": "2015-07-19T08:57:56+00:00"}
+{"name": "python-flipkart", "description": "Python Flipkart Marketplace API Client", "url": "http://pypi.python.org/pypi/python-flipkart", "date": "2015-07-18T06:46:57+00:00"}
+{"name": "vklancer", "description": "Simple using vk.com API.", "url": "http://pypi.python.org/pypi/vklancer", "date": "2015-07-18T07:21:12+00:00"}
+{"name": "pandas_talib", "description": "Pandas trading technical analysis", "url": "http://pypi.python.org/pypi/pandas_talib", "date": "2015-07-18T07:36:10+00:00"}
+{"name": "flask_checkargs", "description": "A module to simplify checking arguments in Flask apps", "url": "http://pypi.python.org/pypi/flask_checkargs", "date": "2015-07-18T09:12:55+00:00"}
+{"name": "themis.checker", "description": "Service checker base class for Themis contest checking system", "url": "http://pypi.python.org/pypi/themis.checker", "date": "2015-07-18T11:23:39+00:00"}
+{"name": "django.gns", "description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/django.gns", "date": "2015-07-18T12:29:51+00:00"}
+{"name": "clusterclienttest", "description": "Client for compute nodes to communicate via REST API with master server.", "url": "http://pypi.python.org/pypi/clusterclienttest", "date": "2015-07-18T13:03:57+00:00"}
+{"name": "skoober", "description": "Extract user's data from Skoob.com.br", "url": "http://pypi.python.org/pypi/skoober", "date": "2015-07-18T13:18:24+00:00"}
+{"name": "gns.test", "description": "Django Genesis: provide a set of django application", "url": "http://pypi.python.org/pypi/gns.test", "date": "2015-07-18T13:26:56+00:00"}
+{"name": "django-pypiwik", "description": "Django helper application around pypiwik", "url": "http://pypi.python.org/pypi/django-pypiwik", "date": "2015-07-18T14:08:55+00:00"}
+{"name": "python-piwik", "description": "Python implementation of the Piwik HTTP API", "url": "http://pypi.python.org/pypi/python-piwik", "date": "2015-07-18T14:15:11+00:00"}
+{"name": "torbs", "description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/torbs", "date": "2015-07-18T14:19:57+00:00"}
+{"name": "Dragon_Module", "description": "A module that improves the functionality of Python 2.7.10. All rights reserved.", "url": "http://pypi.python.org/pypi/Dragon_Module", "date": "2015-07-18T14:22:06+00:00"}
+{"name": "pgsheets", "description": "Manipulate Google Sheets Using Pandas DataFrames", "url": "http://pypi.python.org/pypi/pgsheets", "date": "2015-07-18T15:43:49+00:00"}
+{"name": "crmngr", "description": "manage a r10k-style control repository", "url": "http://pypi.python.org/pypi/crmngr", "date": "2015-07-18T15:51:23+00:00"}
+{"name": "nester_mrt", "description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/nester_mrt", "date": "2015-07-18T16:38:59+00:00"}
+{"name": "pymarkdownlint", "description": "Markdown linter written in python. Under active development.", "url": "http://pypi.python.org/pypi/pymarkdownlint", "date": "2015-07-18T16:43:33+00:00"}
+{"name": "supervisor_plus_cron", "description": "From 4.0.0.dev0: A system for controlling process state under UNIX, plus CRON!", "url": "http://pypi.python.org/pypi/supervisor_plus_cron", "date": "2015-07-18T18:44:11+00:00"}
+{"name": "dataserv", "description": "Federated server for getting, pushing, and auditing data on untrusted nodes.", "url": "http://pypi.python.org/pypi/dataserv", "date": "2015-07-18T18:55:11+00:00"}
+{"name": "KSLearnPython", "description": "A simple printer of nested lists", "url": "http://pypi.python.org/pypi/KSLearnPython", "date": "2015-07-18T19:56:47+00:00"}
+{"name": "pmatrix", "description": "A Python implementation of the matrix falling text", "url": "http://pypi.python.org/pypi/pmatrix", "date": "2015-07-18T21:29:44+00:00"}
+{"name": "iomidi", "description": "Library for MIDI input and output", "url": "http://pypi.python.org/pypi/iomidi", "date": "2015-07-18T21:31:50+00:00"}
+{"name": "beFolder", "description": "Black Earth\u2019s filesystem folder object and interface", "url": "http://pypi.python.org/pypi/beFolder", "date": "2015-07-18T21:38:21+00:00"}
+{"name": "sketch_mrt", "description": "A simple list output to file", "url": "http://pypi.python.org/pypi/sketch_mrt", "date": "2015-07-18T23:00:59+00:00"}
+{"name": "mongoUtils", "description": "Utilities for mongoDB mainly based on pymongo python mongoDB driver, see:http://github.com/mongodb/mongo-python-driver", "url": "http://pypi.python.org/pypi/mongoUtils", "date": "2015-07-18T23:05:08+00:00"}
+{"name": "beFile", "description": "Black Earth\u2019s file object and interface", "url": "http://pypi.python.org/pypi/beFile", "date": "2015-07-18T23:26:53+00:00"}
+{"name": "beGit", "description": "Black Earth\u2019s filesystem folder object and interface", "url": "http://pypi.python.org/pypi/beGit", "date": "2015-07-18T23:51:14+00:00"}
+{"name": "receita-tools", "description": "Tools to manipulate Receita's company data.", "url": "http://pypi.python.org/pypi/receita-tools", "date": "2015-07-18T23:55:57+00:00"}
+{"name": "beX", "description": "Black Earth\u2019s XML interface.", "url": "http://pypi.python.org/pypi/beX", "date": "2015-07-19T00:11:02+00:00"}
+{"name": "Mopidy-Material-Webclient", "description": "A Mopidy web client with an Android Material feel", "url": "http://pypi.python.org/pypi/Mopidy-Material-Webclient", "date": "2015-07-19T00:12:58+00:00"}
+{"name": "fabric-package-management", "description": "A collection of fabric tasks for package management", "url": "http://pypi.python.org/pypi/fabric-package-management", "date": "2015-07-19T00:18:55+00:00"}
+{"name": "attrz", "description": "attrz in Python, getfattr/setfattr cross platform implementations", "url": "http://pypi.python.org/pypi/attrz", "date": "2015-07-19T00:24:16+00:00"}
+{"name": "pyalphaclock", "description": "Python library for interacting with the Alpha Clock Five", "url": "http://pypi.python.org/pypi/pyalphaclock", "date": "2015-07-19T01:15:59+00:00"}
+{"name": "kfreader-cffi", "description": "Python bindings for KFReader, a library from the ADF computational chemistry package", "url": "http://pypi.python.org/pypi/kfreader-cffi", "date": "2015-07-19T01:21:03+00:00"}
+{"name": "piera", "description": "a python hiera parser", "url": "http://pypi.python.org/pypi/piera", "date": "2015-07-19T03:40:03+00:00"}
+{"name": "pike", "description": "Lightweight plugin management system for Python", "url": "http://pypi.python.org/pypi/pike", "date": "2015-07-19T04:51:37+00:00"}
+{"name": "qeventlog", "description": "Celery job event logger", "url": "http://pypi.python.org/pypi/qeventlog", "date": "2015-07-19T06:30:39+00:00"}
+{"name": "docker-py-sunadm", "description": "", "url": "http://pypi.python.org/pypi/docker-py-sunadm", "date": "2015-07-19T07:33:04+00:00"}
+{"name": "storlets", "description": "", "url": "http://pypi.python.org/pypi/storlets", "date": "2015-07-19T08:27:05+00:00"}
+{"name": "sloth-ci.ext.robots_txt", "description": "robots.txt for Sloth CI", "url": "http://pypi.python.org/pypi/sloth-ci.ext.robots_txt", "date": "2015-07-19T08:57:56+00:00"}

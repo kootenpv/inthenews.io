@@ -1,23 +1,26 @@
-<li> 
-    
-    <a href="{{item['url']}}" target="_blank" style=" color: black; font-size: 16px; line-height: 26px"> 
-        <div class="span1" >
-	        <span class="fa-stack" style="margin-left:-13px; margin-right: 6px" >
-                <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; margin-top: 1px"></i>
+<a class="list-group-item" href="{{item['url']}}" target="_blank">
+
+    <span class="col-sm-4">
+        <span class="col-sm-2">
+            <span class="fa-stack" style="margin-top:-3px">
+                <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE; "></i>
+                <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; "></i>
             </span>
-
-            {{ item['date'].replace('an', '1').replace(' hours', 'h').replace(' hour', 'h').replace(' minutes', 'm').replace('minute', 'm').replace(' days', 'd').replace(' day', 'd') }}
-            
-        </div>
-
-        <strong class="span2" style="overflow:hidden; margin-right: 10px">{{item['name']}}</strong>
+        </span>
         
-        {% if len(item['description']) > 110 %}
-            {{ item['description'][:110] }} ...
-        {% else %}
-            {{ item['description'] }}
-        {% end %}
-    </a>
+        <span class="col-sm-4">
+            {{ item['date'].replace('an', '1').replace('a ', '1 ').replace(' hours', 'h').replace(' hour', 'h').replace(' minutes', 'm').replace('minute', 'm').replace(' days', 'd').replace(' day', 'd') }}
+        </span>
+        <strong class="col-sm-6">
+            {{item['name']}}
+        </strong>
+    </span>
+    
+    {% if len(item['description']) > 110 %}
+    {{ item['description'][:110] }} ...
+         {% else %}
+    {{ item['description'] }}
+    {% end %}
 
-</li>
+    
+</a>
