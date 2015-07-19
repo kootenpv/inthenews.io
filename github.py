@@ -3,8 +3,11 @@ import requests
 import lxml.html
 import re
 import time
+import os
 
-with open('/Users/pascal/GDrive/pytrending/gitlog.txt') as fin:
+file_dir = os.path.dirname(os.path.realpath(__file__))
+
+with open(file_dir + '/gitlog.txt') as fin:
     done_links = set(fin.read().split('\n'))
 
 def normalize(s): 
@@ -24,9 +27,9 @@ def get_data():
     processed = [process_item(row) for row in rows]
     if not any(processed):
         return
-    with open('/Users/pascal/GDrive/pytrending/gitresult.jsonlist', 'a') as f: 
+    with open(file_dir + '/gitresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([json.dumps(x) for x in processed if x]))
-    with open('/Users/pascal/GDrive/pytrending/gitlog.txt', 'w') as f: 
+    with open(file_dir + '/gitlog.txt', 'w') as f: 
         f.write('\n'.join(done_links)) 
 
 def get_repo_page(link):

@@ -3,8 +3,11 @@ import json
 import lxml.html
 import re
 import time
+import os
 
-with open('/Users/pascal/GDrive/pytrending/redditlog.txt') as fin:
+file_dir = os.path.dirname(os.path.realpath(__file__))
+
+with open(file_dir + 'redditlog.txt') as fin:
     done_links = set([x for x in fin.read().split('\n') if x])
 
 def normalize(s): 
@@ -25,9 +28,9 @@ def get_data():
         return
     rows = rows[0].xpath('div')
     processed = [process_item(row) for row in rows]
-    with open('/Users/pascal/GDrive/pytrending/redditresult.jsonlist', 'a') as f:  
+    with open(file_dir + 'redditresult.jsonlist', 'a') as f:  
         f.write('\n' + '\n'.join([json.dumps(x) for x in sorted(processed, key = lambda x: x['date'] if x else '9999') if x]))
-    with open('/Users/pascal/GDrive/pytrending/redditlog.txt', 'w') as f: 
+    with open(file_dir + 'redditlog.txt', 'w') as f: 
         f.write('\n'.join(done_links)) 
     
 def process_item(row): 

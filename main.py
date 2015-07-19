@@ -10,17 +10,21 @@ import arrow
 
 from helper import get_pypi_names
 
+import os
+
+file_dir = os.path.dirname(os.path.realpath(__file__))
+
 pypi = get_pypi_names()
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self): 
-        with open('/Users/pascal/GDrive/pytrending/gitresult.jsonlist') as f:
+        with open(file_dir + '/gitresult.jsonlist') as f:
             github_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))
             for item in github_items: 
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
                 if item['name'].lower() in pypi:
                     item['pypi'] = 'True'
-        with open('/Users/pascal/GDrive/pytrending/redditresult.jsonlist') as f:
+        with open(file_dir + '/redditresult.jsonlist') as f:
             reddit_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x])) 
             for item in reddit_items:
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
@@ -28,11 +32,11 @@ class MainHandler(tornado.web.RequestHandler):
             pypi_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))        
             for item in pypi_items:
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
-        with open('twitterresult.jsonlist') as f:
+        with open(file_dir + '/twitterresult.jsonlist') as f:
             twitter_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))
             for item in twitter_items:
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
-        with open('/Users/pascal/GDrive/pytrending/soresult.jsonlist') as f:
+        with open(file_dir + '/soresult.jsonlist') as f:
             so_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x])) 
             for item in so_items:
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 

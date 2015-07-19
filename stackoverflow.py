@@ -3,8 +3,11 @@ import requests
 import lxml.html
 import re
 import time
+import os
 
-with open('/Users/pascal/GDrive/pytrending/solog.txt') as fin:
+file_dir = os.path.dirname(os.path.realpath(__file__))
+
+with open(file_dir + '/solog.txt') as fin:
     done_links = set(fin.read().split('\n'))
 
 def normalize(s): 
@@ -24,9 +27,9 @@ def get_data():
     processed = [process_item(row) for row in rows]
     if not any(processed):
         return
-    with open('/Users/pascal/GDrive/pytrending/soresult.jsonlist', 'a') as f: 
+    with open(file_dir + '/soresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([json.dumps(x) for x in processed if x]))
-    with open('/Users/pascal/GDrive/pytrending/solog.txt', 'w') as f: 
+    with open(file_dir + '/solog.txt', 'w') as f: 
         f.write('\n'.join(done_links)) 
 
 def process_item(row):
