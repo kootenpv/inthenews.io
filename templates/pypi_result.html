@@ -5,7 +5,7 @@
             <img src="static/images/python-logo.png" height="15px" width="15px" >
         </span>
         <span class="col-sm-4">
-            {{ item['date'].replace('an', '1').replace('a ', '1 ').replace(' hours', 'h').replace(' hour', 'h').replace(' minutes', 'm').replace('minute', 'm').replace(' days', 'd').replace(' day', 'd') }}
+            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
         </span>
         <strong class="col-sm-6">
             {{item['name']}}
