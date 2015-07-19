@@ -24,9 +24,8 @@ body {
     margin-top: 10px!important;
 }
 
-
 .card .card-heading {
-    height: 40px!important;
+    min-height: 40px!important;
 }
 
 .card .card-media img {
@@ -178,12 +177,62 @@ body {
     overflow: visible!important;
 }
 
-.nav-list > li > a {
-    font-size: 13px!important;
-    padding: 0px!important;
+.list-group.pypi > a {
+    line-height: 15px;
+    font-size: 10px;
 }
 
+.list-group.twitter > a {
+    line-height: 15px;
+    font-size: 10px; 
+}
 
 i .fa.fa-twitter {
     font-size: 5em;
+}
+
+.card-body.last {
+    margin-bottom:10px;
+}
+
+.col-sm-12.text-center.stream-header{
+    margin: 10px 0 25px 7px;
+}
+
+
+.card {
+    padding: 10px;
+}
+
+.col-sm-4.stream {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.stream.title {
+    font-weight: bold;
+}
+
+a.stream.author {
+    
+}
+
+a.stream.name {
+    color: black; font-size: 16px;;
+}
+
+.date {
+    font-weight: lighter;
+}
+
+
+.content {
+    // padding: 10px 14px 10px 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

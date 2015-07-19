@@ -8,12 +8,18 @@ import os
 import json
 import arrow
 
+from helper import get_pypi_names
+
+pypi = get_pypi_names()
+
 class MainHandler(tornado.web.RequestHandler):
     def get(self): 
         with open('/Users/pascal/GDrive/pytrending/gitresult.jsonlist') as f:
             github_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))
             for item in github_items: 
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
+                if item['name'].lower() in pypi:
+                    item['pypi'] = 'True'
         with open('/Users/pascal/GDrive/pytrending/redditresult.jsonlist') as f:
             reddit_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x])) 
             for item in reddit_items:

@@ -1,20 +1,24 @@
-<li> 
+<a class="list-group-item" href="{{item['url']}}" target="_blank" >
+
+    <span class="col-sm-4">
+        <span class="col-sm-2">
+            <img src="static/images/python-logo.png" height="15px" width="15px" >
+        </span>
+        <span class="col-sm-4">
+            {{ item['date'].replace('an', '1').replace('a ', '1 ').replace(' hours', 'h').replace(' hour', 'h').replace(' minutes', 'm').replace('minute', 'm').replace(' days', 'd').replace(' day', 'd') }}
+        </span>
+        <strong class="col-sm-6">
+            {{item['name']}}
+        </strong>
+    </span>
+
+    {% if len(item['description']) > 110 %}
+       {{ item['description'][:110] }} ...
+         {% else %}
+    {{ item['description'] }}
+    {% end %}
     
-    <a href="{{item['url']}}" target="_blank" style=" color: black; font-size: 16px; line-height: 26px">
-        <div class="span1">
+</a>
 
-            <img src="static/images/python-logo.png" height="22px" width="22px" style="margin-left:-13px; margin-right: 10px">
-            
-            {{ item['date'].replace('an', '1').replace(' hours', 'h').replace(' hour', 'h').replace(' minutes', 'm').replace('minute', 'm').replace(' days', 'd').replace(' day', 'd') }}
-            
-        </div>
 
-        <strong class="span2" style="overflow:hidden; margin-right: 10px">{{item['name']}}</strong>
 
-        {% if len(item['description']) > 110 %}
-          {{ item['description'][:110] }} ...
-        {% else %}
-          {{ item['description'] }}
-        {% end %}
-    </a> 
-</li>
