@@ -10,53 +10,7 @@
 
             <div class="row">
 
-                <div class="col-sm-12">
-
-                    <div class="list-group pypi"> 
-                        {% for item in pypi_items[:5] %}
-                        {% include "pypi_result.html" %}
-                        {% end %}
-                    </div> 
-                    
-                    <div class="list-group twitter"> 
-                        {% for item in twitter_items[:5] %}
-                        {% include "twitter_result.html" %}
-                        {% end %}
-                    </div> 
-                </div>
-                
-                <div class="col-sm-4 stream"> 
-
-                    <div class="col-sm-12 text-center stream-header">
-                        <i class="fa fa-github fa-inverse" style="font-size:8em"></i>
-                    </div>
-                    
-                    {% for item in github_items %}
-                    {% include "github_result.html" %}
-                    {% end %}
-                </div>
-
-                <div class="col-sm-4 stream">
-                    
-                    <div class="col-sm-12 text-center stream-header">
-                        <i class="fa fa-stack-overflow fa-inverse" style="font-size:8em"></i>
-                    </div>
-                    
-                    {% for item in so_items %}
-                    {% include "so_result.html" %}
-                    {% end %}
-                </div>
-
-                <div class="col-sm-4 stream">
-                    
-                    <div class="col-sm-12 text-center stream-header">
-                        <i class="fa fa-reddit fa-inverse" style="font-size:8em"></i>
-                    </div>
-                    
-                    {% for item in reddit_items %}
-                    {% include "reddit_result.html" %}
-                    {% end %}
-                </div>  
+                {% include "data.html" %}
 
             </div>
 
