@@ -7,10 +7,10 @@ import os
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
-with open(file_dir + '/twitterlog.txt', encoding = 'utf8') as fin:
+with open(file_dir + '/data/twitterlog.txt') as fin:
     dones = set(fin.read().split('\n'))
 
-def get_data():
+def update_data():
     r = None
     while r is None or r.status_code != 200:
         try:
@@ -22,9 +22,9 @@ def get_data():
     if not rows:
         return
     processed = [process_item(row) for row in rows]
-    with open(file_dir + '/twitterresult.jsonlist', 'a') as f: 
+    with open(file_dir + '/data/twitterresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([str(json.dumps(x)) for x in processed if x][::-1]))
-    with open(file_dir + '/twitterlog.txt', 'w') as f: 
+    with open(file_dir + '/data/twitterlog.txt', 'w') as f: 
         f.write('\n'.join(dones)) 
     
 def process_item(row):
@@ -42,4 +42,5 @@ def process_item(row):
     return twitter_item
     
     
-get_data()
+if __name__ == "__main__":
+    update_data()

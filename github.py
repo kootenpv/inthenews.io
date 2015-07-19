@@ -7,13 +7,13 @@ import os
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
-with open(file_dir + '/gitlog.txt') as fin:
+with open(file_dir + '/data/gitlog.txt') as fin:
     done_links = set(fin.read().split('\n'))
 
 def normalize(s): 
     return re.sub(r'\s+', lambda x: '\n' if '\n' in x.group(0) else ' ', s).strip()
 
-def get_data():
+def update_data():
     r = None
     while r is None or r.status_code > 299:
         try:
@@ -26,10 +26,11 @@ def get_data():
         return
     processed = [process_item(row) for row in rows]
     if not any(processed):
+        print('none')
         return
-    with open(file_dir + '/gitresult.jsonlist', 'a') as f: 
+    with open(file_dir + '/data/gitresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([json.dumps(x) for x in processed if x]))
-    with open(file_dir + '/gitlog.txt', 'w') as f: 
+    with open(file_dir + '/data/gitlog.txt', 'w') as f: 
         f.write('\n'.join(done_links)) 
 
 def get_repo_page(link):
@@ -56,5 +57,7 @@ def process_item(row):
                    'description' : res[4]}
     github_item.update(get_repo_page(row_link))
     return github_item 
+
+if __name__ == "__main__":
+    update_data()
     
-get_data()
