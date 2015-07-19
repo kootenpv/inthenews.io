@@ -28,7 +28,7 @@ class MainHandler(tornado.web.RequestHandler):
             reddit_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x])) 
             for item in reddit_items:
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
-        with open('pypiresult.jsonlist') as f:
+        with open(file_dir + '/pypiresult.jsonlist') as f:
             pypi_items = list(reversed([json.loads(x) for x in f.read().split('\n') if x]))        
             for item in pypi_items:
                 item['date'] = arrow.get(item['date']).humanize() if 'date' in item else '' 
