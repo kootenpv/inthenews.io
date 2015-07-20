@@ -8,7 +8,6 @@ var updateAllRelativeDates = function() {
         $('time').each(function (i, e) {
             if ($(e).attr("class") == 'cw-relative-date') {
 
-                console.log('going for it')
                 // Initialise momentjs
                 var now = moment();
                 moment.locale('en', {

@@ -1,22 +1,25 @@
-<a class="list-group-item" href="{{item['url']}}" target="_blank" >
+<a class="cardrow" href="{{item['url']}}" target="_blank" >
 
-    <span class="col-sm-4">
-        <span class="col-sm-2">
-            <img src="static/images/python-logo.png" height="15px" width="15px" >
-        </span>
-        <span class="col-sm-4">
-            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
-        </span>
-        <strong class="col-sm-6">
-            {{item['name']}}
-        </strong>
+    <span class="col-xs-1 col-md-1"> 
+        <img src="static/images/python-logo.png" height="15px" width="15px" class="fa-stack img-responsive img-center">
     </span>
+    
+    <span class="col-xs-4 col-md-2">
+        <time class="cw-relative-date" datetime="{{ item['date'] }}"></time>
+        <br>
+    </span>
+    
+    <strong class="col-xs-7 col-md-3">
+        {{item['name']}}
+    </strong>
 
-    {% if len(item['description']) > 110 %}
-       {{ item['description'][:110] }} ...
+    <span class="col-xs-12 col-md-5">
+        {% if len(item['description']) > 110 %}
+        {{ item['description'][:110] }} ...
          {% else %}
-    {{ item['description'] }}
-    {% end %}
+        {{ item['description'] }}
+        {% end %}
+    </span>
     
 </a>
 
