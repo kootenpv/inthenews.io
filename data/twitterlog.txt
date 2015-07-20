@@ -1,21 +1,25 @@
 
-David MacIver: Two new Hypothesis releases and continuous deployment of libraries http://bit.ly/1I0zuJn 
 Daily Tech Video (Python): [Video 238] Jess Hamrick: Teaching with IPython http://bit.ly/1HZLzOZ 
-Alexey Evseev: OAuth and django rest framework http://bit.ly/1Ltlq0p 
-John Cook: Scientific computing in Python http://bit.ly/1HSnp8U 
-http://eGenix.com : eGenix at EuroPython 2015 http://bit.ly/1HUXmhF 
 Daily Tech Video (Python): [Video 239] Matthias Bussonnier, Jonathan Frederic, and Thomas Kluyver: Jupyter Adv... http://bit.ly/1I0zuZL 
-David MacIver: Notes on Hypothesis performance tuning http://bit.ly/1HUvha0 
-Davide Moro: Kotti CMS - a successful story (part 1) http://bit.ly/1fPKvY3 
-Reuven Lerner: Want to understand Python’s comprehensions? Think like an accountant. http://bit.ly/1HRlnWN 
-Podcast.__init__: Episode 15 - Damien George Talks To Us About MicroPython http://bit.ly/1fMDIOG 
-EuroPython Society: EPS Board Candidates for 2015/2016 http://bit.ly/1HZ8kCB 
+Mike Driscoll: PyDev of the Week: Yasoob Khalid http://bit.ly/1GvG9tV 
 Vladimir Iakolev: Using Werkzeug with Django on App Engine http://bit.ly/1HVXtcB 
 Mike Driscoll: wxPython: Ensuring Only One Instance Per Frame http://bit.ly/1LkMEGD 
-Glyph Lefkowitz: Sometimes, You Just Want A Button http://bit.ly/1fPKx29 
 Davide Moro: Kotti CMS - frontend decoupled from backend. How we did it (part 2) http://bit.ly/1I0zuZX 
-David MacIver: Making Hypothesis sustainable http://bit.ly/1HRlqli 
-Tennessee Leeuwenburg: Shareable Datasets -- A Functional Design http://bit.ly/1LpBikG 
-Europython: EuroPython 2015: Guidebook (mobile schedule) available http://bit.ly/1f4OZZW 
+Podcast.__init__: Episode 15 - Damien George Talks To Us About MicroPython http://bit.ly/1fMDIOG 
 Europython: EuroPython 2015: More attendee tips http://bit.ly/1LtloFL 
+Ludovic Gasc: EuroPython 2015 schedule for AsyncIO curious/newcomers http://bit.ly/1Idlrq4 
+Alexey Evseev: OAuth and django rest framework http://bit.ly/1Ltlq0p 
+Davide Moro: Kotti CMS - a successful story (part 1) http://bit.ly/1fPKvY3 
+Reuven Lerner: Want to understand Python’s comprehensions? Think like an accountant. http://bit.ly/1HRlnWN 
+Europython: EuroPython 2015: Guidebook (mobile schedule) available http://bit.ly/1f4OZZW 
+David MacIver: Two new Hypothesis releases and continuous deployment of libraries http://bit.ly/1I0zuJn 
+John Cook: Scientific computing in Python http://bit.ly/1HSnp8U 
+http://eGenix.com : eGenix at EuroPython 2015 http://bit.ly/1HUXmhF 
 David MacIver: Hypothesis 1.8.0 is out http://bit.ly/1LnBKzQ 
+John Cook: Numerators of harmonic numbers http://bit.ly/1VjPTmf 
+EuroPython Society: EPS Board Candidates for 2015/2016 http://bit.ly/1HZ8kCB 
+David MacIver: Making Hypothesis sustainable http://bit.ly/1HRlqli 
+بايثون العربي: التعابير القياسية في بايثون الجزء 1 http://bit.ly/1I3wjAH 
+David MacIver: Notes on Hypothesis performance tuning http://bit.ly/1HUvha0 
+Glyph Lefkowitz: Sometimes, You Just Want A Button http://bit.ly/1fPKx29 
+Tennessee Leeuwenburg: Shareable Datasets -- A Functional Design http://bit.ly/1LpBikG 

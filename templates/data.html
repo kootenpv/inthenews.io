@@ -1,16 +1,12 @@
 <div class="col-sm-12">
+    {% for item in pypi_items[:5] %}
+    {% include "pypi_result.html" %}
+    {% end %}
 
-    <div class="list-group pypi"> 
-        {% for item in pypi_items[:5] %}
-        {% include "pypi_result.html" %}
-        {% end %}
-    </div> 
     
-    <div class="list-group twitter"> 
-        {% for item in twitter_items[:5] %}
-        {% include "twitter_result.html" %}
-        {% end %}
-    </div> 
+    {% for item in twitter_items[:5] %}
+    {% include "twitter_result.html" %}
+    {% end %}
 </div>
 
 <div class="col-sm-4 stream"> 
@@ -33,7 +29,7 @@
     </div>
 
     <div class="card pin text-center"> <b>Sorted on BOUNTY date</b></div>
-        
+    
     {% for item in so_items %}
     {% include "so_result.html" %}
     {% end %}
@@ -46,7 +42,7 @@
     </div>
 
     <div class="card pin text-center"> <b>Sorted on TRENDING date</b></div>
-        
+    
     {% for item in reddit_items %}
     {% include "reddit_result.html" %}
     {% end %}

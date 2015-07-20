@@ -17,7 +17,7 @@ body {
 	margin: 10px 0 0 0;
 	min-height: 5px;
 	padding-bottom: 5px;
-	height: 50px!important;
+	height: 50px!important; 
 }
 
 .card .card-media {
@@ -177,26 +177,13 @@ body {
     overflow: visible!important;
 }
 
-.list-group.pypi > a {
-    line-height: 15px;
-    font-size: 10px;
-}
-
-.list-group.twitter > a {
-    line-height: 15px;
-    font-size: 10px; 
-}
-
-i .fa.fa-twitter {
-    font-size: 5em;
-}
 
 .card-body.last {
     margin-bottom:10px;
 }
 
 .col-sm-12.text-center.stream-header{
-    margin: 10px 0 25px 7px;
+    margin: 20px 0 25px 7px;
 }
 
 
@@ -235,4 +222,29 @@ a.stream.name {
 .icon {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+
+.cardrow {
+    margin: 0px 0 20px 0;
+    padding: 10px;
+    display: inline-block;
+    background: #FEFEFE;
+    width:100%;
+    border: 2px solid #FAFAFA;
+    margin: 0 2px 2px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+    opacity: 1;
+    
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.img-responsive.img-center { 
+    margin: 0 auto;
 }

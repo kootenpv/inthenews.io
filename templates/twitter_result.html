@@ -1,26 +1,24 @@
-<a class="list-group-item" href="{{item['url']}}" target="_blank">
+<a class="cardrow" href="{{item['url']}}" target="_blank">
 
-    <span class="col-sm-4">
-        <span class="col-sm-2">
-            <span class="fa-stack" style="margin-top:-3px">
-                <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE; "></i>
-                <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; "></i>
-            </span>
-        </span>
+    <span class="col-xs-1 col-md-1"> 
+        <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE;" ></i>
+        <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; "></i>
+    </span>
         
-        <span class="col-sm-4">
-            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
-        </span>
-        <strong class="col-sm-6">
-            {{item['name']}}
-        </strong>
+    <span class="col-xs-4 col-md-2"">
+        <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
     </span>
     
-    {% if len(item['description']) > 110 %}
-    {{ item['description'][:110] }} ...
-         {% else %}
-    {{ item['description'] }}
-    {% end %}
+    <strong class="col-xs-7 col-md-3">
+        {{item['name']}}
+    </strong>
 
-    
+    <span class="col-xs-12 col-md-5">
+        {% if len(item['description']) > 110 %}
+        {{ item['description'][:110] }} ...
+         {% else %}
+        {{ item['description'] }}
+        {% end %}
+    </span>
+
 </a>
