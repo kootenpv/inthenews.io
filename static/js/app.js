@@ -43,3 +43,16 @@ updateAllRelativeDates();
 
     
 })();
+
+
+$("#pypi_button").click(function() {
+  $( "#pypi_results" ).toggle( "fast", function() {
+      // Animation complete.
+  });
+});
+
+$("#twitter_button").click(function() {
+  $( "#twitter_results" ).toggle( "fast", function() {
+    // Animation complete.
+  });
+});

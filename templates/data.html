@@ -1,12 +1,26 @@
-<div class="col-sm-12">
-    {% for item in pypi_items[:5] %}
-    {% include "pypi_result.html" %}
-    {% end %}
+<div class="col-sm-2">
+    <span style="color:white">Expand:</span>
+</br>
+    <img id="pypi_button" src="static/images/python-logo.png" height="25px" width="25px" style="margin-top:2px"> 
+    <span class="col-xs-1 col-md-1" id="twitter_button"> 
+        <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE;" ></i>
+        <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; "></i>
+    </span> 
+</div>
 
-    
-    {% for item in twitter_items[:5] %}
-    {% include "twitter_result.html" %}
-    {% end %}
+<div class="col-sm-8" style="min-height: 50px">
+    <div class="col-sm-12" id="pypi_results" style="display:none">
+        {% for item in pypi_items[:5] %}
+        {% include "pypi_result.html" %}
+        {% end %}
+    </div>
+
+    <div class="col-sm-12" id="twitter_results" style="display:none">    
+        {% for item in twitter_items[:5] %}
+        {% include "twitter_result.html" %}
+        {% end %}
+    </div>
+
 </div>
 
 <div class="col-sm-4 stream"> 

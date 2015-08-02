@@ -26,7 +26,6 @@ def update_data():
         return
     processed = [process_item(row) for row in rows]
     if not any(processed):
-        print('none')
         return
     with open(file_dir + '/data/gitresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([json.dumps(x) for x in processed if x]))
@@ -47,7 +46,6 @@ def process_item(row):
     row_link = lnk.attrib['href'] if lnk.attrib['href'].startswith('http') else 'https://github.com' + lnk.attrib['href']
     if row_link in done_links:
         return False
-    print('new',row_link)
     done_links.add(row_link)
     res = normalize(row.text_content()).split('\n') 
     github_item = {'name' : res[3], 
