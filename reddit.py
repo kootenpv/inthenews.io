@@ -18,13 +18,11 @@ def update_data():
     while r is None or r.status_code != 200:
         try:
             r  = requests.get('http://www.reddit.com/r/Python') 
-            print(r.status_code)
         except: 
             time.sleep(60) 
     tree = lxml.html.fromstring(r.text)
     rows = tree.xpath('//div[@id="siteTable"]') 
     if not rows:
-        print('no rows')
         return
     rows = rows[0].xpath('div')
     processed = [process_item(row) for row in rows]
@@ -40,10 +38,8 @@ def process_item(row):
             votes = row.xpath('.//div[contains(@class, "score likes")]')[0].text_content().strip()
             row_link = link.attrib['href'] if link.attrib['href'].startswith('http') else 'http://reddit.com' + link.attrib['href']
             if row_link in done_links:
-                print(row_link, 'already done')
                 return False
             if int(votes) < 30:
-                print('not trending')
                 return False
             done_links.add(row_link) 
             comments = row.xpath('.//a[contains(text(), "comment")]')[0].text.split()[0]
@@ -52,7 +48,6 @@ def process_item(row):
             tagline = row.xpath('.//p[@class="tagline"]')[0].text_content().split('by')
             date = row.xpath('.//time/@datetime')[0]
             author = tagline[1].split()[0]
-            print('returning')
             return {'title' : title, 
                     'author' : author, 
                     'votes' : votes, 
