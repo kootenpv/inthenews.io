@@ -7,10 +7,9 @@ import os
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
-with open(file_dir + '/data/twitterlog.txt') as fin:
-    dones = set(fin.read().split('\n'))
-
 def update_data():
+    with open(file_dir + '/data/twitterlog.txt') as fin:
+        dones = set(fin.read().split('\n'))
     r = None
     while r is None or r.status_code != 200:
         try:
@@ -21,13 +20,13 @@ def update_data():
     rows = tree.xpath('//li[contains(@class, "js-stream-item")]')
     if not rows:
         return
-    processed = [process_item(row) for row in rows]
+    processed = [process_item(row, dones) for row in rows]
     with open(file_dir + '/data/twitterresult.jsonlist', 'a') as f: 
         f.write('\n' + '\n'.join([str(json.dumps(x)) for x in processed if x][::-1]))
     with open(file_dir + '/data/twitterlog.txt', 'w') as f: 
         f.write('\n'.join(dones)) 
     
-def process_item(row):
+def process_item(row, dones):
     desc = row.xpath('.//p[contains(@class, "tweet-text")]')[0].text_content().encode('utf8').strip()
     if desc in dones:
         return False

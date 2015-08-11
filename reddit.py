@@ -7,13 +7,12 @@ import os
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
-with open(file_dir + '/data/redditlog.txt') as fin:
-    done_links = set([x for x in fin.read().split('\n') if x])
-
 def normalize(s): 
     return re.sub(r'\s+', lambda x: '\n' if '\n' in x.group(0) else ' ', s).strip()
 
 def update_data():
+    with open(file_dir + '/data/redditlog.txt') as fin:
+        done_links = set([x for x in fin.read().split('\n') if x])
     r = None
     while r is None or r.status_code != 200:
         try:
@@ -25,13 +24,13 @@ def update_data():
     if not rows:
         return
     rows = rows[0].xpath('div')
-    processed = [process_item(row) for row in rows]
+    processed = [process_item(row, done_links) for row in rows]
     with open(file_dir + '/data/redditresult.jsonlist', 'a') as f:  
         f.write('\n' + '\n'.join([json.dumps(x) for x in sorted(processed, key = lambda x: x['date'] if x else '9999') if x]))
     with open(file_dir + '/data/redditlog.txt', 'w') as f: 
         f.write('\n'.join(done_links)) 
     
-def process_item(row): 
+def process_item(row, done_links): 
     links = row.xpath('.//a[contains(@class,"title")]')
     for link in links: 
         try:
