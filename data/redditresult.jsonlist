@@ -12,481 +12,22 @@
 {"date": "2015-07-17T05:35:18+00:00", "comments": "12", "author": "john_philip", "url": "http://www.analyticsvidhya.com/blog/2015/07/data-science-videos-scipy-2015/", "votes": "192", "description": "", "title": "Must Watch Python for Data Science Videos from SciPy Conference 2015, Austin, Texas"}
 {"date": "2015-07-17T09:01:25+00:00", "comments": "9", "author": "reuvenlerner", "url": "http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/", "votes": "41", "description": "", "title": "Want to understand Python\u2019s comprehensions? Think like an accountant."}
 {"date": "2015-07-18T03:31:31+00:00", "comments": "6", "author": "avinasshapprentice", "url": "https://github.com/avinassh/rockstar", "votes": "64", "description": "", "title": "Rockstar"}
-
-
-
-
-
-
-
-
-
-
-
 {"votes": "36", "title": "python-for-android revamped", "url": "http://inclem.net/2015/07/18/kivy/python_for_android_revamped/", "description": "", "author": "inclemnet", "date": "2015-07-18T12:12:27+00:00", "comments": "1"}
 {"votes": "45", "title": "GUI of Virtual Assistant I have been making. Uses the wxPython Library and the WolframAlpha and Ivona Speech APIs", "url": "http://imgur.com/zt8s8Ha", "description": "", "author": "ExoHuman15", "date": "2015-07-18T14:56:48+00:00", "comments": "3"}
-
-
-
-
-
-
 {"votes": "52", "description": "", "author": "notconstructive", "url": "http://reddit.com/r/Python/comments/3dt1i9/postgres_95_has_row_level_security_does_it_make/", "title": "Postgres 9.5 has row level security. Does it make sense to give every web user a Postgres user account?", "comments": "28", "date": "2015-07-19T04:26:20+00:00"}
 {"votes": "69", "description": "", "author": "pahakalapython4", "url": "http://i.imgur.com/XOPKx4t.png", "title": "Grail: A python web browser from the 90's written by Guido van Rossum", "comments": "5", "date": "2015-07-19T08:22:12+00:00"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {"votes": "30", "description": "", "author": "cpt_bushwookie", "url": "http://reddit.com/r/Python/comments/3dv8vr/i_took_a_computer_networks_course_last_semester/", "title": "I took a computer networks course last semester and wanted to play around with OSPF and RIP among Virtual Machines. Here is a tool I have built to make it easier.", "comments": "0", "date": "2015-07-19T20:21:31+00:00"}
-
-
 {"title": "Creating an exe from Python - py2exe, nuitka, or cx_freeze. Which is best and why?", "url": "http://reddit.com/r/Python/comments/3dx91g/creating_an_exe_from_python_py2exe_nuitka_or_cx/", "votes": "31", "author": "atthem77", "comments": "18", "description": "", "date": "2015-07-20T08:01:06+00:00"}
-
-
-
-
-
-
-
-
-
-
 {"votes": "56", "description": "", "author": "vitaminq", "url": "http://www.ibis-project.org/", "title": "Ibis - New Python data analysis framework from the creator of Pandas", "comments": "12", "date": "2015-07-20T20:16:06+00:00"}
-
-
-
-
-
-
-
-
-
-
 {"title": "To those who have a career in Python post a little description on your role, interested in the kinds of jobs python programmers do!", "votes": "36", "description": "", "author": "nyamand", "date": "2015-07-21T10:46:15+00:00", "comments": "36", "url": "http://reddit.com/r/Python/comments/3e239y/to_those_who_have_a_career_in_python_post_a/"}
-
-
-
 {"date": "2015-07-21T01:20:16+00:00", "votes": "30", "title": "Hey r/Python: I'm starting a blog of scientific programming tutorials. Let me know what you think!", "comments": "5", "description": "", "url": "http://www.ifa.hawaii.edu/users/skg/", "author": "jazzstronaut"}
-
-
-
-
-
-
-
 {"date": "2015-07-21T03:00:02+00:00", "url": "http://reddit.com/r/Python/comments/3e0z4q/pyside_for_qt5_repo_just_went_public_pyside2/", "comments": "3", "author": "IronManMark20", "description": "", "title": "PySide for Qt5 repo just went public (PySide2?)", "votes": "32"}
 {"date": "2015-07-21T10:49:52+00:00", "url": "https://www.kaggle.com/chefele/introducing-kaggle-scripts/scripts-first-try", "comments": "2", "author": "cast42", "description": "", "title": "Python Sieve: 48M Primes in 4 sec", "votes": "31"}
-
-
-
-
 {"description": "", "votes": "30", "date": "2015-07-22T04:43:27+00:00", "comments": "4", "title": "Flex: Responsive Pelican theme", "url": "http://blog.alexandrevicenzi.com/flex-pelican-theme.html", "author": "alexandrevicenzi"}
 {"url": "http://gedrap.github.io/xs-vm/", "title": "Xs-vm \u2013 A tiny, educational virtual machine written in Python", "comments": "0", "date": "2015-07-22T10:32:11+00:00", "description": "", "author": "gedrap", "votes": "32"}
-
-
 {"title": "Top Data Scientists to Follow and Best Tutorials on GitHub", "votes": "38", "comments": "1", "url": "http://www.analyticsvidhya.com/blog/2015/07/github-special-data-scientists-to-follow-best-tutorials/", "description": "", "author": "john_philip", "date": "2015-07-22T15:58:57+00:00"}
 {"description": "", "author": "john_philip", "votes": "37", "comments": "1", "title": "Top Data Scientists to Follow and Best Tutorials on GitHub", "date": "2015-07-22T15:58:57+00:00", "url": "http://www.analyticsvidhya.com/blog/2015/07/github-special-data-scientists-to-follow-best-tutorials/"}
 {"url": "http://www.analyticsvidhya.com/blog/2015/07/github-special-data-scientists-to-follow-best-tutorials/", "votes": "37", "comments": "1", "title": "Top Data Scientists to Follow and Best Tutorials on GitHub", "author": "john_philip", "date": "2015-07-22T15:58:57+00:00", "description": ""}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {"url": "https://pythonspot.com/flask-and-great-looking-charts-using-chart-js/", "date": "2015-07-22T21:09:23+00:00", "comments": "1", "author": "frappuchinocookie", "votes": "30", "title": "Tutorial: Flask and great looking charts using Chart.js", "description": ""}
 {"url": "http://theaigames.com/competitions/ai-block-battle", "date": "2015-07-23T09:39:07+00:00", "comments": "4", "author": "StarAppleNL", "votes": "51", "title": "The AI Games - Create a bot for Tetris and join the competition!", "description": ""}
 {"comments": "1", "title": "Tutorial: Flask and great looking charts using Chart.js", "votes": "30", "date": "2015-07-22T21:09:23+00:00", "description": "", "url": "https://pythonspot.com/flask-and-great-looking-charts-using-chart-js/", "author": "frappuchinocookie"}
@@ -498,20 +39,9 @@
 {"author": "cartin1234", "date": "2015-07-23T18:47:51+00:00", "title": "Continuum Analytics Raises $24M for Anaconda Python and PyData", "votes": "30", "url": "https://news.ycombinator.com/item?id=9936295", "comments": "2", "description": ""}
 {"url": "https://indico.io/blog/plotlines/", "comments": "0", "date": "2015-07-23T11:22:27+00:00", "author": "john_philip", "description": "", "votes": "30", "title": "Exploring the shapes of stories using Python and sentiment APIs"}
 {"url": "http://i.imgur.com/mm8fvgC.png", "comments": "19", "date": "2015-07-23T20:54:36+00:00", "author": "professorlamp", "description": "", "votes": "36", "title": "So this bug(?) lead to 2 hours of wasted time. Anyone care to explain what's going on?"}
-
-
-
-
-
-
-
 {"title": "Nice hack, or... ?", "url": "https://gist.github.com/ttsiodras/88f0afc712b4bfc3fe16", "comments": "34", "description": "", "votes": "42", "author": "thesystemx", "date": "2015-07-24T06:17:49-07:00"}
-
 {"author": "smortaz", "date": "2015-07-24T20:30:07+00:00", "title": "Microsoft's Jupyter/IPython service launched (free)", "votes": "36", "comments": "3", "description": "", "url": "http://reddit.com/r/Python/comments/3ehj9c/microsofts_jupyteripython_service_launched_free/"}
 {"author": "john_philip", "date": "2015-07-24T18:26:43+00:00", "description": "", "url": "http://qntm.org/files/re/re.html", "title": "Learn regular expressions in about 55 minutes", "votes": "32", "comments": "13"}
-
-
-
 {"votes": "154", "url": "http://termux.com", "description": "", "date": "2015-07-25T23:36:59+00:00", "comments": "64", "title": "A Python shell in your Android phone ('apt install python' after app installation)", "author": "fornwall"}
 {"votes": "145", "url": "https://www.python.org/downloads/release/python-350b4/", "description": "", "date": "2015-07-26T14:40:01+00:00", "comments": "38", "title": "Python 3.5.0b4 has been released!", "author": "ExoticMandiblesCore"}
 {"votes": "36", "url": "http://reddit.com/r/Python/comments/3eoi3f/is_pycharm_different_from_intellij_idea_with_the/", "description": "", "date": "2015-07-26T18:07:44+00:00", "comments": "16", "title": "Is PyCharm different from IntelliJ IDEA with the Python plugin?", "author": "jan"}
@@ -594,327 +124,59 @@
 {"description": "", "comments": "6", "author": "coreyschafer", "url": "https://www.youtube.com/playlist?list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM", "votes": "74", "title": "Thought this Flask series did a great job of explaining a variety of topics", "date": "2015-07-27T05:32:49+00:00"}
 {"votes": "32", "comments": "7", "url": "http://reddit.com/r/Python/comments/3era97/sudoku_solver_bot/", "description": "", "author": "polswack", "date": "2015-07-27T10:41:31+00:00", "title": "Sudoku solver bot"}
 {"url": "https://github.com/donnemartin/dev-setup", "comments": "9", "description": "", "title": "Simple single script setup of your dev environment. Running one command line sets up common dev tools and apps, Python 2 and Python 3, Python data analysis, Spark (with IPython Notebook integration) and Python MapReduce, AWS and Heroku, common data stores, and dev-based defaults for Mac OSX.", "votes": "37", "author": "donnemartin", "date": "2015-07-27T13:24:07+00:00"}
-
-
-
-
-
-
-
 {"comments": "5", "title": "MesoPy: retrieve surface weather observations from over 40,000 stations", "description": "", "author": "jmcwx", "votes": "31", "date": "2015-07-27T19:00:45+00:00", "url": "https://github.com/jclark754/MesoPy"}
-
-
-
 {"title": "Basic web crawling with Scrapy", "votes": "78", "author": "thaweathermanpipster", "comments": "27", "url": "https://seanmckaybeck.com/scrapy-the-basics.html", "date": "2015-07-28T03:09:57+00:00", "description": ""}
-
 {"url": "http://hernantz.github.io/mock-yourself-not-your-tests.html", "title": "Mock yourself, not your tests", "votes": "30", "comments": "5", "description": "", "author": "hernantz", "date": "2015-07-27T17:56:41+00:00"}
 {"url": "http://blog.thehumangeo.com/2015/07/28/profiling-in-python/", "title": "Profiling in Python", "votes": "31", "comments": "4", "description": "", "author": "sfairgrieve", "date": "2015-07-28T13:26:55+00:00"}
-
-
-
 {"date": "2015-07-28T16:56:11+00:00", "title": "How to Write a Spelling Corrector", "url": "http://norvig.com/spell-correct.html", "description": "", "votes": "37", "author": "avinasshapprentice", "comments": "8"}
 {"date": "2015-07-28T17:47:12+00:00", "title": "How to Create NBA Shot Charts in Python (x-post from /r/learnpython)", "url": "http://reddit.com/r/Python/comments/3exa5g/how_to_create_nba_shot_charts_in_python_xpost/", "description": "", "votes": "41", "author": "savvastj", "comments": "7"}
 {"date": "2015-07-28T20:20:28+00:00", "title": "Amazon Machine Learning: use cases and a real example in Python (+ new course)", "url": "http://cloudacademy.com/blog/aws-machine-learning/?utm_source=reddit.com&utm_medium=social&utm_campaign=Blogpost", "description": "", "votes": "63", "author": "alexcasalboni", "comments": "1"}
 {"date": "2015-07-28T21:16:11+00:00", "title": "Show /r/python: The Full Stack Python Guide to Deployments book", "url": "https://gumroad.com/l/WOvyt", "description": "", "votes": "32", "author": "makaimc", "comments": "4"}
 {"date": "2015-07-28T23:17:00+00:00", "title": "GvR: \"Don't waste time improving IDLE, the process is too slow / broken. Building something new will be quicke and much better.\"", "url": "https://twitter.com/gvanrossum/status/624134950283907072", "description": "", "votes": "51", "author": "idle_guru", "comments": "19"}
-
 {"url": "http://www.lfd.uci.edu/~gohlke/pythonlibs", "date": "2015-07-28T21:08:10+00:00", "title": "Christoph Gohlke's Windows Binaries now support Python 3.5", "author": "japaget", "votes": "30", "description": "", "comments": "5"}
-
-
-
 {"date": "2015-07-28T22:59:36+00:00", "author": "isaac_vidas", "description": "", "votes": "30", "url": "http://kazuar.github.io/scraping-tutorial/", "title": "How to scrape a website that requires login with Python - let me know what you think", "comments": "4"}
-
-
-
-
 {"author": "szborows", "votes": "39", "url": "http://szborows.blogspot.com/2015/07/palindrome-number-test-in-python.html", "description": "", "title": "Shortest code to test whether a number is palindrome", "comments": "10", "date": "2015-07-29T15:05:46+00:00"}
-
-
-
-
-
-
 {"date": "2015-07-29T19:11:05+00:00", "title": "Three quick tips from two years with Celery", "description": "", "author": "veeti", "votes": "31", "comments": "1", "url": "https://library.launchkit.io/three-quick-tips-from-two-years-with-celery-c05ff9d7f9eb?gi=d885e0304c6b"}
-
-
-
-
-
-
 {"votes": "30", "author": "spimta1", "description": "", "url": "https://github.com/billpmurphy/hask/", "title": "Type inference, pattern matching, ADTs, and more Haskell features in pure Python", "comments": "4", "date": "2015-07-29T22:06:20+00:00"}
-
-
 {"comments": "3", "author": "kipi", "description": "", "url": "http://matthewearl.github.io/2015/07/28/switching-eds-with-python/", "date": "2015-07-30T10:38:40+00:00", "title": "So I wrote a script that swaps people's faces in Python, using dlib, OpenCV and numpy. Here's how I did it. (Source code included.) [xpost r/programming]", "votes": "87"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {"votes": "33", "author": "amjithr", "comments": "1", "date": "2015-07-30T18:16:53+00:00", "title": "Command line client for MySql with auto-completion and syntax-highlighting. Written in Python.", "url": "http://mycli.net", "description": ""}
-
-
-
-
-
-
 {"votes": "38", "date": "2015-07-31T10:32:58+00:00", "comments": "1", "url": "https://lwn.net/Articles/651967/", "title": "Guido on Python, EuroPython 2015", "author": "jalanb", "description": ""}
-
-
 {"author": "DevMd", "votes": "31", "url": "https://github.com/MJD2sun/power_tools/blob/master/loan_calc.py", "comments": "6", "description": "", "title": "Have multiple student loans? Do they have different principles and rates? Ever wonder the most efficient way to pay them off? Check this out. Constructive criticism encouraged.", "date": "2015-07-30T14:47:36+00:00"}
-
-
-
-
-
 {"title": "Easy access to huge open data sets with Socrata, Bokeh and Pandas", "date": "2015-07-31T13:33:12+00:00", "description": "", "author": "tvashtar1", "comments": "1", "votes": "31", "url": "http://reddit.com/r/Python/comments/3fae1k/easy_access_to_huge_open_data_sets_with_socrata/"}
-
 {"description": "", "comments": "4", "votes": "34", "url": "http://tech.novus.com/augmenting-your-excel-workflow-with-python/", "title": "Augmenting your Excel Workflow with Python", "author": "bangarangaang", "date": "2015-07-31T17:51:21+00:00"}
 {"url": "https://github.com/faif/python-patterns", "title": "Program patterns in Python", "votes": "32", "date": "2015-07-31T13:19:16+00:00", "comments": "2", "description": "", "author": "trymas"}
-
-
-
-
-
-
 {"url": "http://www.continuum.io/blog/pandas-releasing-the-gil", "comments": "3", "date": "2015-08-01T04:44:28+00:00", "votes": "36", "author": "rasbt", "description": "", "title": "Pandas releases [\"absolves\"] the Global-Interpreter-Lock"}
-
-
-
-
-
-
-
-
-
-
-
 {"description": "", "votes": "37", "date": "2015-08-01T11:56:06+00:00", "url": "https://lwn.net/Articles/651833/", "title": "Django Girls one year later", "author": "avinasshapprentice", "comments": "7"}
-
-
-
-
-
-
-
-
 {"url": "http://reddit.com/r/Python/comments/3fhjc5/how_do_you_share_or_deliver_python_products/", "votes": "87", "comments": "20", "description": "", "title": "How do you share, or deliver, Python products?", "author": "yeahnoworriesmate", "date": "2015-08-02T06:24:59+00:00"}
 {"description": "", "url": "http://reddit.com/r/Python/comments/3fhjc5/how_do_you_share_or_deliver_python_products/", "votes": "87", "author": "yeahnoworriesmate", "date": "2015-08-02T06:24:59+00:00", "comments": "20", "title": "How do you share, or deliver, Python products?"}
 {"description": "", "comments": "20", "url": "http://reddit.com/r/Python/comments/3fhjc5/how_do_you_share_or_deliver_python_products/", "author": "yeahnoworriesmate", "date": "2015-08-02T06:24:59+00:00", "votes": "87", "title": "How do you share, or deliver, Python products?"}
 {"votes": "31", "comments": "2", "title": "Beautiful data analysis of cycling habits in Seattle using Python pandas and sklearn", "url": "https://jakevdp.github.io/blog/2015/07/23/learning-seattles-work-habits-from-bicycle-counts/", "description": "", "author": "cast42", "date": "2015-08-02T08:20:36+00:00"}
-
-
-
-
-
-
 {"author": "madisonmay", "title": "Magic decorator syntax for asynchronous code in Python", "url": "https://github.com/madisonmay/Tomorrow", "date": "2015-08-02T15:51:18+00:00", "votes": "45", "comments": "11", "description": ""}
-
-
-
-
-
-
-
-
-
-
-
-
 {"author": "Anirak", "date": "2015-08-02T17:29:55+00:00", "comments": "3", "title": "Python debugging tools", "votes": "30", "description": "", "url": "http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/?1"}
 {"author": "kraakf", "comments": "9", "title": "Let\u2019s Build A Web Server. Part 3.", "votes": "37", "date": "2015-08-03T10:51:22+00:00", "url": "http://ruslanspivak.com/lsbaws-part3", "description": ""}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {"author": "kraakf", "description": "", "comments": "4", "votes": "31", "title": "Python Wheels", "date": "2015-08-03T22:40:54+00:00", "url": "http://pythonwheels.com"}
 {"title": "Why write Python in Visual Studio?", "author": "notconstructive", "url": "http://blogs.msdn.com/b/visualstudio/archive/2015/08/03/why-write-python-in-visual-studio.aspx", "votes": "33", "comments": "17", "description": "", "date": "2015-08-03T22:16:08+00:00"}
 {"title": "Don't test with SQLLite when you use Postgres in Production", "author": "subssn21", "url": "http://michael.robellard.com/2015/07/dont-test-with-sqllite-when-you-use.html", "votes": "35", "comments": "15", "description": "", "date": "2015-08-04T03:07:58+00:00"}
-
-
-
-
-
-
-
-
 {"url": "http://programmers.stackexchange.com/questions/186889/why-was-python-written-with-the-gil", "date": "2015-08-04T12:56:22+00:00", "title": "Why Was Python Written with the GIL?", "description": "", "author": "adniksi", "comments": "17", "votes": "46"}
-
-
-
 {"author": "jehb", "votes": "31", "url": "http://matthewearl.github.io/2015/07/28/switching-eds-with-python", "title": "Creepy face swapping in 200 lines of Python", "description": "", "comments": "5", "date": "2015-08-04T00:13:47+00:00"}
 {"author": "ThadIsNOTFood", "votes": "32", "url": "http://reddit.com/r/Python/comments/3frfbv/new_open_python_learning_course_on_youtube/", "title": "New open Python learning course on YouTube", "description": "", "comments": "6", "date": "2015-08-04T16:12:28+00:00"}
-
-
-
-
-
-
-
-
-
-
-
-
 {"votes": "34", "comments": "2", "author": "maxberggren", "title": "Getting started with generating maps in Python", "url": "http://maxberggren.github.io/2015/08/04/basemap/", "date": "2015-08-05T12:13:02+00:00", "description": ""}
-
-
-
-
-
-
 {"comments": "0", "url": "http://nbviewer.ipython.org/github/tfolkman/learningwithdata/blob/master/Getting_Started_With_Spark_DataFrame.ipynb", "author": "john_philip", "date": "2015-08-05T03:16:30+00:00", "title": "Getting Started with Spark DataFrames", "description": "", "votes": "32"}
-
-
-
-
 {"comments": "2", "title": "All the PyCon 2015 talks you should watch", "description": "", "votes": "32", "date": "2015-08-05T20:00:42+00:00", "author": "milehighacro", "url": "https://www.fusionbox.com/blog/detail/pycon-2015-talks-you-should-watch/549/"}
 {"date": "2015-08-05T03:08:45+00:00", "comments": "5", "url": "http://kazuar.github.io/light-detection-opencv/", "title": "Did I leave the oven on? (with OpenCV and Python)", "description": "", "author": "isaac_vidas", "votes": "33"}
-
-
-
-
-
-
-
-
-
-
-
-
 {"comments": "1", "date": "2015-08-06T08:38:03+00:00", "description": "", "title": "Detect algorithmically generated domain names with Python Pandas, matplotlib and sci-kit learn", "author": "cast42", "votes": "31", "url": "http://nbviewer.ipython.org/github/ClickSecurity/data_hacking/blob/master/dga_detection/DGA_Domain_Detection.ipynb"}
 {"comments": "4", "date": "2015-08-06T13:55:56+00:00", "description": "", "title": "Pulsar \u2014 Concurrent framework for Python.", "author": "tutuca_not", "votes": "33", "url": "http://quantmind.github.io/pulsar/"}
-
-
-
-
-
-
-
-
-
-
-
-
 {"author": "piterpolk", "date": "2015-08-06T22:43:19+00:00", "url": "http://www.vertabelo.com/blog/technical-articles/web-app-development-with-flask-sqlalchemy-bootstrap-introduction", "votes": "33", "description": "", "comments": "6", "title": "Developing a web application in Python using Flask, PostgreSQL, SQLAlchemy & Bootstrap"}
 {"author": "Hearkon", "date": "2015-08-07T04:35:30+00:00", "url": "https://youtu.be/tZVG57xFwMk", "votes": "36", "description": "", "comments": "4", "title": "Visualize CPython development since 1990"}
-
-
-
-
-
 {"title": "The \"Google's #deepdream in PyCharm\" blog post", "date": "2015-08-07T13:03:50+00:00", "comments": "0", "author": "filippovd20", "url": "http://blog.jetbrains.com/pycharm/2015/08/googles-deep-dream-in-pycharm/", "description": "", "votes": "31"}
-
-
-
-{"author": "japaget", "url": "http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy", "description": "", "title": "Christoph Gohlke's site now has Numpy 1.10 beta, which supports '@' for matrix multiplication.", "date": "2015-08-07T17:30:12+00:00", "comments": "1", "votes": "65"}
-{"comments": "1", "date": "2015-08-07T17:30:12+00:00", "url": "http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy", "votes": "65", "title": "Christoph Gohlke's site now has Numpy 1.10 beta, which supports '@' for matrix multiplication.", "author": "japaget", "description": ""}
 {"comments": "21", "author": "Ru", "url": "https://www.python.org/dev/peps/pep-0498/", "votes": "31", "title": "[3.6] PEP 0498 -- Literal String Formatting -- value = x ; print(f'automatic interpolation! {value}')", "date": "2015-08-08T15:11:18+00:00", "description": ""}
-
-
-
-
-
-
-
-
 {"comments": "3", "url": "https://koed00.github.io/managed-environments-with-piptools/", "title": "Manage your Python environments with the new pip-tools.", "author": "koed00", "description": "", "votes": "44", "date": "2015-08-08T18:04:46+00:00"}
 {"comments": "4", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "title": "Cython 0.23 released", "author": "Yakulu", "description": "", "votes": "38", "date": "2015-08-08T22:41:49+00:00"}
 {"comments": "4", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "author": "FuSoYa69", "description": "", "votes": "124", "date": "2015-08-09T06:17:06+00:00"}
 {"comments": "2", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "title": "Scrape country data from Wikipedia - tutorial", "author": "isaac_vidas", "description": "", "votes": "34", "date": "2015-08-09T14:59:28+00:00"}
 {"comments": "21", "url": "http://www.python.org/dev/peps/pep-0501", "title": "PEP 501 \u2014 Translation ready string interpolation", "author": "hongminhee", "description": "", "votes": "36", "date": "2015-08-10T03:45:22+00:00"}
-{"url": "https://koed00.github.io/managed-environments-with-piptools/", "description": "", "votes": "44", "date": "2015-08-08T18:04:46+00:00", "title": "Manage your Python environments with the new pip-tools.", "comments": "3", "author": "koed00"}
-{"url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "description": "", "votes": "38", "date": "2015-08-08T22:41:49+00:00", "title": "Cython 0.23 released", "comments": "4", "author": "Yakulu"}
-{"url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "description": "", "votes": "124", "date": "2015-08-09T06:17:06+00:00", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "comments": "4", "author": "FuSoYa69"}
-{"url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "description": "", "votes": "34", "date": "2015-08-09T14:59:28+00:00", "title": "Scrape country data from Wikipedia - tutorial", "comments": "2", "author": "isaac_vidas"}
-{"url": "http://www.python.org/dev/peps/pep-0501", "description": "", "votes": "36", "date": "2015-08-10T03:45:22+00:00", "title": "PEP 501 \u2014 Translation ready string interpolation", "comments": "21", "author": "hongminhee"}
-{"votes": "44", "title": "Manage your Python environments with the new pip-tools.", "author": "koed00", "description": "", "url": "https://koed00.github.io/managed-environments-with-piptools/", "date": "2015-08-08T18:04:46+00:00", "comments": "3"}
-{"votes": "38", "title": "Cython 0.23 released", "author": "Yakulu", "description": "", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "date": "2015-08-08T22:41:49+00:00", "comments": "4"}
-{"votes": "124", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "author": "FuSoYa69", "description": "", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "date": "2015-08-09T06:17:06+00:00", "comments": "4"}
-{"votes": "34", "title": "Scrape country data from Wikipedia - tutorial", "author": "isaac_vidas", "description": "", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "date": "2015-08-09T14:59:28+00:00", "comments": "2"}
-{"votes": "36", "title": "PEP 501 \u2014 Translation ready string interpolation", "author": "hongminhee", "description": "", "url": "http://www.python.org/dev/peps/pep-0501", "date": "2015-08-10T03:45:22+00:00", "comments": "21"}
-{"date": "2015-08-08T18:04:46+00:00", "description": "", "votes": "44", "title": "Manage your Python environments with the new pip-tools.", "author": "koed00", "url": "https://koed00.github.io/managed-environments-with-piptools/", "comments": "3"}
-{"date": "2015-08-08T22:41:49+00:00", "description": "", "votes": "38", "title": "Cython 0.23 released", "author": "Yakulu", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "comments": "4"}
-{"date": "2015-08-09T06:17:06+00:00", "description": "", "votes": "124", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "author": "FuSoYa69", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "comments": "4"}
-{"date": "2015-08-09T14:59:28+00:00", "description": "", "votes": "34", "title": "Scrape country data from Wikipedia - tutorial", "author": "isaac_vidas", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "comments": "2"}
-{"date": "2015-08-10T03:45:22+00:00", "description": "", "votes": "36", "title": "PEP 501 \u2014 Translation ready string interpolation", "author": "hongminhee", "url": "http://www.python.org/dev/peps/pep-0501", "comments": "21"}
-{"date": "2015-08-08T18:04:46+00:00", "description": "", "author": "koed00", "comments": "3", "url": "https://koed00.github.io/managed-environments-with-piptools/", "title": "Manage your Python environments with the new pip-tools.", "votes": "44"}
-{"date": "2015-08-08T22:41:49+00:00", "description": "", "author": "Yakulu", "comments": "4", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "title": "Cython 0.23 released", "votes": "38"}
-{"date": "2015-08-09T06:17:06+00:00", "description": "", "author": "FuSoYa69", "comments": "4", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "votes": "124"}
-{"date": "2015-08-09T14:59:28+00:00", "description": "", "author": "isaac_vidas", "comments": "2", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "title": "Scrape country data from Wikipedia - tutorial", "votes": "34"}
-{"date": "2015-08-10T03:45:22+00:00", "description": "", "author": "hongminhee", "comments": "21", "url": "http://www.python.org/dev/peps/pep-0501", "title": "PEP 501 \u2014 Translation ready string interpolation", "votes": "36"}
-{"url": "https://koed00.github.io/managed-environments-with-piptools/", "comments": "3", "date": "2015-08-08T18:04:46+00:00", "description": "", "title": "Manage your Python environments with the new pip-tools.", "author": "koed00", "votes": "44"}
-{"url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "comments": "4", "date": "2015-08-08T22:41:49+00:00", "description": "", "title": "Cython 0.23 released", "author": "Yakulu", "votes": "38"}
-{"url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "comments": "4", "date": "2015-08-09T06:17:06+00:00", "description": "", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "author": "FuSoYa69", "votes": "124"}
-{"url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "comments": "2", "date": "2015-08-09T14:59:28+00:00", "description": "", "title": "Scrape country data from Wikipedia - tutorial", "author": "isaac_vidas", "votes": "34"}
-{"url": "http://www.python.org/dev/peps/pep-0501", "comments": "21", "date": "2015-08-10T03:45:22+00:00", "description": "", "title": "PEP 501 \u2014 Translation ready string interpolation", "author": "hongminhee", "votes": "36"}
-{"comments": "3", "date": "2015-08-08T18:04:46+00:00", "url": "https://koed00.github.io/managed-environments-with-piptools/", "author": "koed00", "description": "", "votes": "44", "title": "Manage your Python environments with the new pip-tools."}
-{"comments": "4", "date": "2015-08-08T22:41:49+00:00", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "author": "Yakulu", "description": "", "votes": "38", "title": "Cython 0.23 released"}
-{"comments": "4", "date": "2015-08-09T06:17:06+00:00", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "author": "FuSoYa69", "description": "", "votes": "124", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]"}
-{"comments": "2", "date": "2015-08-09T14:59:28+00:00", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "author": "isaac_vidas", "description": "", "votes": "34", "title": "Scrape country data from Wikipedia - tutorial"}
-{"comments": "21", "date": "2015-08-10T03:45:22+00:00", "url": "http://www.python.org/dev/peps/pep-0501", "author": "hongminhee", "description": "", "votes": "36", "title": "PEP 501 \u2014 Translation ready string interpolation"}
-{"description": "", "date": "2015-08-08T18:04:46+00:00", "title": "Manage your Python environments with the new pip-tools.", "url": "https://koed00.github.io/managed-environments-with-piptools/", "author": "koed00", "comments": "3", "votes": "44"}
-{"description": "", "date": "2015-08-08T22:41:49+00:00", "title": "Cython 0.23 released", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "author": "Yakulu", "comments": "4", "votes": "38"}
-{"description": "", "date": "2015-08-09T06:17:06+00:00", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "author": "FuSoYa69", "comments": "4", "votes": "124"}
-{"description": "", "date": "2015-08-09T14:59:28+00:00", "title": "Scrape country data from Wikipedia - tutorial", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "author": "isaac_vidas", "comments": "2", "votes": "34"}
-{"description": "", "date": "2015-08-10T03:45:22+00:00", "title": "PEP 501 \u2014 Translation ready string interpolation", "url": "http://www.python.org/dev/peps/pep-0501", "author": "hongminhee", "comments": "21", "votes": "36"}
-{"comments": "3", "author": "koed00", "url": "https://koed00.github.io/managed-environments-with-piptools/", "date": "2015-08-08T18:04:46+00:00", "title": "Manage your Python environments with the new pip-tools.", "votes": "44", "description": ""}
-{"comments": "4", "author": "Yakulu", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "date": "2015-08-08T22:41:49+00:00", "title": "Cython 0.23 released", "votes": "38", "description": ""}
-{"comments": "4", "author": "FuSoYa69", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "date": "2015-08-09T06:17:06+00:00", "title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "votes": "124", "description": ""}
-{"comments": "2", "author": "isaac_vidas", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "date": "2015-08-09T14:59:28+00:00", "title": "Scrape country data from Wikipedia - tutorial", "votes": "34", "description": ""}
-{"comments": "21", "author": "hongminhee", "url": "http://www.python.org/dev/peps/pep-0501", "date": "2015-08-10T03:45:22+00:00", "title": "PEP 501 \u2014 Translation ready string interpolation", "votes": "36", "description": ""}
-{"title": "Manage your Python environments with the new pip-tools.", "votes": "44", "description": "", "url": "https://koed00.github.io/managed-environments-with-piptools/", "author": "koed00", "date": "2015-08-08T18:04:46+00:00", "comments": "3"}
-{"title": "Cython 0.23 released", "votes": "38", "description": "", "url": "https://groups.google.com/forum/#!topic/cython-users/lfq9CtqGdzY", "author": "Yakulu", "date": "2015-08-08T22:41:49+00:00", "comments": "4"}
-{"title": "Civilization V End-Game Map Conversion Utility [x/post from /r/civ]", "votes": "124", "description": "", "url": "https://raw.githubusercontent.com/jkulesza/Civ_V_Map_Plotter/master/example/assalted_02_mid_game_final_map.png", "author": "FuSoYa69", "date": "2015-08-09T06:17:06+00:00", "comments": "4"}
-{"title": "Scrape country data from Wikipedia - tutorial", "votes": "34", "description": "", "url": "http://kazuar.github.io/scrape-wikipedia-tutorial/", "author": "isaac_vidas", "date": "2015-08-09T14:59:28+00:00", "comments": "2"}
-{"title": "PEP 501 \u2014 Translation ready string interpolation", "votes": "36", "description": "", "url": "http://www.python.org/dev/peps/pep-0501", "author": "hongminhee", "date": "2015-08-10T03:45:22+00:00", "comments": "21"}
-
-
-
 {"description": "", "comments": "5", "date": "2015-08-10T10:59:46+00:00", "votes": "34", "author": "kraakf", "title": "A Tool to Run Python Bytecode in Browsers", "url": "https://github.com/pybee/batavia/"}
-
-
-
-
-
-
-
 {"url": "http://superduper.me/how-to-build-a-website-application-using-python/", "comments": "3", "title": "How to build a website application using Python", "date": "2015-08-10T12:03:36+00:00", "author": "spilcm", "votes": "36", "description": ""}
 {"url": "https://en.wikipedia.org/wiki/Wikipedia:Chesterton's_fence", "comments": "14", "title": "Chesterton's fence: A principle that might be nice to keep in mind while writing new PEPs.", "date": "2015-08-10T16:11:17+00:00", "author": "fishburne", "votes": "44", "description": ""}
 {"url": "http://wharfee.com/meet-wharfee.html", "comments": "2", "title": "Wharfee: A docker shell with auto-completion and syntax coloring. Written in Python.", "date": "2015-08-10T21:04:23+00:00", "author": "amjithr", "votes": "67", "description": ""}
-{"author": "spilcm", "date": "2015-08-10T12:03:36+00:00", "comments": "3", "url": "http://superduper.me/how-to-build-a-website-application-using-python/", "votes": "36", "description": "", "title": "How to build a website application using Python"}
-{"author": "fishburne", "date": "2015-08-10T16:11:17+00:00", "comments": "14", "url": "https://en.wikipedia.org/wiki/Wikipedia:Chesterton's_fence", "votes": "44", "description": "", "title": "Chesterton's fence: A principle that might be nice to keep in mind while writing new PEPs."}
-{"author": "amjithr", "date": "2015-08-10T21:04:23+00:00", "comments": "2", "url": "http://wharfee.com/meet-wharfee.html", "votes": "67", "description": "", "title": "Wharfee: A docker shell with auto-completion and syntax coloring. Written in Python."}
-{"title": "How to build a website application using Python", "description": "", "author": "spilcm", "url": "http://superduper.me/how-to-build-a-website-application-using-python/", "votes": "36", "date": "2015-08-10T12:03:36+00:00", "comments": "3"}
-{"title": "Chesterton's fence: A principle that might be nice to keep in mind while writing new PEPs.", "description": "", "author": "fishburne", "url": "https://en.wikipedia.org/wiki/Wikipedia:Chesterton's_fence", "votes": "44", "date": "2015-08-10T16:11:17+00:00", "comments": "14"}
-{"title": "Wharfee: A docker shell with auto-completion and syntax coloring. Written in Python.", "description": "", "author": "amjithr", "url": "http://wharfee.com/meet-wharfee.html", "votes": "67", "date": "2015-08-10T21:04:23+00:00", "comments": "2"}
-{"votes": "36", "title": "How to build a website application using Python", "date": "2015-08-10T12:03:36+00:00", "description": "", "author": "spilcm", "url": "http://superduper.me/how-to-build-a-website-application-using-python/", "comments": "3"}
-{"votes": "44", "title": "Chesterton's fence: A principle that might be nice to keep in mind while writing new PEPs.", "date": "2015-08-10T16:11:17+00:00", "description": "", "author": "fishburne", "url": "https://en.wikipedia.org/wiki/Wikipedia:Chesterton's_fence", "comments": "14"}
-{"votes": "67", "title": "Wharfee: A docker shell with auto-completion and syntax coloring. Written in Python.", "date": "2015-08-10T21:04:23+00:00", "description": "", "author": "amjithr", "url": "http://wharfee.com/meet-wharfee.html", "comments": "2"}
-
-
 {"url": "https://www.python.org/downloads/release/python-350rc1/", "votes": "33", "description": "", "title": "Python 3.5.0 release candidate 1 is now out!", "date": "2015-08-11T00:29:44+00:00", "comment_link": "http://www.reddit.com/r/Python/comments/3gj5g0/python_350_release_candidate_1_is_now_out/", "author": "ExoticMandiblesCore", "comments": "5"}
-
-
-
-
-

@@ -1,4 +1,3 @@
-
 {"description": "Caktus Consulting Group: Q3 2015 ShipIt Day ReCap http://bit.ly/1HHsKjp", "name": "PlanetPython", "url": "http://bit.ly/1HHsKjp\u00a0", "date": "2015-07-14T14:58:38+00:00"}
 {"description": "Mike Driscoll: Python 101: Episode #10 \u2013 Functions http://bit.ly/1LePrAW", "name": "PlanetPython", "url": "http://bit.ly/1LePrAW\u00a0", "date": "2015-07-14T14:58:39+00:00"}
 {"description": "Mike C. Fletcher: Every Test http://bit.ly/1V09l7A", "name": "PlanetPython", "url": "http://bit.ly/1V09l7A\u00a0", "date": "2015-07-14T22:05:11+00:00"}
@@ -19,7 +18,6 @@
 {"description": "http://eGenix.com\u00a0: eGenix at EuroPython 2015 http://bit.ly/1HUXmhF", "name": "PlanetPython", "url": "http://eGenix.com\u00a0", "date": "2015-07-17T12:29:40+00:00"}
 {"description": "Davide Moro: Kotti CMS - a successful story (part 1) http://bit.ly/1fPKvY3", "name": "PlanetPython", "url": "http://bit.ly/1fPKvY3\u00a0", "date": "2015-07-17T12:29:41+00:00"}
 {"description": "Vladimir Iakolev: Using Werkzeug with Django on App Engine http://bit.ly/1HVXtcB", "name": "PlanetPython", "url": "http://bit.ly/1HVXtcB\u00a0", "date": "2015-07-17T17:34:39+00:00"}
-
 {"description": "Caktus Consulting Group: Q3 2015 ShipIt Day ReCap http://bit.ly/1HHsKjp", "name": "PlanetPython", "url": "http://bit.ly/1HHsKjp\u00a0", "date": "2015-07-14T14:58:38+00:00"}
 {"description": "Mike Driscoll: Python 101: Episode #10 \u2013 Functions http://bit.ly/1LePrAW", "name": "PlanetPython", "url": "http://bit.ly/1LePrAW\u00a0", "date": "2015-07-14T14:58:39+00:00"}
 {"description": "Mike C. Fletcher: Every Test http://bit.ly/1V09l7A", "name": "PlanetPython", "url": "http://bit.ly/1V09l7A\u00a0", "date": "2015-07-14T22:05:11+00:00"}
@@ -502,17 +500,13 @@
 {"date": "2015-07-19T02:20:37+00:00", "url": "http://bit.ly/1I0zuZX\u00a0", "name": "PlanetPython", "description": "Davide Moro: Kotti CMS - frontend decoupled from backend. How we did it (part 2) http://bit.ly/1I0zuZX\u00a0"}
 {"date": "2015-07-19T22:12:51+00:00", "url": "http://bit.ly/1I3wjAH\u00a0", "name": "PlanetPython", "description": "\u0628\u0627\u064a\u062b\u0648\u0646 \u0627\u0644\u0639\u0631\u0628\u064a: \u0627\u0644\u062a\u0639\u0627\u0628\u064a\u0631 \u0627\u0644\u0642\u064a\u0627\u0633\u064a\u0629 \u0641\u064a \u0628\u0627\u064a\u062b\u0648\u0646 \u0627\u0644\u062c\u0632\u0621 1 http://bit.ly/1I3wjAH\u00a0"}
 {"date": "2015-07-20T02:30:01+00:00", "url": "http://bit.ly/1Idlrq4\u00a0", "name": "PlanetPython", "description": "Ludovic Gasc: EuroPython 2015 schedule for AsyncIO curious/newcomers http://bit.ly/1Idlrq4\u00a0"}
-
-
 {"date": "2015-07-20T06:51:21+00:00", "url": "http://bit.ly/1VjPTmf\u00a0", "name": "PlanetPython", "description": "John Cook: Numerators of harmonic numbers http://bit.ly/1VjPTmf\u00a0"}
-
 {"date": "2015-07-20T14:02:16+00:00", "url": "http://bit.ly/1GvG9tV\u00a0", "name": "PlanetPython", "description": "Mike Driscoll: PyDev of the Week: Yasoob Khalid http://bit.ly/1GvG9tV\u00a0"}
 {"date": "2015-07-20T21:42:02+00:00", "url": "http://bit.ly/1HMj3kJ\u00a0", "name": "PlanetPython", "description": "PyCharm: Meet the PyCharm Team in Bilbao, Spain, at EuroPython 2015 http://bit.ly/1HMj3kJ\u00a0"}
 {"date": "2015-07-21T11:05:27+00:00", "url": "http://bit.ly/1VoEPEq\u00a0", "name": "PlanetPython", "description": "Europython: EuroPython 2015: EPS and PSF sessions http://bit.ly/1VoEPEq\u00a0"}
 {"date": "2015-07-21T16:17:51+00:00", "url": "http://bit.ly/1IbSPaE\u00a0", "name": "PlanetPython", "description": "Machinalis: Image fields with Django REST Framework http://bit.ly/1IbSPaE\u00a0"}
 {"date": "2015-07-22T03:45:21+00:00", "url": "http://bit.ly/1IdWi8A\u00a0", "name": "PlanetPython", "description": "Francisco Souza: Speaking at PythonBrasil[7] http://bit.ly/1IdWi8A\u00a0"}
 {"date": "2015-07-22T18:13:37+00:00", "url": "http://bit.ly/1Ils7T8\u00a0", "name": "PlanetPython", "description": "Europython: EuroPython 2015: Please upload your talk slides http://bit.ly/1Ils7T8\u00a0"}
-
 {"date": "2015-07-23T03:09:28+00:00", "url": "http://bit.ly/1fnqkQh\u00a0", "name": "PlanetPython", "description": "Matthew Rocklin: Custom Parallel Workflows http://bit.ly/1fnqkQh\u00a0"}
 {"date": "2015-07-23T05:18:22+00:00", "url": "http://bit.ly/1g7k5RL\u00a0", "name": "PlanetPython", "description": "Continuum Analytics Blog: Empowering Data Scientists for the Journey http://bit.ly/1g7k5RL\u00a0"}
 {"date": "2015-08-05T16:02:24+00:00", "url": "http://bit.ly/1Il6IGL\u00a0", "name": "PlanetPython", "description": "Ned Batchelder: Small choices, big decisions: coverage run --append http://bit.ly/1Il6IGL\u00a0"}
@@ -535,3 +529,27 @@
 {"date": "2015-08-10T22:04:49+00:00", "url": "http://bit.ly/1Tmekf7\u00a0", "name": "PlanetPython", "description": "Ram Rachum: Mike Driscoll interviewed me on his blog http://bit.ly/1Tmekf7\u00a0"}
 {"date": "2015-08-10T22:04:49+00:00", "url": "http://bit.ly/1DDKuB3\u00a0", "name": "PlanetPython", "description": "Przemys\u0142aw Ko\u0142odziejczyk: How to install pip, virtualenv and virtualenvwrapper on Linux http://bit.ly/1DDKuB3\u00a0"}
 {"date": "2015-08-11T02:53:56+00:00", "url": "", "name": "PlanetPython", "description": "Carl Chenet: Retweet, a simple bot to retweet tweets from a user"}
+{"date": "2015-08-11T12:39:28+00:00", "url": "http://bit.ly/1gw473g\u00a0", "name": "PlanetPython", "description": "Logilab: Going to DebConf15 http://bit.ly/1gw473g\u00a0"}
+{"date": "2015-08-11T15:33:36+00:00", "url": "http://bit.ly/1TldyUY\u00a0", "name": "PlanetPython", "description": "Graham Dumpleton: Running ASYNC web applications under OpenShift. http://bit.ly/1TldyUY\u00a0"}
+
+
+{"date": "2015-06-03T21:59:18+00:00", "url": "http://www.summerhackday.com\u00a0", "name": "gvanrossum", "description": "If you're a woman interning in the Bay Area this summer, be sure to apply for Summer Hack Day! http://www.summerhackday.com\u00a0"}
+{"date": "2015-06-04T15:40:08+00:00", "url": "http://grail.cvs.sourceforge.net/viewvc/grail/\u00a0", "name": "gvanrossum", "description": "A trip down to memory lane: the Grail web browser, written in Python in 1995. http://grail.cvs.sourceforge.net/viewvc/grail/\u00a0"}
+{"date": "2015-06-04T21:33:08+00:00", "url": "Jun 4", "name": "gvanrossum", "description": "Oooh! We made a breaking change to API v2. I guess that's why we call it \"preview\".  https://blogs.dropbox.com/developers/2015/04/a-preview-of-the-new-dropbox-api-v2/\u00a0\u2026"}
+{"date": "2015-06-13T09:15:59+00:00", "url": "", "name": "gvanrossum", "description": "I don't suppose the NSA is attempting to hack Chinese IT infrastructure?"}
+{"date": "2015-06-13T19:38:19+00:00", "url": "http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/\u00a0\u2026", "name": "gvanrossum", "description": "Fun if long read about code in Businessweek: http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/\u00a0\u2026"}
+{"date": "2015-07-02T16:29:16+00:00", "url": "Jul 2", "name": "gvanrossum", "description": "Speakers are welcome for July 25th meetup http://www.meetup.com/merchise/events/223604638/\u00a0\u2026 Contact info@merchise.com #Cuba #startups #coding"}
+{"date": "2015-07-20T07:42:14+00:00", "url": "https://www.dropbox.com/s/txgo1g4xqwtfz73/2015-07-18%2019.53.53.jpg?dl=0\u00a0\u2026", "name": "gvanrossum", "description": "Maybe this little shop in Bilbao supports Python? :-) https://www.dropbox.com/s/txgo1g4xqwtfz73/2015-07-18%2019.53.53.jpg?dl=0\u00a0\u2026 #europython"}
+{"date": "2015-07-20T07:43:27+00:00", "url": "https://www.dropbox.com/s/q92ua8evem8u54k/2015-07-18%2021.27.21.jpg?dl=0\u00a0\u2026", "name": "gvanrossum", "description": "Hobbit lovers must love Bilbao's bus system... :-) https://www.dropbox.com/s/q92ua8evem8u54k/2015-07-18%2021.27.21.jpg?dl=0\u00a0\u2026 #europython"}
+{"date": "2015-07-20T08:09:38+00:00", "url": "Jul 20", "name": "gvanrossum", "description": "Ola and Ola telling the origins of @djangogirls using a fairy tale. #europython pic.twitter.com/edkC2URqrC"}
+{"date": "2015-07-20T08:09:15+00:00", "url": "Jul 20", "name": "gvanrossum", "description": "#europython keynote is full of squirrels! pic.twitter.com/LkdQTnO3v5"}
+{"date": "2015-07-20T08:07:42+00:00", "url": "Jul 20", "name": "gvanrossum", "description": "#djangogirls founders @olasitarska and @asendecka take the stage for the #europython keynote, plus one #potato pic.twitter.com/RcLIhi2rdQ"}
+{"date": "2015-07-19T21:45:20+00:00", "url": "Jul 19", "name": "gvanrossum", "description": "#europython 2015 schedule for #AsyncIO curious/newcomers: http://blog.gmludo.eu/2015/07/europython-2015-schedule-for-asyncio.html?spref=tw\u00a0\u2026"}
+{"date": "2015-07-21T08:43:58+00:00", "url": "Jul 21", "name": "gvanrossum", "description": "@martinohanlon @gvanrossum Print has actual features now it's a function! You should check it out."}
+{"date": "2015-07-21T13:24:26+00:00", "url": "https://ep2015.europython.eu/conference/talks/python-not-recommended\u00a0\u2026", "name": "gvanrossum", "description": "Pretty harsh criticism of Tornado: https://ep2015.europython.eu/conference/talks/python-not-recommended\u00a0\u2026 #tornado"}
+{"date": "2015-07-23T14:47:58+00:00", "url": "", "name": "gvanrossum", "description": "Reports of the GIL's death have been greatly exaggerated."}
+{"date": "2015-07-24T07:58:53+00:00", "url": "#europuthon", "name": "gvanrossum", "description": "Bye #europuthon, it's been great fun!"}
+{"date": "2015-07-24T16:02:16+00:00", "url": "#europython", "name": "gvanrossum", "description": "To the person who cornered me about datetime at #europython: https://hg.python.org/peps/rev/52a33f783dcb\u00a0\u2026"}
+{"date": "2015-07-24T16:42:49+00:00", "url": "@russnelson", "name": "gvanrossum", "description": ".@russnelson IIUC when we say UTC we really mean POSIX timestamps, which ignore leap seconds (IMO that's good)."}
+{"date": "2015-07-25T12:31:30+00:00", "url": "#Europython", "name": "gvanrossum", "description": "Bye bye Bilbao. #Europython #ep2015 pic.twitter.com/Tnaq6tmuMl"}
+{"date": "2015-08-11T16:01:44+00:00", "url": "https://www.python.org/download/releases/3.5.0rc1/\u00a0\u2026", "name": "gvanrossum", "description": "Hey, Python 3.5 rc1 is out!! https://www.python.org/download/releases/3.5.0rc1/\u00a0\u2026"}
