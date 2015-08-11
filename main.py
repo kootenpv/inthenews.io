@@ -51,6 +51,7 @@ def update_local_file_database():
     data['twitter'] = twitter_items      
     data['github_sponsored'] = github_sponsored_items
 
+# pylint: disable=W0223    
 class MainHandler(tornado.web.RequestHandler):
     SUPPORTED_METHODS = ('GET', 'HEAD', 'POST')
     def get(self): 
@@ -61,6 +62,7 @@ class MainHandler(tornado.web.RequestHandler):
     def head(self):
         return self.get()
 
+# pylint: disable=W0223    
 class AboutHandler(tornado.web.RequestHandler): 
     def get(self): 
         self.render('about.html')

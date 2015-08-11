@@ -7,13 +7,13 @@ import os
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
-with open(file_dir + '/data/gitlog.txt') as fin:
-    done_links = set(fin.read().split('\n'))
 
 def normalize(s): 
     return re.sub(r'\s+', lambda x: '\n' if '\n' in x.group(0) else ' ', s).strip()
 
 def update_data():
+    with open(file_dir + '/data/gitlog.txt') as fin:
+        done_links = set(fin.read().split('\n'))
     r = None
     while r is None or r.status_code > 299:
         try:
@@ -24,7 +24,7 @@ def update_data():
     rows = tree.xpath('//li[@class="repo-list-item"]')
     if not rows:
         return
-    processed = [process_item(row) for row in rows]
+    processed = [process_item(row, done_links) for row in rows]
     if not any(processed):
         return
     with open(file_dir + '/data/gitresult.jsonlist', 'a') as f: 
@@ -41,7 +41,7 @@ def get_repo_page(link):
             'date' : tree.xpath('//div[@class="authorship"]//time/@datetime')[0],
             'description2' : desc[0].text_content() if desc else '' }
         
-def process_item(row):
+def process_item(row, done_links):
     lnk = row.xpath('h3/a')[0]
     row_link = lnk.attrib['href'] if lnk.attrib['href'].startswith('http') else 'https://github.com' + lnk.attrib['href']
     if row_link in done_links:
