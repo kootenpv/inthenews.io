@@ -34,7 +34,7 @@ def process_item(row):
     dones.add(desc)
     date = int(row.xpath('.//span/@data-time')[0])
     links = row.xpath('.//a')
-    url = links[2].text_content() if len(links) > 1 else ''
+    url = links[2].text_content() if len(links) > 2 else ''
     twitter_item = {'name' : 'PlanetPython', 
                      'date' : str(arrow.get(date)), 
                      'description' : desc,

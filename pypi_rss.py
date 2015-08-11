@@ -13,7 +13,7 @@ def update_data():
 
 
     if hasattr(response.content, 'decode'):
-        tree = xml.etree.ElementTree.fromstring(response.content.decode())
+        tree = xml.etree.ElementTree.fromstring(response.content.decode('utf8'))
     else:
         tree = xml.etree.ElementTree.fromstring(response.content)
 

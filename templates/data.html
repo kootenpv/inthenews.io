@@ -26,7 +26,9 @@
 <div class="col-sm-4 stream"> 
 
     <div class="col-sm-12 text-center stream-header">
-        <i class="fa fa-github fa-inverse" style="font-size:8em"></i>
+        <a href="https://github.com/trending?l=python">
+            <i class="fa fa-github " style="font-size:8em"></i>
+        </a>
     </div>
 
     <div class="card pin text-center" > <b>Sorted on TRENDING date</b></div>
@@ -34,12 +36,18 @@
     {% for item in github_items %}
     {% include "github_result.html" %}
     {% end %}
+
+    {% for item in github_sponsored_items %}
+    {% include "github_result.html" %}
+    {% end %}
 </div>
 
 <div class="col-sm-4 stream">
     
     <div class="col-sm-12 text-center stream-header">
-        <i class="fa fa-stack-overflow fa-inverse" style="font-size:8em"></i>
+        <a href="http://stackoverflow.com/questions/tagged/python?sort=featured">
+            <i class="fa fa-stack-overflow " style="font-size:8em"></i>
+        </a>
     </div>
 
     <div class="card pin text-center"> <b>Sorted on BOUNTY date</b></div>
@@ -52,7 +60,9 @@
 <div class="col-sm-4 stream">
     
     <div class="col-sm-12 text-center stream-header">
-        <i class="fa fa-reddit fa-inverse" style="font-size:8em"></i>
+        <a href="https://www.reddit.com/r/Python/">
+            <i class="fa fa-reddit " style="font-size:8em"></i>
+        </a>
     </div>
 
     <div class="card pin text-center"> <b>Sorted on TRENDING date</b></div>

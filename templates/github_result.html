@@ -26,6 +26,11 @@
  
     </div>
 
+    {% if 'sponsored' in item %}
+    <div class="col-sm-12 content">
+        <b style="color:#337ab7">Sponsored</b>
+    </div>
+    {% end %} 
     
     <div class="col-sm-12 content">
         {% if len(item['description']) > 150 %}
@@ -33,14 +38,16 @@
     {% else %}
         {{ item['description'] }}
         {% end %}
-    </div> 
+    </div>
 
     <div class="col-sm-12 content">
+        {% if item['description2'].strip() != item['description'].strip() %}
         {% if len(item['description2']) > 150 %}
         {{ item['description2'][:150] }} ...
     {% else %}
         {{ item['description2'] }}
         {% end %}
+        {% end %} 
     </div>
     
     <div class="col-sm-12 content">

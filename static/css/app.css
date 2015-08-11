@@ -248,3 +248,12 @@ a.stream.name {
 .img-responsive.img-center { 
     margin: 0 auto;
 }
+
+
+.stream-header a {
+    color: white;
+}
+
+.stream-header a:hover {
+    color: #337ab7;
+}

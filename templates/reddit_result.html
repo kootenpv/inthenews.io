@@ -15,8 +15,15 @@
     </div>
 
     <div class="question-info pull-right" style="margin-right:10px">
-        <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div>
-        <div><i class="fa fa-comments-o fa-lg"></i> {{ item['comments']}} </div> 
+        {% if 'comment_link' in item %}
+        <a href="{{ item['comment_link']}} ">
+            <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div>
+            <div><i class="fa fa-comments-o fa-lg"></i> {{ item['comments']}} </div>
+        </a>
+        {% else %}
+            <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div>
+            <div><i class="fa fa-comments-o fa-lg"></i> {{ item['comments']}} </div>
+        {% end %}
     </div>
     
     <div class="card-body">

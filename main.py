@@ -30,6 +30,12 @@ def update_local_file_database():
         for item in github_items: 
             if item['name'].lower() in pypi:
                 item['pypi'] = 'True'
+    with open(file_dir + '/data/gitresult_sponsored.jsonlist') as f:
+        github_sponsored_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
+        for item in github_sponsored_items: 
+            if item['name'].lower() in pypi:
+                item['pypi'] = 'True'       
+            item['sponsored'] = True
     with open(file_dir + '/data/redditresult.jsonlist') as f:
         reddit_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1] 
     with open(file_dir + '/data/pypiresult.jsonlist') as f:
@@ -43,11 +49,13 @@ def update_local_file_database():
     data['reddit'] = reddit_items
     data['pypi'] = pypi_items
     data['twitter'] = twitter_items      
+    data['github_sponsored'] = github_sponsored_items
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self): 
         self.render('index.html', github_items = data['github'], reddit_items = data['reddit'], 
-                    so_items = data['so'], pypi_items = data['pypi'], twitter_items = data['twitter'])
+                    so_items = data['so'], pypi_items = data['pypi'], twitter_items = data['twitter'],
+            github_sponsored_items = data['github_sponsored'])
 
 class AboutHandler(tornado.web.RequestHandler): 
     def get(self): 

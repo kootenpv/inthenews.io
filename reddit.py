@@ -42,7 +42,8 @@ def process_item(row):
             if int(votes) < 30:
                 return False
             done_links.add(row_link) 
-            comments = row.xpath('.//a[contains(text(), "comment")]')[0].text.split()[0]
+            comment_a = row.xpath('.//a[contains(text(), "comment")]')[0]
+            comments = comment_a.text.split()[0]
             comments = '0' if 'comment' in comments else comments
             title = normalize(link.text_content())
             tagline = row.xpath('.//p[@class="tagline"]')[0].text_content().split('by')
@@ -54,7 +55,8 @@ def process_item(row):
                     'comments' : comments, 
                     'date' : date, 
                     'url' : row_link, 
-                    'description' : ''} 
+                    'description' : '',
+                    'comment_link' : comment_a.attrib['href']} 
         except ValueError:
             pass    
     return False
