@@ -52,10 +52,14 @@ def update_local_file_database():
     data['github_sponsored'] = github_sponsored_items
 
 class MainHandler(tornado.web.RequestHandler):
+    SUPPORTED_METHODS = ('GET', 'HEAD', 'POST')
     def get(self): 
         self.render('index.html', github_items = data['github'], reddit_items = data['reddit'], 
                     so_items = data['so'], pypi_items = data['pypi'], twitter_items = data['twitter'],
             github_sponsored_items = data['github_sponsored'])
+
+    def head(self):
+        return self.get()
 
 class AboutHandler(tornado.web.RequestHandler): 
     def get(self): 
