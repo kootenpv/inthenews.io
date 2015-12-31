@@ -8,8 +8,9 @@ import os
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
 
-def normalize(s): 
+def normalize(s):
     return re.sub(r'\s+', lambda x: '\n' if '\n' in x.group(0) else ' ', s).strip()
+
 
 def update_data():
     with open(file_dir + '/data/gitlog.txt') as fin:
@@ -17,7 +18,7 @@ def update_data():
     r = None
     while r is None or r.status_code > 299:
         try:
-            r = requests.get('https://github.com/trending?l=python') 
+            r = requests.get('https://github.com/trending?l=python')
         except:
             time.sleep(60)
     tree = lxml.html.fromstring(r.text)
@@ -27,35 +28,38 @@ def update_data():
     processed = [process_item(row, done_links) for row in rows]
     if not any(processed):
         return
-    with open(file_dir + '/data/gitresult.jsonlist', 'a') as f: 
-        f.write('\n' + '\n'.join([json.dumps(x) for x in processed if x]))
-    with open(file_dir + '/data/gitlog.txt', 'w') as f: 
-        f.write('\n'.join(done_links)) 
+    with open(file_dir + '/data/gitresult.jsonlist', 'a') as f:
+        f.write('\n' + '\n'.join(set([json.dumps(x) for x in processed if x])))
+    with open(file_dir + '/data/gitlog.txt', 'w') as f:
+        f.write('\n'.join(done_links))
+
 
 def get_repo_page(link):
     r = requests.get(link)
     tree = lxml.html.fromstring(r.text)
-    stars = tree.xpath('//a[@class="social-count js-social-count"]')[0].text.strip().replace(',', '')
+    stars = tree.xpath(
+        '//a[@class="social-count js-social-count"]')[0].text.strip().replace(',', '')
     desc = tree.xpath('//article//p')
-    return {'stars' : stars , 
-            'date' : tree.xpath('//div[@class="authorship"]//time/@datetime')[0],
-            'description2' : desc[0].text_content() if desc else '' }
-        
+    return {'stars': stars,
+            'date': tree.xpath('//time/@datetime')[0],
+            'description2': desc[0].text_content() if desc else ''}
+
+
 def process_item(row, done_links):
     lnk = row.xpath('h3/a')[0]
-    row_link = lnk.attrib['href'] if lnk.attrib['href'].startswith('http') else 'https://github.com' + lnk.attrib['href']
+    row_link = lnk.attrib['href'] if lnk.attrib['href'].startswith(
+        'http') else 'https://github.com' + lnk.attrib['href']
     if row_link in done_links:
         return False
     done_links.add(row_link)
-    res = normalize(row.text_content()).split('\n') 
-    github_item = {'name' : res[3], 
-                   'author' : res[1], 
-                   'contributors' : [{'src' : k,  'name': v } for k,v in 
-                                     zip(row.xpath('.//a/img/@src'), row.xpath('.//a/img/@title'))], 
-                   'description' : res[4]}
+    res = normalize(row.text_content()).split('\n')
+    github_item = {'name': res[3],
+                   'author': res[1],
+                   'contributors': [{'src': k,  'name': v} for k, v in
+                                    zip(row.xpath('.//a/img/@src'), row.xpath('.//a/img/@title'))],
+                   'description': res[4]}
     github_item.update(get_repo_page(row_link))
-    return github_item 
+    return github_item
 
 if __name__ == "__main__":
     update_data()
-    

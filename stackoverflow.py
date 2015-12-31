@@ -27,7 +27,7 @@ def update_data():
     if not any(processed):
         return
     with open(file_dir + '/data/soresult.jsonlist', 'a') as f: 
-        f.write('\n' + '\n'.join([json.dumps(x) for x in processed if x]))
+        f.write('\n' + '\n'.join(set([json.dumps(x) for x in processed if x])))
     with open(file_dir + '/data/solog.txt', 'w') as f: 
         f.write('\n'.join(done_links)) 
 
