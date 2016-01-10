@@ -1,24 +1,27 @@
 # -*- coding: utf-8 -*-
 
-# main prio is to get callback right not to load immediately, give signal etc
+# templates load config
+# main load config
+# conditionally load things from only if python load pypi
+# reimplement being in the pypi as check
 
 import datetime
 import json
 import os
 import sys
 
+import tornado.autoreload
 import tornado.httpserver
 import tornado.web
-import tornado.autoreload
+from package_manager import get_pm_names, update_pm_names
 from tornado.ioloop import IOLoop, PeriodicCallback
 
 import github_scraper
-import pypi_rss
 import reddit
+import pypi_rss
 import stackoverflow
 import twitter
 from cloudant_wrapper import get_cloudant_database
-from helper import get_pypi_names
 
 
 MILLISECOND = 1
@@ -40,6 +43,7 @@ class ItemCache():
         self.so_items = None
         self.twitter_items = None
         self.pypi_items = None
+        self.packages = set()
 
     def update_local_file_database(self):
         print('updating db')
@@ -55,8 +59,12 @@ class ItemCache():
         #             item['pypi'] = 'True'
         #         item['sponsored'] = True
         self.github_sponsored_items = []
+        self.packages = get_pm_names()
         self.reddit_items = get_items('python', 'reddit', 'posts')
         self.github_items = get_items('python', 'github', 'repositories')
+        for item in self.github_items:
+            if item['name'].lower() in self.packages:
+                item['is_package'] = True
         self.so_items = get_items('python', 'stackoverflow', 'bounties')
         self.pypi_items = get_items('python', 'pypi_rss', 'feeds')
         self.twitter_items = get_items('python', 'twitter', 'posts')
@@ -82,11 +90,6 @@ class InitialPeriodicCallback(PeriodicCallback):
             print("now loading data every", self.callback_time)
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
-
-#pypi = get_pypi_names()
-pypi = []
-
-data = {}
 
 
 def get_items(language, source, doc_type):
@@ -156,7 +159,8 @@ if __name__ == '__main__':
         callback(github_scraper.update): 0.5 * HOUR,
         callback(stackoverflow.update): 12 * HOUR,
         callback(pypi_rss.update): 20 * MINUTE,
-        callback(twitter.update): 40 * MINUTE
+        callback(twitter.update): 40 * MINUTE,
+        callback(update_pm_names): 2 * HOUR
     }
 
     schedules = [InitialPeriodicCallback(fn, period, 20 * MINUTE, io_loop=ioloop)

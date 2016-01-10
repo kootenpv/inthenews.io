@@ -4,8 +4,8 @@
     <div class="card-heading image ">
 
         <div class="col-sm-9 stream title">
-            {% if 'pypi' in item %}
-            <img src="static/images/python-logo.png" height="10px!important" width="10px!important">
+            {% if 'is_package' in item %}
+            <img src="static/images/python-logo.png" height="20px!important" width="20px!important">
             {% end %}
 
             <a href="https://github.com/{{item['author']}}" target="_blank" class="stream author">
