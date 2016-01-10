@@ -3,19 +3,19 @@
         <div class="cover-body">
             <header class="header">
                 <hgroup>
-                    <a href="/"><img class="avatar" src="http://www.gravatar.com/avatar/716ec647b64d8fc708a8494d1caeb5f7" height="72" width="72"></a>
-                    <h1 class="brand-main"><a href="/">{{ SITENAME }}</a></h1>
+                    <a target="_blank" href="/"><img class="avatar" src="http://www.gravatar.com/avatar/716ec647b64d8fc708a8494d1caeb5f7" height="72" width="72"></a>
+                    <h1 class="brand-main"><a target="_blank" href="/">{{ SITENAME }}</a></h1>
                     <p class="tagline">{{ TAGLINE }}</p>
                     <div class="pages-menu">
                         <p>
-                            <span class="links pages"><a href="{{ SITEURL }}/">Home</a></span>
+                            <span class="links pages"><a target="_blank" href="{{ SITEURL }}/">Home</a></span>
                             {% for page in PAGES %}
-                                <span class="separator">&#x2022; </span><span class="links pages{% if page == page %} active{% endif %}"><a href="{{ SITEURL }}/{{ page.url }}">{% if page.menu_title %}{{ page.menu_title }}{% else %}{{ page.title }}{% endif %}</a></span>
+                                <span class="separator">&#x2022; </span><span class="links pages{% if page == page %} active{% endif %}"><a target="_blank" href="{{ SITEURL }}/{{ page.url }}">{% if page.menu_title %}{{ page.menu_title }}{% else %}{{ page.title }}{% endif %}</a></span>
                             {% endfor %}
                         </p>
                     </div>
                     {% for title, link in MENUITEMS %}
-                        <p class="links"><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></p>
+                        <p class="links"><a target="_blank" href="{{ SITEURL }}/{{ link }}">{{ title }}</a></p>
                     {% endfor %}
                     <p class="social-links">
                         {% for title, link in SOCIAL %}

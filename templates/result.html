@@ -1,7 +1,7 @@
 
 <div class="card pin" id="card_div">
   <i style="fa fa-star fa-4"></i>
-  <div class="card-heading image "> 
+  <div class="card-heading image ">
       <div style=" font-weight: bold; ">
         <a href="https://github.com/{{item['author']}}" target="_blank" style=" color: black; font-size: 16px;">
           {{item['author']}}
@@ -12,27 +12,27 @@
         </a>
         <span class="span1" style="float: right"><i class="fa fa-star"></i> {{ item['stars']}} </span>
         <div style="clear:both"></div>
-      </div> 
+      </div>
       <span style=" font-weight: lighter; ">
 
         {% if 'publish_date' in item %}
            op {{ str(item['publish_date']) }}
         {% end %}
-        
+
       </span>
- 
+
 
   </div>
 
-  
+
   <div class="card-body">
-    {{ item['description'] }} 
-  </div> 
+    {{ item['description'] }}
+  </div>
 
   <div class="card-body">
     <div>Contributors:</div>
     {% for img in item['contributors'] %}
-        <a href="{{ img['name'] }}" ><img src="{{ img['src'] }}" /></a>
+        <a target="_blank" href="{{ img['name'] }}" ><img src="{{ img['src'] }}" /></a>
     {% end %}
   </div>
 

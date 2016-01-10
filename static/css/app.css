@@ -12,12 +12,12 @@ body {
 }
 
 .card .card-labels {
-	min-height: 30px;
-	padding: 10px 10px 10px 10px;
-	margin: 10px 0 0 0;
-	min-height: 5px;
-	padding-bottom: 5px;
-	height: 50px!important; 
+    min-height: 30px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 0 0;
+    min-height: 5px;
+    padding-bottom: 5px;
+    height: 50px!important;
 }
 
 .card .card-media {
@@ -29,17 +29,17 @@ body {
 }
 
 .card .card-media img {
-	width: 100%;
-	max-height: 250px!important;
+    width: 100%;
+    max-height: 250px!important;
 }
 
 .card .card-body {
-	height: 60px!important;
-	overflow: hidden!important;
+    height: 60px!important;
+    overflow: hidden!important;
 }
 
 .card .card-entities {
-	padding: 30px 20px;
+    padding: 30px 20px;
 }
 
 .card .card-heading.image .card-heading-header {
@@ -47,13 +47,13 @@ body {
 }
 
 .card .card-actions {
-	min-height: 30px;
-	padding: 10px 10px 10px 10px;
-	margin: 20px 0 0 0;
-	margin-left: -2px;
-	margin-right: -2px;
-	margin-bottom: -2px;
-	background-color: whitesmoke;
+    min-height: 30px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0 0 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: -2px;
+    background-color: whitesmoke;
 }
 
 .navbar .btn-navbar .icon-bar {
@@ -161,7 +161,7 @@ body {
     column-break-inside: avoid;
     background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
     opacity: 1;
-    
+
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
@@ -201,7 +201,7 @@ body {
 }
 
 a.stream.author {
-    
+
 }
 
 a.stream.name {
@@ -238,14 +238,14 @@ a.stream.name {
     column-break-inside: avoid;
     background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
     opacity: 1;
-    
+
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
     transition: all .2s ease;
 }
 
-.img-responsive.img-center { 
+.img-responsive.img-center {
     margin: 0 auto;
 }
 
@@ -256,4 +256,8 @@ a.stream.name {
 
 .stream-header a:hover {
     color: #337ab7;
+}
+
+html {
+    visibility:hidden;
 }

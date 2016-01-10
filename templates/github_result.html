@@ -53,8 +53,15 @@
     <div class="col-sm-12 content">
         <div style="margin-bottom:5px">Contributors:</div>
         {% for img in item['contributors'] %}
-        <a href="https://github.com/{{ img['name'] }}" ><img src="{{ img['src'] }}" height="40px" width="40px" /></a>
+        <a href="https://github.com/{{ img['name'] }}" target="_blank"><img src="{{ img['src'] }}" height="40px" width="40px" /></a>
         {% end %}
     </div>
 
+    <div class="col-sm-12 content" id="plotly{{num}}" style="height:150px; width:90%"></div>
+    <script>
+     plotly = document.getElementById('plotly{{num}}');
+     Plotly.plot( plotly, [{
+         x: [1, 2, 3, 4, 5],
+         y: [{{ ','.join([x['n'] for x in [item['likes'][int(round(0.2 * i * len(item['likes'])))] for i in range(5)]]) }}] }], {margin: { t: 0 } }, {displayModeBar: false} );
+    </script>
 </div>

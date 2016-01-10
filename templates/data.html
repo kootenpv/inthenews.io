@@ -36,14 +36,14 @@
 <div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="https://github.com/trending?l={{topic}}" target="blank">
+        <a href="https://github.com/trending?l={{topic}}" target="_blank">
             <i class="fa fa-github " style="font-size:8em"></i>
         </a>
     </div>
 
     <div class="card pin text-center" > <b>Sorted on TRENDING date</b></div>
 
-    {% for item in github_items %}
+    {% for num, item in enumerate(github_items) %}
     {% include "github_result.html" %}
     {% end %}
 
@@ -55,7 +55,7 @@
 <div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="http://stackoverflow.com/questions/tagged/{{topic}}?sort=featured"  target="blank">
+        <a href="http://stackoverflow.com/questions/tagged/{{topic}}?sort=featured"  target="_blank">
             <i class="fa fa-stack-overflow " style="font-size:8em"></i>
         </a>
     </div>
@@ -70,7 +70,7 @@
 <div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="https://www.reddit.com/r/{{topic}}/" target="blank">
+        <a href="https://www.reddit.com/r/{{topic}}/" target="_blank">
             <i class="fa fa-reddit " style="font-size:8em"></i>
         </a>
     </div>

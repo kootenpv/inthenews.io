@@ -5,24 +5,22 @@
 # conditionally load things from only if python load pypi
 # reimplement being in the pypi as check
 
-import datetime
-import json
 import os
 import sys
 
 import tornado.autoreload
 import tornado.httpserver
 import tornado.web
-from package_manager import get_pm_names, update_pm_names
 from tornado.ioloop import IOLoop, PeriodicCallback
 
 import github_scraper
-import google_query
-import reddit
 import pypi_rss
+import reddit
 import stackoverflow
+import google_query
 import twitter
 from cloudant_wrapper import get_cloudant_database
+from package_manager import get_pm_names, update_pm_names
 
 
 MILLISECOND = 1
@@ -91,8 +89,6 @@ class InitialPeriodicCallback(PeriodicCallback):
             self.callback_time, self.initial_wait = self.initial_wait, self.callback_time
             self.initial_done = True
             print("now loading data every", self.callback_time)
-
-file_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 def get_items(language, source, doc_type):
@@ -165,7 +161,8 @@ if __name__ == '__main__':
         callback(stackoverflow.update): 12 * HOUR,
         callback(pypi_rss.update): 20 * MINUTE,
         callback(twitter.update): 40 * MINUTE,
-        callback(update_pm_names): 2 * HOUR
+        callback(update_pm_names): 2 * HOUR,
+        callback(google_query.update): 2 * HOUR
     }
 
     schedules = [InitialPeriodicCallback(fn, period, 20 * MINUTE, io_loop=ioloop)
