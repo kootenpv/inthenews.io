@@ -4,3 +4,4 @@ lxml
 arrow
 cloudant
 PyGithub
+PyYAML
