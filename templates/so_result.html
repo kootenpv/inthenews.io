@@ -2,31 +2,31 @@
 {% if not 'week' in item['date'] and not 'month' in item['date'] and not 'year' in item['date'] %}
 
 <div class="card pin" id="card_div" style="min-height:315px">
-    
+
     <div class="card-heading image ">
-        
+
         <div class="col-sm-12 stream title">
             <a href="{{ item['url'] }}" target="_blank" class="stream name">
                 {{ item['title'] }}
-            </a> 
+            </a>
         </div>
-        
+
         <div class="col-sm-12 date">
-            Created: 
-            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
+            Created:
+            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time>
         </div>
-        
+
     </div>
-    
+
     <div class="col-sm-12 content">
         {% if len(item['description']) > 150 %}
           {{ item['description'][:150] }} ...
         {% else %}
           {{ item['description'] }}
         {% end %}
-    </div> 
+    </div>
 
-    <div class="col-sm-9 content"> 
+    <div class="col-sm-9 content">
         <!-- so_flair expects an item to have 'author_href' and 'author' -->
 
         {% include "so_flair.html" %}
@@ -36,13 +36,13 @@
         {% for tag in item['tags'] %}
         <span class="label label-info" style="display:inline-block">{{tag}}</span>
         {% end %}
-        
-        
+
+
     </div>
 
     <div class="card-sm-3 content text-center">
         <div>
-            <div><i class="fa fa-thumbs-o-up fa-lg icon"></i> {{ item['votes']}} </div> 
+            <div><i class="fa fa-thumbs-o-up fa-lg icon"></i> {{ item['likes'][-1]['n']}} </div>
             <div><i class="fa fa-eye fa-lg icon"></i> {{ item['views'].split()[0] }} </div>
             <div><i class="fa fa-reply fa-lg icon"></i> {{ item['answers']}} </div>
             <span class="label label-primary icon" style="cursor:text">+{{item['bounty']}}</span>

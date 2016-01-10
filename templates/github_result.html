@@ -1,37 +1,37 @@
 
 <div class="card pin" id="card_div" style="min-height:315px">
-    
+
     <div class="card-heading image ">
-        
+
         <div class="col-sm-9 stream title">
             {% if 'pypi' in item %}
             <img src="static/images/python-logo.png" height="10px!important" width="10px!important">
             {% end %}
-            
+
             <a href="https://github.com/{{item['author']}}" target="_blank" class="stream author">
                 {{item['author']}}
             </a>
             /
             <a href="https://github.com/{{item['author']}}/{{item['name']}}" target="_blank" class="stream name">
                 {{item['name']}}
-            </a> 
+            </a>
         </div>
 
-        <span class="col-sm-3 text-right" ><i class="fa fa-star"></i> {{ item['stars']}} </span>
-        
+        <span class="col-sm-3 text-right" ><i class="fa fa-star"></i> {{ item['likes'][-1]['n']}} </span>
+
         <div class="col-sm-12 date">
-            Created:
-            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
+            Trending since:
+            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time>
         </div>
- 
+
     </div>
 
     {% if 'sponsored' in item %}
     <div class="col-sm-12 content">
         <b style="color:#337ab7">Sponsored</b>
     </div>
-    {% end %} 
-    
+    {% end %}
+
     <div class="col-sm-12 content">
         {% if len(item['description']) > 150 %}
         {{ item['description'][:150] }} ...
@@ -47,9 +47,9 @@
     {% else %}
         {{ item['description2'] }}
         {% end %}
-        {% end %} 
+        {% end %}
     </div>
-    
+
     <div class="col-sm-12 content">
         <div style="margin-bottom:5px">Contributors:</div>
         {% for img in item['contributors'] %}

@@ -1,31 +1,31 @@
 <div class="card pin" id="card_div" style="min-height:150px">
-    
-    <div class="card-heading image "> 
+
+    <div class="card-heading image ">
         <div class="col-sm-12 stream title">
             <a href="{{item['url']}}" target="_blank" class="stream name">
                 {{item['title']}}
-                
-            </a> 
-        </div> 
+
+            </a>
+        </div>
         <div class="col-sm-12 date">
             Created:
-            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time> 
+            <time class="cw-relative-date" datetime="{{ item['date'] }}"></time>
         </div>
-        
+
     </div>
 
     <div class="question-info pull-right" style="margin-right:10px">
         {% if 'comment_link' in item %}
         <a href="{{ item['comment_link']}} ">
-            <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div>
+            <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['likes'][-1]['n'] }} </div>
             <div><i class="fa fa-comments-o fa-lg"></i> {{ item['comments']}} </div>
         </a>
         {% else %}
-            <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['votes']}} </div>
+            <div><i class="fa fa-thumbs-o-up fa-lg"></i> {{ item['likes'][-1]['n'] }} </div>
             <div><i class="fa fa-comments-o fa-lg"></i> {{ item['comments']}} </div>
         {% end %}
     </div>
-    
+
     <div class="card-body">
         {% if len(item['description']) > 150 %}
           {{ item['description'][:150] }} ...
@@ -33,6 +33,5 @@
           {{ item['description'] }}
         {% end %}
     </div>
-    
-</div>
 
+</div>

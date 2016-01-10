@@ -1,16 +1,27 @@
 import json
-import requests
-import xml.etree.ElementTree
-import arrow
 import os
+import xml.etree.ElementTree
 
-def update_data():
-    file_dir = os.path.dirname(os.path.realpath(__file__))
-    
+import arrow
+import requests
+
+from cloudant_wrapper import add_date_view, get_cloudant_database
+from utils import slugify
+
+
+def update():
+    database = get_cloudant_database('python', 'pypi_rss', 'feeds')
+
+    add_date_view(database)
+
+    doc_info = database.all_docs().get().json()['rows']
+    done_slugged_infos = set([x['id'] for x in doc_info])
+    rev_info = {x['id']: x['value']['rev'] for x in doc_info}
+
+    ###
     url = 'https://pypi.python.org/pypi?%3Aaction=packages_rss'
 
     response = requests.get(url)
-
 
     if hasattr(response.content, 'decode'):
         tree = xml.etree.ElementTree.fromstring(response.content.decode('utf8'))
@@ -20,17 +31,23 @@ def update_data():
     channel = tree.find('channel')
     items = channel.findall('item')
 
-    collection = []
+    trending_posts = []
     for item in items:
         i_dict = {'name': item[0].text.split()[0],
                   'url': item[1].text,
                   'description': item[3].text or '',
                   'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss'))}
-        collection.append(i_dict)
+        trending_posts.append(i_dict)
 
-    with open(file_dir + '/data/pypiresult.jsonlist', 'a') as f:
-        f.write('\n' + '\n'.join([json.dumps(item) for item in collection][::-1]))
+    trending_posts = [x for x in trending_posts if x]
 
-if __name__ == "__main__":
-    update_data()
-    
+    for post in trending_posts:
+        slugged_info = slugify(post['name'])
+        post['_id'] = slugged_info
+        if slugged_info in done_slugged_infos:
+            post['_rev'] = rev_info[post['_id']]
+
+    database.bulk_docs(*trending_posts)
+
+if __name__ == '__main__':
+    update()

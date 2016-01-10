@@ -1,11 +1,11 @@
 <div class="col-sm-2">
     <span style="color:white">Expand:</span>
 </br>
-    <img id="pypi_button" src="static/images/python-logo.png" height="25px" width="25px" style="margin-top:2px"> 
-    <span class="col-xs-1 col-md-1" id="twitter_button"> 
+    <img id="pypi_button" src="static/images/python-logo.png" height="25px" width="25px" style="margin-top:2px">
+    <span class="col-xs-1 col-md-1" id="twitter_button">
         <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE;" ></i>
         <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; "></i>
-    </span> 
+    </span>
 </div>
 
 <div class="col-sm-8" style="min-height: 50px">
@@ -15,7 +15,7 @@
         {% end %}
     </div>
 
-    <div class="col-sm-12" id="twitter_results" style="display:none">    
+    <div class="col-sm-12" id="twitter_results" style="display:none">
         {% for item in twitter_items[:5] %}
         {% include "twitter_result.html" %}
         {% end %}
@@ -23,16 +23,16 @@
 
 </div>
 
-<div class="col-sm-4 stream"> 
+<div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="https://github.com/trending?l=python">
+        <a href="https://github.com/trending?l=python" target="blank">
             <i class="fa fa-github " style="font-size:8em"></i>
         </a>
     </div>
 
     <div class="card pin text-center" > <b>Sorted on TRENDING date</b></div>
-    
+
     {% for item in github_items %}
     {% include "github_result.html" %}
     {% end %}
@@ -43,31 +43,31 @@
 </div>
 
 <div class="col-sm-4 stream">
-    
+
     <div class="col-sm-12 text-center stream-header">
-        <a href="http://stackoverflow.com/questions/tagged/python?sort=featured">
+        <a href="http://stackoverflow.com/questions/tagged/python?sort=featured"  target="blank">
             <i class="fa fa-stack-overflow " style="font-size:8em"></i>
         </a>
     </div>
 
     <div class="card pin text-center"> <b>Sorted on BOUNTY date</b></div>
-    
+
     {% for item in so_items %}
     {% include "so_result.html" %}
     {% end %}
 </div>
 
 <div class="col-sm-4 stream">
-    
+
     <div class="col-sm-12 text-center stream-header">
-        <a href="https://www.reddit.com/r/Python/">
+        <a href="https://www.reddit.com/r/Python/" target="blank">
             <i class="fa fa-reddit " style="font-size:8em"></i>
         </a>
     </div>
 
     <div class="card pin text-center"> <b>Sorted on TRENDING date</b></div>
-    
+
     {% for item in reddit_items %}
     {% include "reddit_result.html" %}
     {% end %}
-</div>  
+</div>

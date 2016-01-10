@@ -1,46 +1,25 @@
-import json
-import requests
-import lxml.html
+
+import datetime
 import re
-import time
-import os
 
-file_dir = os.path.dirname(os.path.realpath(__file__))
+from utils import slugify, update_data
 
-def normalize(s): 
-    return re.sub(r'\s+', lambda x: '\n' if '\n' in x.group(0) else ' ', s).strip()
 
-def update_data():
-    with open(file_dir + '/data/solog.txt') as fin:
-        done_links = set(fin.read().split('\n'))
-    r = None
-    while r is None or r.status_code > 299:
-        try:
-            r = requests.get('http://stackoverflow.com/questions/tagged/python?sort=featured&pageSize=100') 
-        except:
-            time.sleep(60)
-    tree = lxml.html.fromstring(r.text)
-    rows = tree.xpath('//div[contains(@id, "question-summary")]')
-    if not rows:
-        return
-    processed = [process_item(row, done_links) for row in rows]
-    if not any(processed):
-        return
-    with open(file_dir + '/data/soresult.jsonlist', 'a') as f: 
-        f.write('\n' + '\n'.join(set([json.dumps(x) for x in processed if x])))
-    with open(file_dir + '/data/solog.txt', 'w') as f: 
-        f.write('\n'.join(done_links)) 
+CONF = {'topic': 'python', 'source': 'stackoverflow', 'doc_type': 'bounties'}
+url_template = 'http://stackoverflow.com/questions/tagged/{}?sort=featured&pageSize=100'
+CONF['url'] = url_template.format(CONF['topic'])
 
-def process_item(row, done_links):
+
+def process_item_fn(row, done_links):
     lnk = row.xpath('.//div[@class="summary"]/h3/a/@href')
     if not lnk:
         return
-    lnk = str(lnk[0]) 
+    lnk = str(lnk[0])
     row_link = lnk if lnk.startswith('http') else 'https://stackoverflow.com' + lnk
     link_id = re.findall('/([0-9]+)/', row_link)[0]
     if link_id in done_links:
-        return False 
-    done_links.add(link_id) 
+        return False
+    done_links.add(link_id)
     title = row.xpath('.//div[@class="summary"]/h3/a')[0].text
     user_details = row.xpath('.//div[@class="user-details"]/a/@href')[0].split('/')
     author, author_profile = user_details[1], user_details[2]
@@ -50,22 +29,32 @@ def process_item(row, done_links):
     votes = row.xpath('.//span[contains(@class, "vote-count-post")]/strong')[0].text
     answers = row.xpath('.//div[@class="stats"]/div[contains(@class, "answered")]/strong')[0].text
     views = row.xpath('.//div[contains(@class, "views")]')[0].text
-    desc = row.xpath('.//div[@class = "summary"]/div[@class = "excerpt"]')[0].text.replace('\r\n', ' ').replace('\n', ' ')
+    desc = row.xpath(
+        './/div[@class = "summary"]/div[@class = "excerpt"]')[0].text.replace('\r\n', ' ').replace('\n', ' ')
     tags = [x.split('/')[-1] for x in row.xpath('.//a[@class = "post-tag"]/@href')]
-    sohub_item = {'title' : title, 
-                  'author' : author, 
-                  'author_src' :author_src, 
-                  'author_profile' : author_profile, 
-                  'bounty' : bounty, 
-                  'date' : date, 
-                  'votes' : votes,
-                  'views' : views, 
-                  'answers' : answers,
-                  'description' : desc,
-                  'tags' : tags,
-                  'url' : row_link} 
-    return sohub_item 
+    print(title)
+    sohub_item = {'title': title,
+                  'author': author,
+                  'author_src': author_src,
+                  'author_profile': author_profile,
+                  'bounty': bounty,
+                  'date': date,
+                  'likes': [{'at': datetime.datetime.now().isoformat()[:19], 'n': votes}],
+                  'views': views,
+                  'answers': answers,
+                  'description': desc,
+                  'tags': tags,
+                  'url': row_link}
+    return sohub_item
+
+
+def get_id_from_post_fn(post):
+    return slugify(post['title'])
+
+
+def update():
+    xpath_row = '//div[contains(@id, "question-summary")]'
+    update_data(CONF, xpath_row, process_item_fn, get_id_from_post_fn)
 
 if __name__ == "__main__":
-    update_data()
-    
+    update()

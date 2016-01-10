@@ -2,3 +2,5 @@ tornado
 requests
 lxml
 arrow
+cloudant
+PyGithub

@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 256M
-  host: pytrending
-  name: pytrending
+  host: inthenews
+  name: inthenews
   path: .
   domain: eu-gb.mybluemix.net
   instances: 1

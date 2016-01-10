@@ -1,22 +1,86 @@
 # -*- coding: utf-8 -*-
 
-import tornado.web
-import tornado.autoreload
-import tornado.httpserver
-from tornado.ioloop import PeriodicCallback
-from tornado.ioloop import IOLoop
+# main prio is to get callback right not to load immediately, give signal etc
 
-import os
+import datetime
 import json
+import os
 import sys
 
+import tornado.httpserver
+import tornado.web
+import tornado.autoreload
+from tornado.ioloop import IOLoop, PeriodicCallback
+
+import github_scraper
+import pypi_rss
+import reddit
+import stackoverflow
+import twitter
+from cloudant_wrapper import get_cloudant_database
 from helper import get_pypi_names
 
-import reddit
-import github
-import stackoverflow
-import pypi_rss
-import twitter
+
+MILLISECOND = 1
+SECOND = MILLISECOND * 1000
+MINUTE = SECOND * 60
+HOUR = MINUTE * 60
+DAY = HOUR * 24
+WEEK = DAY * 7
+MONTH = DAY * 365.25 / 12
+YEAR = DAY * 365.25
+
+
+class ItemCache():
+
+    def __init__(self):
+        self.github_items = None
+        self.github_sponsored_items = None
+        self.reddit_items = None
+        self.so_items = None
+        self.twitter_items = None
+        self.pypi_items = None
+
+    def update_local_file_database(self):
+        print('updating db')
+        # with open(file_dir + '/data/gitresult.jsonlist') as f:
+        #     github_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
+        #     for item in github_items:
+        #         if item['name'].lower() in pypi:
+        #             item['pypi'] = 'True'
+        # with open(file_dir + '/data/gitresult_sponsored.jsonlist') as f:
+        #     github_sponsored_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
+        #     for item in github_sponsored_items:
+        #         if item['name'].lower() in pypi:
+        #             item['pypi'] = 'True'
+        #         item['sponsored'] = True
+        self.github_sponsored_items = []
+        self.reddit_items = get_items('python', 'reddit', 'posts')
+        self.github_items = get_items('python', 'github', 'repositories')
+        self.so_items = get_items('python', 'stackoverflow', 'bounties')
+        self.pypi_items = get_items('python', 'pypi_rss', 'feeds')
+        with open(file_dir + '/data/twitterresult.jsonlist') as f:
+            self.twitter_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
+
+
+class InitialPeriodicCallback(PeriodicCallback):
+
+    def __init__(self, callback, callback_time, initial_wait, io_loop=None):
+        super(InitialPeriodicCallback, self).__init__(callback, callback_time, io_loop)
+        self.callback_time, self.initial_wait = initial_wait, self.callback_time
+        self.initial_done = False
+
+    def _schedule_next(self):
+        if self._running:
+            current_time = self.io_loop.time()
+            while self._next_timeout <= current_time:
+                self._next_timeout += self.callback_time / 1000.0
+            self._timeout = self.io_loop.add_timeout(self._next_timeout, self._run)
+
+        if not self.initial_done:
+            self.callback_time, self.initial_wait = self.initial_wait, self.callback_time
+            self.initial_done = True
+            print("now loading data every", self.callback_time)
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
@@ -25,43 +89,31 @@ pypi = get_pypi_names()
 data = {}
 
 
-def update_local_file_database():
-    with open(file_dir + '/data/gitresult.jsonlist') as f:
-        github_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-        for item in github_items:
-            if item['name'].lower() in pypi:
-                item['pypi'] = 'True'
-    with open(file_dir + '/data/gitresult_sponsored.jsonlist') as f:
-        github_sponsored_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-        for item in github_sponsored_items:
-            if item['name'].lower() in pypi:
-                item['pypi'] = 'True'
-            item['sponsored'] = True
-    with open(file_dir + '/data/redditresult.jsonlist') as f:
-        reddit_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-    with open(file_dir + '/data/pypiresult.jsonlist') as f:
-        pypi_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-    with open(file_dir + '/data/twitterresult.jsonlist') as f:
-        twitter_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-    with open(file_dir + '/data/soresult.jsonlist') as f:
-        so_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-    data['github'] = github_items
-    data['so'] = so_items
-    data['reddit'] = reddit_items
-    data['pypi'] = pypi_items
-    data['twitter'] = twitter_items
-    data['github_sponsored'] = github_sponsored_items
-
-# pylint: disable=W0223
+def get_items(language, source, doc_type):
+    db = get_cloudant_database(language, source, doc_type)
+    dates = db.design('dateview').view('viewdate').get().json()
+    keys = dates['rows'] if dates else []
+    keys = [(x['key'], x['id']) for x in keys]
+    keys = sorted(keys, key=lambda x: x[0], reverse=True)[:20]
+    doc_query = '?include_docs=true&keys={}'.format([x[1] for x in keys])
+    docs = db.all_docs().get(doc_query.replace("'", '"')).json()
+    return [doc['doc'] for doc in docs['rows']]
 
 
 class MainHandler(tornado.web.RequestHandler):
     SUPPORTED_METHODS = ('GET', 'HEAD', 'POST')
 
+    def initialize(self, item_cache):
+        self._item_cache = item_cache
+
     def get(self):
-        self.render('index.html', github_items=data['github'], reddit_items=data['reddit'],
-                    so_items=data['so'], pypi_items=data['pypi'], twitter_items=data['twitter'],
-                    github_sponsored_items=data['github_sponsored'])
+        self.render('index.html',
+                    github_items=self._item_cache.github_items,
+                    reddit_items=self._item_cache.reddit_items,
+                    so_items=self._item_cache.so_items,
+                    pypi_items=self._item_cache.pypi_items,
+                    twitter_items=self._item_cache.twitter_items,
+                    github_sponsored_items=self._item_cache.github_sponsored_items)
 
     def head(self):
         return self.get()
@@ -77,14 +129,16 @@ class AboutHandler(tornado.web.RequestHandler):
 settings = {'template_path': os.path.join(os.path.dirname(__file__), 'templates'),
             'static_path': os.path.join(os.path.dirname(__file__), 'static')}
 
+
+def callback(fn):
+    print(fn)
+    return fn
+
 if __name__ == '__main__':
-    # to run the server, type-in $ python tornad_server.py
 
-    if not data:
-        update_local_file_database()
-
+    item_cache = ItemCache()
     application = tornado.web.Application([
-        (r"/", MainHandler),
+        (r"/", MainHandler, dict(item_cache=item_cache)),
         (r"/about", AboutHandler),
     ], **settings)
 
@@ -97,16 +151,19 @@ if __name__ == '__main__':
 
     ioloop = IOLoop().instance()
 
-    scrape_mappings = {reddit.update_data: 50 * 60 * 1000,
-                       github.update_data: 60 * 60 * 1000,
-                       stackoverflow.update_data: 70000 * 60 * 1000,
-                       pypi_rss.update_data: 20 * 60 * 1000,
-                       twitter.update_data: 40 * 60 * 1000}
+    scrape_mappings = {
+        callback(reddit.update): 50 * MINUTE,
+        callback(github_scraper.update): 0.5 * HOUR,
+        callback(stackoverflow.update): 12 * HOUR,
+        callback(pypi_rss.update): 20 * MINUTE,
+        # callback(twitter.update_data): 40 * 60 * 1000
+    }
 
-    schedules = [PeriodicCallback(fn, period, io_loop=ioloop)
+    schedules = [InitialPeriodicCallback(fn, period, 20 * MINUTE, io_loop=ioloop)
                  for fn, period in scrape_mappings.items()]
 
-    sched = PeriodicCallback(update_local_file_database, 14.4 * 60 * 1000, io_loop=ioloop)
+    sched = InitialPeriodicCallback(item_cache.update_local_file_database, 20 * MINUTE, 1 * SECOND,
+                                    io_loop=ioloop)
     sched.start()
 
     for schedule in schedules:

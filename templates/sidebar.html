@@ -1,7 +1,29 @@
-<div>bla bla bla</div>
-{% if cached %}
-<div class="label badge">
-  Cached
-</div> 
-{% end %}
-
+<div class="sidebar pure-u">
+    <div class="cover-img" style="background-color: {{ COVER_BG_COLOR }}">
+        <div class="cover-body">
+            <header class="header">
+                <hgroup>
+                    <a href="/"><img class="avatar" src="http://www.gravatar.com/avatar/716ec647b64d8fc708a8494d1caeb5f7" height="72" width="72"></a>
+                    <h1 class="brand-main"><a href="/">{{ SITENAME }}</a></h1>
+                    <p class="tagline">{{ TAGLINE }}</p>
+                    <div class="pages-menu">
+                        <p>
+                            <span class="links pages"><a href="{{ SITEURL }}/">Home</a></span>
+                            {% for page in PAGES %}
+                                <span class="separator">&#x2022; </span><span class="links pages{% if page == page %} active{% endif %}"><a href="{{ SITEURL }}/{{ page.url }}">{% if page.menu_title %}{{ page.menu_title }}{% else %}{{ page.title }}{% endif %}</a></span>
+                            {% endfor %}
+                        </p>
+                    </div>
+                    {% for title, link in MENUITEMS %}
+                        <p class="links"><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></p>
+                    {% endfor %}
+                    <p class="social-links">
+                        {% for title, link in SOCIAL %}
+                            <a target="_blank" class="social {{ title }}" href="{{ link }}"><img src="{{ SITEURL }}/images/social/{{ title|lower }}.png" title="{{ title }}"></a>
+                        {% endfor %}
+                    </p>
+                </hgroup>
+            </header>
+        </div>
+    </div>
+</div>
