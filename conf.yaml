@@ -1,7 +1,23 @@
 topic: python
-reddit: yes
-github: yes
-stackoverflow: yes
+reddit: python
+github: python
+stackoverflow: python
+google_query: python -monty -fish -fishes -snake -snakes
 twitter_handles:
-   - gvanrossum
-   - PlanetPython
+    - gvanrossum
+    - PlanetPython
+    - gutworth
+    - pydanny
+    - ncoghlan_dev
+    - jtauber
+    - raymondh
+    - gvanrossum
+    - OlivierVerdier
+    - antocuni
+    - alfredodeza
+    - bkjones
+    - jessicamckellar
+    - t3kcit
+    - brutasse
+    - dabeaz
+    - ianbicking

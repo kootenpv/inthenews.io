@@ -6,19 +6,13 @@ import arrow
 import requests
 
 from cloudant_wrapper import add_date_view, get_cloudant_database
-from utils import slugify
+from utils import retry_get_tree, slugify, update_data
 
 
-def update():
-    database = get_cloudant_database('python', 'pypi_rss', 'feeds')
+CONF = {'topic': 'python', 'source': 'pypi_rss', 'doc_type': 'feeds'}
 
-    add_date_view(database)
 
-    doc_info = database.all_docs().get().json()['rows']
-    done_slugged_infos = set([x['id'] for x in doc_info])
-    rev_info = {x['id']: x['value']['rev'] for x in doc_info}
-
-    ###
+def get_posts():
     url = 'https://pypi.python.org/pypi?%3Aaction=packages_rss'
 
     response = requests.get(url)
@@ -33,21 +27,19 @@ def update():
 
     trending_posts = []
     for item in items:
-        i_dict = {'name': item[0].text.split()[0],
+        i_dict = {'_id': slugify(item[0].text.split()[0]),
+                  'name': item[0].text.split()[0],
                   'url': item[1].text,
                   'description': item[3].text or '',
-                  'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss'))}
+                  'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss')),
+                  'likes': []}
         trending_posts.append(i_dict)
 
-    trending_posts = [x for x in trending_posts if x]
+    return trending_posts
 
-    for post in trending_posts:
-        slugged_info = slugify(post['name'])
-        post['_id'] = slugged_info
-        if slugged_info in done_slugged_infos:
-            post['_rev'] = rev_info[post['_id']]
 
-    database.bulk_docs(*trending_posts)
+def update():
+    update_data(CONF, get_posts())
 
 if __name__ == '__main__':
     update()

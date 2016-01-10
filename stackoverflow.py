@@ -1,10 +1,9 @@
 
 import datetime
-import re
 
 import yaml
 
-from utils import slugify, update_data
+from utils import retry_get_tree, slugify, update_data
 
 
 with open('conf.yaml') as f:
@@ -13,19 +12,15 @@ with open('conf.yaml') as f:
 URL_TEMPLATE = 'http://stackoverflow.com/questions/tagged/{}?sort=featured&pageSize=100'
 
 CONF = {'source': 'stackoverflow', 'doc_type': 'bounties',
-        'url': URL_TEMPLATE.format(CONF['topic'])}
+        'url': URL_TEMPLATE.format(CONF['stackoverflow'])}
 
 
-def process_item_fn(row, done_links):
+def process_item_fn(row):
     lnk = row.xpath('.//div[@class="summary"]/h3/a/@href')
     if not lnk:
         return
     lnk = str(lnk[0])
     row_link = lnk if lnk.startswith('http') else 'https://stackoverflow.com' + lnk
-    link_id = re.findall('/([0-9]+)/', row_link)[0]
-    if link_id in done_links:
-        return False
-    done_links.add(link_id)
     title = row.xpath('.//div[@class="summary"]/h3/a')[0].text
     user_details = row.xpath('.//div[@class="user-details"]/a/@href')[0].split('/')
     author, author_profile = user_details[1], user_details[2]
@@ -38,8 +33,8 @@ def process_item_fn(row, done_links):
     desc = row.xpath(
         './/div[@class = "summary"]/div[@class = "excerpt"]')[0].text.replace('\r\n', ' ').replace('\n', ' ')
     tags = [x.split('/')[-1] for x in row.xpath('.//a[@class = "post-tag"]/@href')]
-    print(title)
-    sohub_item = {'title': title,
+    sohub_item = {'_id': slugify(title),
+                  'title': title,
                   'author': author,
                   'author_src': author_src,
                   'author_profile': author_profile,
@@ -54,13 +49,15 @@ def process_item_fn(row, done_links):
     return sohub_item
 
 
-def get_id_from_post_fn(post):
-    return slugify(post['title'])
+def get_posts():
+    tree = retry_get_tree(CONF['url'])
+    rows = tree.xpath('//div[contains(@id, "question-summary")]')
+    rows = [process_item_fn(row) for row in rows]
+    return rows
 
 
 def update():
-    xpath_row = '//div[contains(@id, "question-summary")]'
-    update_data(CONF, xpath_row, process_item_fn, get_id_from_post_fn)
+    update_data(CONF, get_posts())
 
 if __name__ == "__main__":
     update()

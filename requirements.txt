@@ -1,3 +1,4 @@
+pip==7.1.2
 tornado
 requests
 lxml

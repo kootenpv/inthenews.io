@@ -1,10 +1,14 @@
 <div class="col-sm-2">
     <span style="color:white">Expand:</span>
 </br>
-    <img id="pypi_button" src="static/images/python-logo.png" height="25px" width="25px" style="margin-top:2px">
+    <img id="pypi_button" src="static/images/topic-logo.png" height="25px" width="25px" style="margin-top:2px">
     <span class="col-xs-1 col-md-1" id="twitter_button">
         <i class="fa fa-circle fa-stack-2x" style="color:#32CCFE;" ></i>
         <i class="fa fa-twitter fa-stack-1x fa-lg" style="color:white; "></i>
+    </span>
+    <span class="col-xs-1 col-md-1" id="google_button">
+        <i class="fa fa-circle fa-stack-2x" style="color:black" ></i>
+        <i class="fa fa-google fa-stack-1x fa-lg" style="color:white;"></i>
     </span>
 </div>
 
@@ -21,12 +25,18 @@
         {% end %}
     </div>
 
+    <div class="col-sm-12" id="google_results" style="display:none">
+        {% for item in google_items[:5] %}
+        {% include "google_result.html" %}
+        {% end %}
+    </div>
+
 </div>
 
 <div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="https://github.com/trending?l=python" target="blank">
+        <a href="https://github.com/trending?l={{topic}}" target="blank">
             <i class="fa fa-github " style="font-size:8em"></i>
         </a>
     </div>
@@ -45,7 +55,7 @@
 <div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="http://stackoverflow.com/questions/tagged/python?sort=featured"  target="blank">
+        <a href="http://stackoverflow.com/questions/tagged/{{topic}}?sort=featured"  target="blank">
             <i class="fa fa-stack-overflow " style="font-size:8em"></i>
         </a>
     </div>
@@ -60,7 +70,7 @@
 <div class="col-sm-4 stream">
 
     <div class="col-sm-12 text-center stream-header">
-        <a href="https://www.reddit.com/r/Python/" target="blank">
+        <a href="https://www.reddit.com/r/{{topic}}/" target="blank">
             <i class="fa fa-reddit " style="font-size:8em"></i>
         </a>
     </div>

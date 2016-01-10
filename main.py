@@ -17,6 +17,7 @@ from package_manager import get_pm_names, update_pm_names
 from tornado.ioloop import IOLoop, PeriodicCallback
 
 import github_scraper
+import google_query
 import reddit
 import pypi_rss
 import stackoverflow
@@ -33,6 +34,11 @@ WEEK = DAY * 7
 MONTH = DAY * 365.25 / 12
 YEAR = DAY * 365.25
 
+import yaml
+
+with open('conf.yaml') as f:
+    CONF = yaml.load(f)
+
 
 class ItemCache():
 
@@ -43,15 +49,11 @@ class ItemCache():
         self.so_items = None
         self.twitter_items = None
         self.pypi_items = None
+        self.google_items = None
         self.packages = set()
 
     def update_local_file_database(self):
         print('updating db')
-        # with open(file_dir + '/data/gitresult.jsonlist') as f:
-        #     github_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
-        #     for item in github_items:
-        #         if item['name'].lower() in pypi:
-        #             item['pypi'] = 'True'
         # with open(file_dir + '/data/gitresult_sponsored.jsonlist') as f:
         #     github_sponsored_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
         #     for item in github_sponsored_items:
@@ -60,14 +62,15 @@ class ItemCache():
         #         item['sponsored'] = True
         self.github_sponsored_items = []
         self.packages = get_pm_names()
-        self.reddit_items = get_items('python', 'reddit', 'posts')
-        self.github_items = get_items('python', 'github', 'repositories')
+        self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
+        self.github_items = get_items(CONF['topic'], 'github', 'repositories')
         for item in self.github_items:
             if item['name'].lower() in self.packages:
                 item['is_package'] = True
-        self.so_items = get_items('python', 'stackoverflow', 'bounties')
-        self.pypi_items = get_items('python', 'pypi_rss', 'feeds')
-        self.twitter_items = get_items('python', 'twitter', 'posts')
+        self.so_items = get_items(CONF['topic'], 'stackoverflow', 'bounties')
+        self.pypi_items = get_items(CONF['topic'], 'pypi_rss', 'feeds')
+        self.twitter_items = get_items(CONF['topic'], 'twitter', 'posts')
+        self.google_items = get_items(CONF['topic'], 'google_search', 'posts')
 
 
 class InitialPeriodicCallback(PeriodicCallback):
@@ -116,7 +119,9 @@ class MainHandler(tornado.web.RequestHandler):
                     so_items=self._item_cache.so_items,
                     pypi_items=self._item_cache.pypi_items,
                     twitter_items=self._item_cache.twitter_items,
-                    github_sponsored_items=self._item_cache.github_sponsored_items)
+                    github_sponsored_items=self._item_cache.github_sponsored_items,
+                    google_items=self._item_cache.google_items,
+                    topic=CONF['topic'])
 
     def head(self):
         return self.get()

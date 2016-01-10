@@ -21,7 +21,7 @@ var updateAllRelativeDates = function() {
                     }
                 });
 
-                // Grab the datetime for the element and compare to now                    
+                // Grab the datetime for the element and compare to now
                 var time = moment($(e).attr('datetime'));
                 var diff = now.diff(time, 'days');
 
@@ -41,7 +41,7 @@ setInterval(updateAllRelativeDates, 60000);
 // Update all dates initially
 updateAllRelativeDates();
 
-    
+
 })();
 
 
@@ -53,6 +53,12 @@ $("#pypi_button").click(function() {
 
 $("#twitter_button").click(function() {
   $( "#twitter_results" ).toggle( "fast", function() {
+    // Animation complete.
+  });
+});
+
+$("#google_button").click(function() {
+  $( "#google_results" ).toggle( "fast", function() {
     // Animation complete.
   });
 });
