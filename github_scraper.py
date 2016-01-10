@@ -1,11 +1,16 @@
 
 import datetime
 
+import yaml
+
 from utils import normalize, retry_get_tree, slugify, update_data
 
 
-CONF = {'topic': 'python', 'source': 'github', 'doc_type': 'repositories'}
-CONF['url'] = 'https://github.com/trending?l={}'.format(CONF['topic'])
+with open('conf.yaml') as f:
+    CONF = yaml.load(f)
+
+CONF.update({'source': 'github', 'doc_type': 'repositories',
+             'url': 'https://github.com/trending?l={}'.format(CONF['topic'])})
 
 
 def get_repo_page(link):

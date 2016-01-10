@@ -2,11 +2,16 @@
 
 import datetime
 
+import yaml
+
 from utils import normalize, slugify, update_data
 
 
-CONF = {'topic': 'python', 'source': 'reddit', 'doc_type': 'posts'}
-CONF['url'] = 'http://www.reddit.com/r/{}'.format(CONF['topic'])
+with open('conf.yaml') as f:
+    CONF = yaml.load(f)
+
+CONF.update({'source': 'reddit', 'doc_type': 'posts',
+             'url': 'http://www.reddit.com/r/{}'.format(CONF['topic'])})
 
 
 def process_item_fn(row, done_slugged_titles):

@@ -2,12 +2,18 @@
 import datetime
 import re
 
+import yaml
+
 from utils import slugify, update_data
 
 
-CONF = {'topic': 'python', 'source': 'stackoverflow', 'doc_type': 'bounties'}
-url_template = 'http://stackoverflow.com/questions/tagged/{}?sort=featured&pageSize=100'
-CONF['url'] = url_template.format(CONF['topic'])
+with open('conf.yaml') as f:
+    CONF = yaml.load(f)
+
+URL_TEMPLATE = 'http://stackoverflow.com/questions/tagged/{}?sort=featured&pageSize=100'
+
+CONF = {'source': 'stackoverflow', 'doc_type': 'bounties',
+        'url': URL_TEMPLATE.format(CONF['topic'])}
 
 
 def process_item_fn(row, done_links):

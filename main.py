@@ -59,8 +59,7 @@ class ItemCache():
         self.github_items = get_items('python', 'github', 'repositories')
         self.so_items = get_items('python', 'stackoverflow', 'bounties')
         self.pypi_items = get_items('python', 'pypi_rss', 'feeds')
-        with open(file_dir + '/data/twitterresult.jsonlist') as f:
-            self.twitter_items = [json.loads(x) for x in f.read().split('\n') if x][-20:][::-1]
+        self.twitter_items = get_items('python', 'twitter', 'posts')
 
 
 class InitialPeriodicCallback(PeriodicCallback):
@@ -84,7 +83,8 @@ class InitialPeriodicCallback(PeriodicCallback):
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 
-pypi = get_pypi_names()
+#pypi = get_pypi_names()
+pypi = []
 
 data = {}
 
@@ -156,7 +156,7 @@ if __name__ == '__main__':
         callback(github_scraper.update): 0.5 * HOUR,
         callback(stackoverflow.update): 12 * HOUR,
         callback(pypi_rss.update): 20 * MINUTE,
-        # callback(twitter.update_data): 40 * 60 * 1000
+        callback(twitter.update): 40 * MINUTE
     }
 
     schedules = [InitialPeriodicCallback(fn, period, 20 * MINUTE, io_loop=ioloop)
