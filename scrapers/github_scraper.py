@@ -1,5 +1,6 @@
 
 import datetime
+import sys
 
 import yaml
 
@@ -9,8 +10,10 @@ from utils import normalize, retry_get_tree, slugify, update_data
 with open('conf.yaml') as f:
     CONF = yaml.load(f)
 
+URL_TEMPLATE = 'https://github.com/trending?l={}'
+
 CONF.update({'source': 'github', 'doc_type': 'repositories',
-             'url': 'https://github.com/trending?l={}'.format(CONF['github'])})
+             'url': URL_TEMPLATE.format(CONF['github'])})
 
 
 def get_repo_page(link):
@@ -50,4 +53,9 @@ def update():
     update_data(CONF, get_posts(), latest_date_sort=False)
 
 if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        CONF['github'] = sys.argv[1]
+        CONF['url'] = URL_TEMPLATE.format(sys.argv[1])
+    else:
+        raise ValueError("need 2 args if called from main")
     update()
