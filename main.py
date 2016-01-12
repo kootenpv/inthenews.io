@@ -13,14 +13,8 @@ import tornado.httpserver
 import tornado.web
 from tornado.ioloop import IOLoop, PeriodicCallback
 
-import github_scraper
-import pypi_rss
-import reddit
-import stackoverflow
-import google_query
-import twitter
 from cloudant_wrapper import get_cloudant_database
-from package_manager import get_pm_names, update_pm_names
+from package_manager import get_pm_names
 
 
 MILLISECOND = 1
@@ -62,6 +56,9 @@ class ItemCache():
         self.packages = get_pm_names()
         self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
         self.github_items = get_items(CONF['topic'], 'github', 'repositories')
+        for item in self.github_items:
+            print('gitems', [x['n'] for x in [item['likes'][
+                  int(round(0.2 * i * len(item['likes'])))] for i in range(5)]])
         for item in self.github_items:
             if item['name'].lower() in self.packages:
                 item['is_package'] = True
@@ -155,25 +152,9 @@ if __name__ == '__main__':
 
     ioloop = IOLoop().instance()
 
-    scrape_mappings = {
-        callback(reddit.update): 50 * MINUTE,
-        callback(github_scraper.update): 0.5 * HOUR,
-        callback(stackoverflow.update): 12 * HOUR,
-        callback(pypi_rss.update): 20 * MINUTE,
-        callback(twitter.update): 40 * MINUTE,
-        callback(update_pm_names): 2 * HOUR,
-        callback(google_query.update): 2 * HOUR
-    }
-
-    schedules = [InitialPeriodicCallback(fn, period, 20 * MINUTE, io_loop=ioloop)
-                 for fn, period in scrape_mappings.items()]
-
     sched = InitialPeriodicCallback(item_cache.update_local_file_database, 20 * MINUTE, 1 * SECOND,
                                     io_loop=ioloop)
     sched.start()
-
-    for schedule in schedules:
-        schedule.start()
 
     if 'production' not in sys.argv:
         for root, dirs, files in os.walk('.', topdown=False):

@@ -2,7 +2,7 @@ topic: python
 reddit: python
 github: python
 stackoverflow: python
-google_query: python -monty -fish -fishes -snake -snakes
+google_query: python -monty -fish -fishes -snake -snakes -bite -bitten
 twitter_handles:
     - gvanrossum
     - PlanetPython
