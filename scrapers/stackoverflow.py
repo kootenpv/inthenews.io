@@ -1,18 +1,10 @@
 
 import datetime
 
-import yaml
-
 from utils import retry_get_tree, slugify, update_data
 
 
-with open('conf.yaml') as f:
-    CONF = yaml.load(f)
-
 URL_TEMPLATE = 'http://stackoverflow.com/questions/tagged/{}?sort=featured&pageSize=100'
-
-CONF = {'source': 'stackoverflow', 'doc_type': 'bounties',
-        'url': URL_TEMPLATE.format(CONF['stackoverflow'])}
 
 
 def process_item_fn(row):
@@ -49,15 +41,15 @@ def process_item_fn(row):
     return sohub_item
 
 
-def get_posts():
-    tree = retry_get_tree(CONF['url'])
+def get_posts(conf):
+    tree = retry_get_tree(conf['url'])
     rows = tree.xpath('//div[contains(@id, "question-summary")]')
     rows = [process_item_fn(row) for row in rows]
     return rows
 
 
-def update():
-    update_data(CONF, get_posts())
+def update(conf):
+    conf.update({'source': 'stackoverflow', 'doc_type': 'bounties',
+                 'url': URL_TEMPLATE.format(conf['stackoverflow'])})
 
-if __name__ == "__main__":
-    update()
+    update_data(conf, get_posts(conf))

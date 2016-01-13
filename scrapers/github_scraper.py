@@ -1,19 +1,10 @@
 
 import datetime
-import sys
-
-import yaml
 
 from utils import normalize, retry_get_tree, slugify, update_data
 
 
-with open('conf.yaml') as f:
-    CONF = yaml.load(f)
-
 URL_TEMPLATE = 'https://github.com/trending?l={}'
-
-CONF.update({'source': 'github', 'doc_type': 'repositories',
-             'url': URL_TEMPLATE.format(CONF['github'])})
 
 
 def get_repo_page(link):
@@ -42,20 +33,15 @@ def process_item_fn(row):
     return github_item
 
 
-def get_posts():
-    tree = retry_get_tree(CONF['url'])
+def get_posts(conf):
+    tree = retry_get_tree(conf['url'])
     rows = tree.xpath('//li[@class="repo-list-item"]')
     rows = [process_item_fn(row) for row in rows]
     return rows
 
 
-def update():
-    update_data(CONF, get_posts(), latest_date_sort=False)
+def update(conf):
+    conf.update({'source': 'github', 'doc_type': 'repositories',
+                 'url': URL_TEMPLATE.format(conf['github'])})
 
-if __name__ == "__main__":
-    if len(sys.argv) == 2:
-        CONF['github'] = sys.argv[1]
-        CONF['url'] = URL_TEMPLATE.format(sys.argv[1])
-    else:
-        raise ValueError("need 2 args if called from main")
-    update()
+    update_data(conf, get_posts(conf), latest_date_sort=False)

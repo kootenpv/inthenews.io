@@ -2,16 +2,7 @@
 
 import datetime
 
-import yaml
-
 from utils import normalize, retry_get_tree, slugify, update_data
-
-
-with open('conf.yaml') as f:
-    CONF = yaml.load(f)
-
-CONF.update({'source': 'reddit', 'doc_type': 'posts',
-             'url': 'http://www.reddit.com/r/{}'.format(CONF['reddit'])})
 
 
 def process_item_fn(row):
@@ -44,15 +35,15 @@ def process_item_fn(row):
     return False
 
 
-def get_posts():
-    tree = retry_get_tree(CONF['url'])
+def get_posts(conf):
+    tree = retry_get_tree(conf['url'])
     rows = tree.xpath('//div[@id="siteTable"]/div')
     rows = [process_item_fn(row) for row in rows]
     return rows
 
 
-def update():
-    update_data(CONF, get_posts())
+def update(conf):
+    conf.update({'source': 'reddit', 'doc_type': 'posts',
+                 'url': 'http://www.reddit.com/r/{}'.format(conf['reddit'])})
 
-if __name__ == "__main__":
-    update()
+    update_data(conf, get_posts(conf))

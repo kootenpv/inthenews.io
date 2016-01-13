@@ -7,15 +7,9 @@ import time
 import arrow
 import requests
 import tldextract
-import yaml
 
 from utils import slugify, update_data
 
-
-with open('conf.yaml') as f:
-    CONF = yaml.load(f)
-
-CONF.update({'source': 'google_search', 'doc_type': 'posts'})
 
 GDATE = '%a, %d %b %Y %H:%M:%S %z'
 
@@ -44,12 +38,10 @@ def get_results(row):
             'likes': []}
 
 
-def get_posts():
-    return [get_results(row) for row in query_google(CONF['google_query'])]
+def get_posts(conf):
+    return [get_results(row) for row in query_google(conf['google_query'])]
 
 
-def update():
-    update_data(CONF, get_posts())
-
-if __name__ == '__main__':
-    update()
+def update(conf):
+    conf.update({'source': 'google_search', 'doc_type': 'posts'})
+    update_data(conf, get_posts(conf))

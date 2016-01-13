@@ -1,18 +1,9 @@
 
-import datetime
-import time
 from collections import Counter
 
 import arrow
-import yaml
 
 from utils import retry_get_tree, slugify, update_data
-
-
-with open('conf.yaml') as f:
-    CONF = yaml.load(f)
-
-CONF.update({'source': 'twitter', 'doc_type': 'posts'})
 
 
 def process_item_fn(row):
@@ -20,7 +11,6 @@ def process_item_fn(row):
         desc = row.xpath(
             './/p[contains(@class, "tweet-text")]')[0].text_content().encode('utf8').strip()
         date = int(row.xpath('.//span/@data-time')[0])
-        links = row.xpath('.//a')
         url = row.xpath('.//a[contains(@href, "status/")]/@href')
         if not url:
             return False
@@ -40,18 +30,16 @@ def process_item_fn(row):
         return False
 
 
-def get_posts():
+def get_posts(conf):
     posts = []
-    for handle in CONF['twitter_handles']:
-        CONF['url'] = 'https://twitter.com/{}'.format(handle)
-        tree = retry_get_tree(CONF['url'])
+    for handle in conf['twitter_handles']:
+        conf['url'] = 'https://twitter.com/{}'.format(handle)
+        tree = retry_get_tree(conf['url'])
         rows = tree.xpath('//li[contains(@class, "js-stream-item")]')
         posts.extend([process_item_fn(row) for row in rows])
     return posts
 
 
-def update():
-    update_data(CONF, get_posts())
-
-if __name__ == "__main__":
-    update()
+def update(conf):
+    conf.update({'source': 'twitter', 'doc_type': 'posts'})
+    update_data(conf, get_posts(conf))
