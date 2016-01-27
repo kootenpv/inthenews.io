@@ -25,9 +25,13 @@ with open('../conf.yaml') as f:
 scrape_mappings = {
     reddit.update: 50 * MINUTE,
     github_scraper.update: 0.5 * HOUR,
-    stackoverflow.update: 12 * HOUR,
-    pypi_rss.update: 20 * MINUTE,
+    # stackoverflow.update: 12 * HOUR,
+    # pypi_rss.update: 20 * MINUTE,
     twitter.update: 40 * MINUTE,
     # update_pm_names: 2 * HOUR,
-    google_query.update: 2 * HOUR
+    # google_query.update: 2 * HOUR
 }
+
+for sm in scrape_mappings:
+    print(sm, scrape_mappings[sm])
+    sm(CONFIG)

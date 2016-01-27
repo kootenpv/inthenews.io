@@ -23,7 +23,7 @@ def prep_doc(doc, index, doc_type):
         new_doc['upsert']['likes'] = [like]
         new_doc['params'] = {"like": like}
     else:
-        new_doc['_source'].update(doc)
+        new_doc['_source'] = doc
     return new_doc
 
 

@@ -70,5 +70,5 @@ def update_data(conf, rows):
     if not trending_posts:
         return
 
-    save_bulk(es, conf['topic'], conf['doc_type'] + "_" + conf['source'],
+    save_bulk(es, conf['topic'], conf['source'] + "_" + conf['doc_type'],
               trending_posts)
