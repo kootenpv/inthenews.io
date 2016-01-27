@@ -1,12 +1,9 @@
-import json
-import os
 import xml.etree.ElementTree
 
 import arrow
 import requests
 
-from cloudant_wrapper import add_date_view, get_cloudant_database
-from utils import retry_get_tree, slugify, update_data
+from utils import slugify, update_data
 
 
 CONF = {'topic': 'python', 'source': 'pypi_rss', 'doc_type': 'feeds'}
@@ -31,15 +28,12 @@ def get_posts():
                   'name': item[0].text.split()[0],
                   'url': item[1].text,
                   'description': item[3].text or '',
-                  'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss')),
-                  'likes': []}
+                  'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss'))}
         trending_posts.append(i_dict)
 
     return trending_posts
 
 
-def update():
-    update_data(CONF, get_posts())
-
-if __name__ == '__main__':
-    update()
+def update(conf):
+    conf.update(CONF)
+    update_data(conf, get_posts())
