@@ -32,7 +32,7 @@ def process_item_fn(row):
                   'author_profile': author_profile,
                   'bounty': bounty,
                   'date': date,
-                  'likes': [{'at': datetime.datetime.now().isoformat()[:19], 'n': votes}],
+                  'likes': {'at': datetime.datetime.now().isoformat()[:19], 'n': votes},
                   'views': views,
                   'answers': answers,
                   'description': desc,

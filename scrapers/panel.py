@@ -4,10 +4,10 @@ import yaml
 
 import github_scraper
 import google_query
-import reddit
-import twitter
 import pypi_rss
+import reddit
 import stackoverflow
+import twitter
 
 
 MILLISECOND = 1

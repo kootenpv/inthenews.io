@@ -33,6 +33,7 @@ def process_item_fn(row):
 def get_posts(conf):
     posts = []
     for handle in conf['twitter_handles']:
+        print(handle)
         conf['url'] = 'https://twitter.com/{}'.format(handle)
         tree = retry_get_tree(conf['url'])
         rows = tree.xpath('//li[contains(@class, "js-stream-item")]')

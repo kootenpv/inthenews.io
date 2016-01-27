@@ -13,7 +13,7 @@ def get_repo_page(link):
     stars = tree.xpath(
         '//a[@class="social-count js-social-count"]')[0].text.strip().replace(',', '')
     desc = tree.xpath('//article//p')
-    return {'likes': [{'at': datetime.datetime.now().isoformat()[:19], 'n': stars}],
+    return {'likes': {'at': datetime.datetime.now().isoformat()[:19], 'n': stars},
             'description2': desc[0].text_content() if desc else ''}
 
 
@@ -44,4 +44,4 @@ def update(conf):
     conf.update({'source': 'github', 'doc_type': 'repositories',
                  'url': URL_TEMPLATE.format(conf['github'])})
 
-    update_data(conf, get_posts(conf), latest_date_sort=False)
+    update_data(conf, get_posts(conf))
