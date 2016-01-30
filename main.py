@@ -35,13 +35,13 @@ with open('conf.yaml') as f:
 class ItemCache():
 
     def __init__(self):
-        self.github_items = None
-        self.github_sponsored_items = None
-        self.reddit_items = None
-        self.so_items = None
-        self.twitter_items = None
-        self.pypi_items = None
-        self.google_items = None
+        self.github_items = []
+        self.github_sponsored_items = []
+        self.reddit_items = []
+        self.so_items = []
+        self.twitter_items = []
+        self.pypi_items = []
+        self.google_items = []
         self.packages = set()
 
     def update_local_file_database(self):
@@ -152,9 +152,9 @@ if __name__ == '__main__':
 
     ioloop = IOLoop().instance()
 
-    sched = InitialPeriodicCallback(item_cache.update_local_file_database, 20 * MINUTE, 1 * SECOND,
-                                    io_loop=ioloop)
-    sched.start()
+    # sched = InitialPeriodicCallback(item_cache.update_local_file_database, 20 * MINUTE, 1 * SECOND,
+    #                                 io_loop=ioloop)
+    # sched.start()
 
     if 'production' not in sys.argv:
         for root, dirs, files in os.walk('.', topdown=False):

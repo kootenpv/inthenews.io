@@ -18,7 +18,7 @@ def process_item_fn(row):
     author, author_profile = user_details[1], user_details[2]
     author_src = str(row.xpath('.//div[contains(@class, "gravatar-wrapper-32")]/img/@src')[0])
     bounty = row.xpath('.//div[@class="bounty-indicator"]')[0].text[1:]
-    date = str(row.xpath('.//span[@class = "relativetime"]/@title')[0])
+    date = str(row.xpath('.//span[@class = "relativetime"]/@title')[0][:10])
     votes = row.xpath('.//span[contains(@class, "vote-count-post")]/strong')[0].text
     answers = row.xpath('.//div[@class="stats"]/div[contains(@class, "answered")]/strong')[0].text
     views = row.xpath('.//div[contains(@class, "views")]')[0].text
