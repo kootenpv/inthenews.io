@@ -7,7 +7,7 @@ es = elasticsearch.Elasticsearch([{'host': 'localhost', 'port': 9200}])
 def get_all_documents(server, index, doc_type):
     query = {"query": {"match_all": {}}}
     res = server.search(body=query, doc_type=doc_type, index=index)
-    return {doc['_id']: doc['_source'] for doc in res['hits']['hits']}
+    return [doc['_source'] for doc in res['hits']['hits']]
 
 
 def prep_doc(doc, index, doc_type):

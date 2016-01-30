@@ -20,6 +20,9 @@ echo "script.engine.groovy.inline.aggs: on" >> /etc/elasticsearch/elasticsearch.
 apt-get install python3-pip
 apt-get install python3-lxml
 
+apt-get install curl
+apt-get install jq
+apt-get install vim
 apt-get install git
 git clone https://github.com/kootenpv/inthenews.io
 cd inthenews.io

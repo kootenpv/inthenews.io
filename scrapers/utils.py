@@ -11,11 +11,13 @@ from es_wrapper import es, save_bulk
 def retry_get_tree(url, max_retries=5):
     req = None
     tries = 0
-    while req is None or req.status_code > 400 and tries < max_retries:
+    while ((req is None) or (req.status_code > 400)) and tries < max_retries:
+        if tries > 0:
+            time.sleep(30)
         try:
             req = requests.get(url)
         except requests.exceptions.RequestException:
-            time.sleep(30)
+            pass
         tries += 1
     try:
         tree = lxml.html.fromstring(req.text)

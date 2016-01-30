@@ -13,9 +13,10 @@ import tornado.httpserver
 import tornado.web
 from tornado.ioloop import IOLoop, PeriodicCallback
 
-from cloudant_wrapper import get_cloudant_database
-from package_manager import get_pm_names
+#from package_manager import get_pm_names
 
+from scrapers.es_wrapper import es
+from scrapers.es_wrapper import get_all_documents
 
 MILLISECOND = 1
 SECOND = MILLISECOND * 1000
@@ -53,12 +54,13 @@ class ItemCache():
         #             item['pypi'] = 'True'
         #         item['sponsored'] = True
         self.github_sponsored_items = []
-        self.packages = get_pm_names()
+        self.packages = []  # get_pm_names()
         self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
-        self.github_items = get_items(CONF['topic'], 'github', 'repositories')
-        for item in self.github_items:
-            print('gitems', [x['n'] for x in [item['likes'][
-                  int(round(0.2 * i * len(item['likes'])))] for i in range(5)]])
+        print(self.reddit_items)
+        self.github_items = []  # get_items(CONF['topic'], 'github', 'repositories')
+        # for item in self.github_items:
+        #     print('gitems', [x['n'] for x in [item['likes'][
+        #           int(round(0.2 * i * len(item['likes'])))] for i in range(5)]])
         for item in self.github_items:
             if item['name'].lower() in self.packages:
                 item['is_package'] = True
@@ -89,14 +91,7 @@ class InitialPeriodicCallback(PeriodicCallback):
 
 
 def get_items(language, source, doc_type):
-    db = get_cloudant_database(language, source, doc_type)
-    dates = db.design('dateview').view('viewdate').get().json()
-    keys = dates['rows'] if dates else []
-    keys = [(x['key'], x['id']) for x in keys]
-    keys = sorted(keys, key=lambda x: x[0], reverse=True)[:20]
-    doc_query = '?include_docs=true&keys={}'.format([x[1] for x in keys])
-    docs = db.all_docs().get(doc_query.replace("'", '"')).json()
-    return [doc['doc'] for doc in docs['rows']]
+    return get_all_documents(es, language, source + "_" + doc_type)
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -143,18 +138,18 @@ if __name__ == '__main__':
         (r"/about", AboutHandler),
     ], **settings)
 
-    HOST = os.getenv('VCAP_APP_HOST', 'localhost')
+    HOST = os.getenv('VCAP_APP_HOST', '0.0.0.0')
 
-    PORT = int(os.getenv('VCAP_APP_PORT', '8123'))
+    PORT = int(os.getenv('VCAP_APP_PORT', '80'))
 
     http_server = tornado.httpserver.HTTPServer(application)
     http_server.listen(PORT, HOST)
 
     ioloop = IOLoop().instance()
 
-    # sched = InitialPeriodicCallback(item_cache.update_local_file_database, 20 * MINUTE, 1 * SECOND,
-    #                                 io_loop=ioloop)
-    # sched.start()
+    sched = InitialPeriodicCallback(item_cache.update_local_file_database, 20 * MINUTE, 1 * SECOND,
+                                    io_loop=ioloop)
+    sched.start()
 
     if 'production' not in sys.argv:
         for root, dirs, files in os.walk('.', topdown=False):
