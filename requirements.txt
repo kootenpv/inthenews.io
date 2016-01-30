@@ -3,7 +3,7 @@ tornado
 requests
 lxml
 arrow
-cloudant
 PyGithub
 PyYAML
 tldextract
+elasticsearch
