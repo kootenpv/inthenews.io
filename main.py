@@ -56,7 +56,6 @@ class ItemCache():
         self.github_sponsored_items = []
         self.packages = get_pm_names()
         self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
-        print(self.reddit_items)
         self.github_items = get_items(CONF['topic'], 'github', 'repositories')
         for item in self.github_items:
             if item['name'].lower() in self.packages:

@@ -1,11 +1,11 @@
 import elasticsearch
 from elasticsearch import helpers
 
-es = elasticsearch.Elasticsearch([{'host': 'localhost', 'port': 9200}])
+es = elasticsearch.Elasticsearch([{'host': '178.62.254.189', 'port': 9200}])
 
 
-def get_all_documents(server, index, doc_type):
-    query = {"query": {"match_all": {}}}
+def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
+    query = {"query": {"match_all": {}}, "size": size, "sort": {sort[0]: sort[1]}}
     res = server.search(body=query, doc_type=doc_type, index=index)
     return [doc['_source'] for doc in res['hits']['hits']]
 
