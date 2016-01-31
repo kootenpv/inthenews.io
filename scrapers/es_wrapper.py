@@ -1,7 +1,7 @@
 import elasticsearch
 from elasticsearch import helpers
 
-es = elasticsearch.Elasticsearch([{'host': '178.62.254.189', 'port': 9200}])
+es = elasticsearch.Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
 
 def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
