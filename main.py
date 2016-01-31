@@ -16,7 +16,7 @@ from tornado.ioloop import IOLoop, PeriodicCallback
 from package_manager import get_pm_names
 
 from scrapers.es_wrapper import es
-from scrapers.es_wrapper import get_all_documents
+from scrapers.es_wrapper import get_documents
 
 MILLISECOND = 1
 SECOND = MILLISECOND * 1000
@@ -87,7 +87,7 @@ class InitialPeriodicCallback(PeriodicCallback):
 
 
 def get_items(language, source, doc_type):
-    return get_all_documents(es, language, source + "_" + doc_type)
+    return get_documents(es, language, source + "_" + doc_type)
 
 
 class MainHandler(tornado.web.RequestHandler):
