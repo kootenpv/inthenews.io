@@ -17,13 +17,14 @@
             </a>
         </div>
 
+        {% if len(item['likes']) > 1 %}
         <span class="col-sm-3 text-right" ><i class="fa fa-star"></i> {{ item['likes'][-1]['n']}} </span>
 
         <div class="col-sm-12 date">
             Trending since:
             <time class="cw-relative-date" datetime="{{ item['date'] }}"></time>
         </div>
-
+        {% end %}
     </div>
 
     {% if 'sponsored' in item %}
@@ -57,6 +58,7 @@
         {% end %}
     </div>
 
+    {% if len(item['likes']) > 1 %}
     <div class="col-sm-12 content" id="plotly{{num}}" style="height:150px; width:90%"></div>
     <script>
      plotly = document.getElementById('plotly{{num}}');
@@ -64,4 +66,5 @@
          x: [1, 2, 3, 4, 5],
          y: [{{ ','.join([x['n'] for x in [item['likes'][int(round(0.2 * i * len(item['likes'])))] for i in range(5)]]) }}] }], {margin: { t: 0 } }, {displayModeBar: false} );
     </script>
+    {% end %}
 </div>
