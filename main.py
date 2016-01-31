@@ -13,7 +13,7 @@ import tornado.httpserver
 import tornado.web
 from tornado.ioloop import IOLoop, PeriodicCallback
 
-#from package_manager import get_pm_names
+from package_manager import get_pm_names
 
 from scrapers.es_wrapper import es
 from scrapers.es_wrapper import get_all_documents
@@ -54,7 +54,7 @@ class ItemCache():
         #             item['pypi'] = 'True'
         #         item['sponsored'] = True
         self.github_sponsored_items = []
-        self.packages = []  # get_pm_names()
+        self.packages = get_pm_names()
         self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
         print(self.reddit_items)
         self.github_items = get_items(CONF['topic'], 'github', 'repositories')

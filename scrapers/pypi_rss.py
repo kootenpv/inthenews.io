@@ -28,7 +28,8 @@ def get_posts():
                   'name': item[0].text.split()[0],
                   'url': item[1].text,
                   'description': item[3].text or '',
-                  'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss'))}
+                  'date': str(arrow.get(item[4].text.split(' GMT')[0], 'DD MMM YYYY HH:mm:ss')),
+                  'likes': []}
         trending_posts.append(i_dict)
 
     return trending_posts
