@@ -123,7 +123,9 @@ class AboutHandler(tornado.web.RequestHandler):
 class SearchHandler(tornado.web.RequestHandler):
 
     def get(self):
-        self.write(search(es, CONF['topic'], "working"))
+        query = self.get_argument('q')
+        items = search(es, CONF['topic'], query)
+        self.render('search.html', items=items)
 
 
 settings = {'template_path': os.path.join(os.path.dirname(__file__), 'templates'),

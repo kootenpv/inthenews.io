@@ -12,7 +12,7 @@ def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
 
 def search(server, index, query, size=20):
     query = {"query": {"query_string": {"query": query}}, "size": size,
-             "fields": ["url", "name", "likes", "date", "description"]}
+             "fields": ["url", "name", "likes", "date", "description", "title"]}
     res = server.search(body=query, doc_type="", index="python")
     docs = []
     for doc in res['hits']['hits']:
