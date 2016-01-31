@@ -17,6 +17,7 @@ from package_manager import get_pm_names
 
 from scrapers.es_wrapper import es
 from scrapers.es_wrapper import get_documents
+from scrapers.es_wrapper import search
 
 MILLISECOND = 1
 SECOND = MILLISECOND * 1000
@@ -118,6 +119,13 @@ class AboutHandler(tornado.web.RequestHandler):
     def get(self):
         self.render('about.html')
 
+
+class SearchHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        self.write(search(es, CONF['topic'], "working"))
+
+
 settings = {'template_path': os.path.join(os.path.dirname(__file__), 'templates'),
             'static_path': os.path.join(os.path.dirname(__file__), 'static')}
 
@@ -132,6 +140,7 @@ if __name__ == '__main__':
     application = tornado.web.Application([
         (r"/", MainHandler, dict(item_cache=item_cache)),
         (r"/about", AboutHandler),
+        (r"/search", SearchHandler),
     ], **settings)
 
     HOST = os.getenv('VCAP_APP_HOST', '0.0.0.0')

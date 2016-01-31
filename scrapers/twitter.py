@@ -24,7 +24,7 @@ def process_item_fn(row):
                         'date': str(arrow.get(date)),
                         'description': desc.decode(),
                         'url': url,
-                        'likes': likes[-1] if likes else 0}
+                        'likes': int(likes[-1]) if likes else 0}
         return twitter_item
     except:
         return False

@@ -10,6 +10,18 @@ def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
     return [doc['_source'] for doc in res['hits']['hits']]
 
 
+def search(server, index, query, size=20):
+    query = {"query": {"query_string": {"query": query}}, "size": size,
+             "fields": ["url", "name", "likes", "date", "description"]}
+    res = server.search(body=query, doc_type="", index="python")
+    docs = []
+    for doc in res['hits']['hits']:
+        d = doc['fields']
+        d['_type'] = doc['_type']
+        docs.append(d)
+    return docs
+
+
 def prep_doc(doc, index, doc_type):
     new_doc = {'_index': index,
                '_type': doc_type,

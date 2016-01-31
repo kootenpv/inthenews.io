@@ -13,7 +13,7 @@ def get_repo_page(link):
     stars = tree.xpath(
         '//a[@class="social-count js-social-count"]')[0].text.strip().replace(',', '')
     desc = tree.xpath('//article//p')
-    return {'likes': {'at': datetime.datetime.now().isoformat()[:19], 'n': stars},
+    return {'likes': {'at': datetime.datetime.now().isoformat()[:19], 'n': int(stars)},
             'description2': desc[0].text_content() if desc else ''}
 
 

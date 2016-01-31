@@ -24,7 +24,7 @@ def process_item_fn(row):
             return {'_id': slugify(title),
                     'title': title,
                     'author': author,
-                    'likes': {'at': datetime.datetime.now().isoformat()[:19], 'n': votes},
+                    'likes': {'at': datetime.datetime.now().isoformat()[:19], 'n': int(votes)},
                     'comments': comments,
                     'date': date,
                     'url': row_link,
