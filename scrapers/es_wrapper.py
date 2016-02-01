@@ -17,6 +17,7 @@ def search(server, index, query, size=20):
     docs = []
     for doc in res['hits']['hits']:
         d = doc['fields']
+        d = {x: d[x][0] for x in d}
         d['_type'] = doc['_type']
         docs.append(d)
     return docs

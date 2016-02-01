@@ -6,10 +6,10 @@
         {% if 'name' in item or 'title' in item %}
     <div class="card pin" id="card_div">
                 {% if 'icon' in item %}
-                {% module Template(item["icon"]+"_button.html") %}
-               {% end %}
+                   {% module Template(item["icon"]+"_button.html") %}
+                {% end %}
                 <a href="{{item['url']}}">
-                    {{item['name'][0] if 'name' in item else item['title'][0]}}
+                    {{item['name'] if 'name' in item else item['title']}}
                 </a>
                 {{item['description']}}
             </div>
