@@ -57,6 +57,7 @@ class ItemCache():
         self.github_sponsored_items = []
         self.packages = get_pm_names()
         self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
+        print(self.reddit_items)
         self.github_items = get_items(CONF['topic'], 'github', 'repositories')
         for item in self.github_items:
             if item['name'].lower() in self.packages:
@@ -126,8 +127,9 @@ class SearchHandler(tornado.web.RequestHandler):
         query = self.get_argument('q')
         items = search(es, CONF['topic'], query)
         for item in items:
+            print(item)
             tp = item['_type'].split('_')[0]
-            if tp in ['github', 'twitter']:
+            if tp in ['github', 'twitter', 'google', 'reddit', 'stackoverflow', 'pypi']:
                 item['icon'] = tp
         self.render('search.html', items=items)
 

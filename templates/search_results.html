@@ -3,16 +3,19 @@
 </div>
 <div class="col-sm-8">
     {% for item in items %}
-        {% if 'name' in item or 'title' in item %}
-    <div class="card pin" id="card_div">
-                {% if 'icon' in item %}
-                   {% module Template(item["icon"]+"_button.html") %}
-                {% end %}
-                <a href="{{item['url']}}">
-                    {{item['name'] if 'name' in item else item['title']}}
-                </a>
-                {{item['description']}}
-            </div>
+    {% if 'name' in item or 'title' in item and 'url' in item %}
+    <div class="card pin" id="card_div" style="margin-bottom:2px">
+        <span class="col-xs-1 col-md-1" style="height:5%">
+        {% if 'icon' in item %}
+        {% module Template(item["icon"]+"_button.html") %}
+            {% end %}
+        </span>
+        <a href="{{item['url']}}">
+            {{item['name'][:70] if 'name' in item else item['title'][:70]}}
+        </a>
+        <div class="pull-right">{{ item['date'][:10] }}</div>
+        <p>{{item['description'][:150]}}</p>
+    </div>
         {% end %}
     {% end %}
 </div>

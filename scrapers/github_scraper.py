@@ -28,7 +28,8 @@ def process_item_fn(row):
                    'date': datetime.datetime.now().isoformat()[:19],
                    'contributors': [{'src': k,  'name': v} for k, v in
                                     zip(row.xpath('.//a/img/@src'), row.xpath('.//a/img/@title'))],
-                   'description': res[4]}
+                   'description': res[4],
+                   'url': "https://github.com/{}/{}/".format(res[1], res[3])}
     github_item.update(get_repo_page(row_link))
     return github_item
 
