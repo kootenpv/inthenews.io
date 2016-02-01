@@ -125,6 +125,10 @@ class SearchHandler(tornado.web.RequestHandler):
     def get(self):
         query = self.get_argument('q')
         items = search(es, CONF['topic'], query)
+        for item in items:
+            tp = item['_type'].split('_')[0]
+            if tp in ['github', 'twitter']:
+                item['icon'] = tp
         self.render('search.html', items=items)
 
 

@@ -1,0 +1,21 @@
+<div class="col-sm-2">
+
+</div>
+<div class="col-sm-8">
+    {% for item in items %}
+        {% if 'name' in item or 'title' in item %}
+    <div class="card pin" id="card_div">
+                {% if 'icon' in item %}
+                {% module Template(item["icon"]+"_button.html") %}
+               {% end %}
+                <a href="{{item['url']}}">
+                    {{item['name'][0] if 'name' in item else item['title'][0]}}
+                </a>
+                {{item['description']}}
+            </div>
+        {% end %}
+    {% end %}
+</div>
+<div class="col-sm-2">
+
+</div>
