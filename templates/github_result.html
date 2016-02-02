@@ -51,7 +51,7 @@
         {% end %}
     </div>
 
-    <div class="col-sm-12 content">
+    <div class="col-sm-12 content hide_extras_mobile">
         <div style="margin-bottom:5px">Contributors:</div>
         {% for img in item['contributors'] %}
         <a href="https://github.com/{{ img['name'] }}" target="_blank"><img src="{{ img['src'] }}" height="40px" width="40px" /></a>
@@ -59,7 +59,7 @@
     </div>
 
     {% if len(item['likes']) > 2 %}
-    <div class="col-sm-12 content" id="plotly{{num}}" style="height:150px; width:90%"></div>
+    <div class="col-sm-12 content hide_extras_mobile" id="plotly{{num}}" style="height:150px; width:90%"></div>
     <script>
      plotly = document.getElementById('plotly{{num}}');
      Plotly.plot( plotly, [{
