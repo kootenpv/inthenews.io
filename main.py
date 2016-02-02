@@ -127,10 +127,10 @@ class AboutHandler(tornado.web.RequestHandler):
 class SearchHandler(tornado.web.RequestHandler):
 
     def get(self, **params):
-        query = self.get_query_argument('q')
+        query = self.get_query_argument('q', "python")
         sources = ','.join([SOURCE_MAP[x]
                             for x in self.get_query_arguments('source')])
-        sort = self.get_query_argument('sort')
+        sort = self.get_query_argument('sort', "date")
         sort = None if sort == "relevancy" else sort
         items = search(es, CONF['topic'], query, doc_type=sources, sort=sort)
         for item in items:
