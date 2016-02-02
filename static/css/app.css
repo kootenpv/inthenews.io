@@ -271,7 +271,7 @@ html {
     width: 28%;
     display: none;
   }
-  .mobile-card {
-      height:200px!important;
+  .mobile_card {
+      min-height:200px!important;
   }
 }
