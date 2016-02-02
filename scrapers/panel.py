@@ -1,5 +1,5 @@
 """Start the scraping from here"""
-
+import os
 import yaml
 
 import github_scraper
@@ -19,7 +19,9 @@ WEEK = DAY * 7
 MONTH = DAY * 365.25 / 12
 YEAR = DAY * 365.25
 
-with open('../conf.yaml') as f:
+file_dir = os.path.dirname(os.path.realpath('__file__'))
+
+with open(filename=os.path.join(file_dir, '../conf.yaml')) as f:
     CONFIG = yaml.load(f)
 
 scrape_mappings = {
