@@ -10,10 +10,12 @@ def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
     return [doc['_source'] for doc in res['hits']['hits']]
 
 
-def search(server, index, query, size=20):
+def search(server, index, query, size=20, doc_type='', sort=None):
     query = {"query": {"query_string": {"query": query}}, "size": size,
              "fields": ["url", "name", "likes", "date", "description", "title"]}
-    res = server.search(body=query, doc_type="", index="python")
+    if sort is not None:
+        query['sort'] = {sort: "desc"}
+    res = server.search(body=query, doc_type=doc_type, index="python")
     docs = []
     for doc in res['hits']['hits']:
         d = doc['fields']

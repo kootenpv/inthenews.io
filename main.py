@@ -28,6 +28,10 @@ WEEK = DAY * 7
 MONTH = DAY * 365.25 / 12
 YEAR = DAY * 365.25
 
+SOURCE_MAP = {"Reddit": "reddit_posts", "Stackoverflow": "stackoverflow_bounties",
+              "GitHub": "github_repositories", "Google": "google_search_posts",
+              "Packages": "pypi_rss_feeds", "Twitter": "twitter_posts"}
+
 import yaml
 
 with open('conf.yaml') as f:
@@ -55,7 +59,7 @@ class ItemCache():
         #             item['pypi'] = 'True'
         #         item['sponsored'] = True
         self.github_sponsored_items = []
-        self.packages = get_pm_names()
+        self.packages = []
         self.reddit_items = get_items(CONF['topic'], 'reddit', 'posts')
         self.github_items = get_items(CONF['topic'], 'github', 'repositories')
         for item in self.github_items:
@@ -122,9 +126,13 @@ class AboutHandler(tornado.web.RequestHandler):
 
 class SearchHandler(tornado.web.RequestHandler):
 
-    def get(self):
-        query = self.get_argument('q')
-        items = search(es, CONF['topic'], query)
+    def get(self, **params):
+        query = self.get_query_argument('q')
+        sources = ','.join([SOURCE_MAP[x]
+                            for x in self.get_query_arguments('source')])
+        sort = self.get_query_argument('sort')
+        sort = None if sort == "relevancy" else sort
+        items = search(es, CONF['topic'], query, doc_type=sources, sort=sort)
         for item in items:
             print(item)
             tp = item['_type'].split('_')[0]
