@@ -21,7 +21,7 @@ YEAR = DAY * 365.25
 
 file_dir = os.path.dirname(os.path.realpath('__file__'))
 
-with open(filename=os.path.join(file_dir, '../conf.yaml')) as f:
+with open(os.path.join(file_dir, '../conf.yaml')) as f:
     CONFIG = yaml.load(f)
 
 scrape_mappings = {
