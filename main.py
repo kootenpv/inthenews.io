@@ -127,14 +127,13 @@ class AboutHandler(tornado.web.RequestHandler):
 class SearchHandler(tornado.web.RequestHandler):
 
     def post(self):
-        query = self.get_argument('q', "python")
+        query = self.get_argument('q', '')
         sources = ','.join([SOURCE_MAP[x]
                             for x in self.get_arguments('source')])
         sort = self.get_argument('sort', "date")
         sort = None if sort == "relevancy" else sort
         items = search(es, CONF['topic'], query, doc_type=sources, sort=sort)
         for item in items:
-            print(item)
             tp = item['_type'].split('_')[0]
             if tp in ['github', 'twitter', 'google', 'reddit', 'stackoverflow', 'pypi']:
                 item['icon'] = tp

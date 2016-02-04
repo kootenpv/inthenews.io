@@ -11,11 +11,13 @@ def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
 
 
 def search(server, index, query, size=20, doc_type='', sort=None):
-    query = {"query": {"query_string": {"query": query}}, "size": size,
-             "fields": ["url", "name", "likes", "date", "description", "title"]}
+    q = {"size": size,
+         "fields": ["url", "name", "likes", "date", "description", "title"]
+         }
+    q["query"] = {"query_string": {"query": query}} if query else {"match_all": {}}
     if sort is not None:
-        query['sort'] = {sort: "desc"}
-    res = server.search(body=query, doc_type=doc_type, index="python")
+        q['sort'] = {sort: "desc"}
+    res = server.search(body=q, doc_type=doc_type, index="python")
     docs = []
     for doc in res['hits']['hits']:
         d = doc['fields']
