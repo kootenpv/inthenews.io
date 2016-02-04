@@ -1,0 +1,41 @@
+span.bigcheck-target {
+    font-family: FontAwesome; /* use an icon font for the checkbox */
+}
+input[type='checkbox'].bigcheck {
+    position: relative;
+    left: -999em; /* hide the real checkbox */
+}
+input[type='radio'].bigcheck {
+    position: relative;
+    left: -999em; /* hide the real checkbox */
+}
+
+input[type='checkbox'].bigcheck + span.bigcheck-target:before {
+    content: "\f096"; /* In fontawesome, is an open square (fa-square-o) */
+    font-size: 120%;
+}
+input[type='checkbox'].bigcheck:checked + span.bigcheck-target:before {
+    content: "\f046"; /* fontawesome checked box (fa-check-square-o) */
+    font-size: 120%;
+}
+
+input[type='radio'].bigcheck + span.bigcheck-target:before {
+    content: "\f10c"; /* In fontawesome, is an open circle (fa-circle-o) */
+    font-size: 120%;
+}
+input[type='radio'].bigcheck:checked + span.bigcheck-target:before {
+    content: "\f05d"; /* fontawesome checked box (fa-check-circle-o) */
+    font-size: 120%;
+}
+
+
+/* ==== optional - colors and padding to make it look nice === */
+
+span.bigcheck {
+    display: block;
+}
+
+span > label.bigcheck {
+    width:100%;
+    padding: 10px 0px 10px 10px;
+}
