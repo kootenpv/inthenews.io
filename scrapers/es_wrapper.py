@@ -10,14 +10,8 @@ def get_documents(server, index, doc_type, size=20, sort=("date", "desc")):
     return [doc['_source'] for doc in res['hits']['hits']]
 
 
-def search(server, index, query, size=20, doc_type='', sort=None):
-    q = {"size": size,
-         "fields": ["url", "name", "likes", "date", "description", "title"]
-         }
-    q["query"] = {"query_string": {"query": query}} if query else {"match_all": {}}
-    if sort is not None:
-        q['sort'] = {sort: "desc"}
-    res = server.search(body=q, doc_type=doc_type, index="python")
+def get_results(server, q, doc_type, index):
+    res = server.search(body=q, doc_type=doc_type, index=index)
     docs = []
     for doc in res['hits']['hits']:
         d = doc['fields']
@@ -25,6 +19,23 @@ def search(server, index, query, size=20, doc_type='', sort=None):
         d['_type'] = doc['_type']
         docs.append(d)
     return docs
+
+
+def search(server, index, query, size=20, doc_type='', sort=None):
+    q = {"size": size,
+         "fields": ["url", "name", "likes", "date", "description", "title"]
+         }
+    q["query"] = {"query_string": {"query": query}} if query else {"match_all": {}}
+    if sort is not None:
+        q['sort'] = {sort: "desc"}
+    res = get_results(server, q, doc_type, index)
+    if not res:
+        q['query'] = {"fuzzy": {"name": query}}
+        res = get_results(server, q, doc_type, index)
+    if not res:
+        q['query'] = {"fuzzy": {"description": query}}
+        res = get_results(server, q, doc_type, index)
+    return res
 
 
 def prep_doc(doc, index, doc_type):
