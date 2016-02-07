@@ -7,7 +7,9 @@
 
 import os
 import sys
+import logging
 
+import tornado.options
 import tornado.autoreload
 import tornado.httpserver
 import tornado.web
@@ -161,6 +163,15 @@ if __name__ == '__main__':
 
     PORT = int(os.getenv('VCAP_APP_PORT', '80'))
 
+    for arg in sys.argv:
+        if "log_file_prefix" in arg or "test" in arg:
+            break
+    else:
+        sys.argv.append("--log_file_prefix=./app_{}.log".format(PORT))
+
+    tornado.options.parse_command_line()
+    logging.info("starting tornado web server")
+
     http_server = tornado.httpserver.HTTPServer(application)
     http_server.listen(PORT, HOST)
 
@@ -170,7 +181,7 @@ if __name__ == '__main__':
                                     io_loop=ioloop)
     sched.start()
 
-    if 'production' not in sys.argv:
+    if 'test' in sys.argv:
         for root, dirs, files in os.walk('.', topdown=False):
             for name in files:
                 if '#' not in name and 'DS_S' not in name and 'flymake' not in name and 'pyc' not in name:
