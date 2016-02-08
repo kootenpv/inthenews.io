@@ -42,14 +42,16 @@ def process_item_fn(row):
 
 
 def get_posts(conf):
-    tree = retry_get_tree(conf['url'])
-    rows = tree.xpath('//div[contains(@id, "question-summary")]')
-    rows = [process_item_fn(row) for row in rows]
+    rows = []
+    for url in conf['urls']:
+        tree = retry_get_tree(url)
+        rows = tree.xpath('//div[contains(@id, "question-summary")]')
+        rows.extend([process_item_fn(row) for row in rows])
     return rows
 
 
 def update(conf):
     conf.update({'source': 'stackoverflow', 'doc_type': 'bounties',
-                 'url': URL_TEMPLATE.format(conf['stackoverflow'])})
+                 'urls': [URL_TEMPLATE.format(x) for x in conf['stackoverflow']]})
 
     update_data(conf, get_posts(conf))

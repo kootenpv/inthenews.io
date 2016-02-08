@@ -39,7 +39,11 @@ def get_results(row):
 
 
 def get_posts(conf):
-    return [get_results(row) for row in query_google(conf['google_query'])]
+    rows = []
+    for query in conf['google_query']:
+        for row in query_google(query):
+            rows.extend(get_results(row))
+    return rows
 
 
 def update(conf):

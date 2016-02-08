@@ -35,14 +35,16 @@ def process_item_fn(row):
 
 
 def get_posts(conf):
-    tree = retry_get_tree(conf['url'])
-    rows = tree.xpath('//li[@class="repo-list-item"]')
-    rows = [process_item_fn(row) for row in rows]
+    rows = []
+    for url in conf['urls']:
+        tree = retry_get_tree(url)
+        rows = tree.xpath('//li[@class="repo-list-item"]')
+        rows.extend([process_item_fn(row) for row in rows])
     return rows
 
 
 def update(conf):
     conf.update({'source': 'github', 'doc_type': 'repositories',
-                 'url': URL_TEMPLATE.format(conf['github'])})
+                 'urls': [URL_TEMPLATE.format(x) for x in conf['github']]})
 
     update_data(conf, get_posts(conf))

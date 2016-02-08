@@ -5,14 +5,14 @@ import datetime
 from utils import normalize, retry_get_tree, slugify, update_data
 
 
-def process_item_fn(row):
+def process_item_fn(row, conf):
     links = row.xpath('.//a[contains(@class,"title")]')
     for link in links:
         try:
             votes = row.xpath('.//div[contains(@class, "score likes")]')[0].text_content().strip()
             row_link = link.attrib['href'] if link.attrib['href'].startswith(
                 'http') else 'http://reddit.com' + link.attrib['href']
-            if int(votes) < 20:
+            if int(votes) < conf['reddit_minimum_votes']:
                 return False
             comment_a = row.xpath('.//a[contains(text(), "comment")]')[0]
             comments = comment_a.text.split()[0]
@@ -36,14 +36,17 @@ def process_item_fn(row):
 
 
 def get_posts(conf):
-    tree = retry_get_tree(conf['url'])
-    rows = tree.xpath('//div[@id="siteTable"]/div')
-    rows = [process_item_fn(row) for row in rows]
+    rows = []
+    for url in conf['urls']:
+        tree = retry_get_tree(url)
+        rows = tree.xpath('//div[@id="siteTable"]/div')
+        rows.extend([process_item_fn(row, conf) for row in rows])
     return rows
 
 
 def update(conf):
     conf.update({'source': 'reddit', 'doc_type': 'posts',
-                 'url': 'http://www.reddit.com/r/{}'.format(conf['reddit'])})
+                 'urls': ['http://www.reddit.com/r/{}'.format(x)
+                          for x in conf['reddit']]})
 
     update_data(conf, get_posts(conf))
