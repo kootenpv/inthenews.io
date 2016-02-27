@@ -8,23 +8,4 @@ Feel free to raise issues, make pull requests(!) or leave feedback. My apologies
 
 #### Do It Yourself
 
-Get up and running by cloning the project, installing the requirements and running `main.py`:
-
-```bash
-git clone git@github.com:kootenpv/inthenews.io.git
-cd inthenews.io
-pip install -r requirements.txt
-python main.py
-```
-
-You can now visit your local copy at <a href="http://localhost:8000/">http://localhost:8000/</a>
-
-#### Remote
-
-If you want to use <a href="https://console.ng.bluemix.net/">Bluemix</a>, setup an account, login, and simply:
-
-```bash
-cf push my-inthenews
-```
-
-To serve it online
+Poke me to update it, but generally you should have `elasticsearch` up, run panel.py to gather data and then host with `python main.py`. Site is then available on http://localhost:80
